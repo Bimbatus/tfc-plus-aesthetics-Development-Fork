@@ -608,6 +608,7 @@ public class AthsBlockSetup {
 	public static Block youngKatsura;
 	public static Block scalycap;
 	public static Block spongebobMushroom;
+	public static Block virginiaCreeperTerrestrial;
 
 
 	
@@ -1085,6 +1086,7 @@ public class AthsBlockSetup {
 		liverwort = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.LIVERWORT).setPart("Leaf").setScale(1f).setLayerBounds(0.2f)); //.setPart("Leaf_Overlay")
 		falseSolomonsSeal = plantRegistryHelper(new BlockPlant3dFlower().setName(AthsGlobal.FALSE_SOLOMONS_SEAL).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.FLOWER, EnumVary.SNOW}).setNamedVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setNamedVaryPart(EnumVary.AUTUMN, "Leaf").setNamedVaryPart(EnumVary.AUTUMN, "Stem").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Stem").setVaryPart(EnumVary.FLOWER, "Flower").setNamedVaryPart(EnumVary.WINTER, "Stem").setNamedVaryPart(EnumVary.SNOW, "Stem").setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		mapleSeedling = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.MAPLE_SEEDLING).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setNamedPart("Side").setNamedVaryParts(new EnumVary [] {EnumVary.DEFAULT, EnumVary.AUTUMN}, new String[] {"Top","Bottom"}).setScale(1.2f));
+		virginiaCreeperTerrestrial = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.VIRGINIA_CREEPER_TERRESTRIAL).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER}).setNamedPart("Leaf").setNamedPart("Stem").setScale(1.5f));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
