@@ -236,6 +236,7 @@ public class AthsGlobal {
 	public static final String VICTORIA_LILY_PAD = "Victoria_Lily_Pad";
 	public static final String VIOLET = "Violet";
 	public static final String VIRGINIA_CREEPER = "Virginia_Creeper";
+	public static final String VIRGINIA_CREEPER_TERRESTRIAL = "Virginia_Creeper_Terrestrial";
 	public static final String VOMITING_RUSSULA = "Vomiting_Russula";
 	public static final String VOODOO_LILY = "Voodoo_Lily";
 	public static final String WALKING_FERN = "Walking_Fern";
