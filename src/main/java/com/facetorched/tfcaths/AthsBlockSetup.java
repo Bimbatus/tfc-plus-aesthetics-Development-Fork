@@ -673,14 +673,37 @@ public class AthsBlockSetup {
 	public static Block wrinkledPeach;
 	public static Block sheathedWoodtuft;
 	
-	public static Block fallenBranch;
-	public static Block fallenBranch1;
-	public static Block fallenBranch2;
-	public static Block fallenBranch3;
-	public static Block fallenBranch4;
-	public static Block fallenBranch5;
-	public static Block fallenBranch6;
-	public static Block fallenBranch7;
+	public static Block fallenBranchAcacia;
+	public static Block fallenBranchAsh;
+	public static Block fallenBranchAspen;
+	public static Block fallenBranchBaobab;
+	public static Block fallenBranchBirch;
+	public static Block fallenBranchChesnut;
+	public static Block fallenBranchDouglasFir;
+	public static Block fallenBranchEbony;
+	public static Block fallenBranchFever;
+	public static Block fallenBranchGhaf;
+	public static Block fallenBranchGingko;
+	public static Block fallenBranchHickory;
+	public static Block fallenBranchJoshua;
+	public static Block fallenBranchKapok;
+	public static Block fallenBranchLaurel;
+	public static Block fallenBranchLimba;
+	public static Block fallenBranchMahoe;
+	public static Block fallenBranchMahogany;
+	public static Block fallenBranchMangrove;
+	public static Block fallenBranchMaple;
+	public static Block fallenBranchOak;
+	public static Block fallenBranchPalm;
+	public static Block fallenBranchPine;
+	public static Block fallenBranchSequoia;
+	public static Block fallenBranchSpruce;
+	public static Block fallenBranchSycamore;
+	public static Block fallenBranchTeak;
+	public static Block fallenBranchWhiteCedar;
+	public static Block fallenBranchWhiteElm;
+	public static Block fallenBranchWillow;
+	public static Block fallenBranchYew;
 	public static Block deadFish;
 	public static Block barnacles;
 	public static Block barnaclesEpiphyte;
@@ -1094,9 +1117,13 @@ public class AthsBlockSetup {
 
 		//non-plant decorators
 		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F).setIsStony());
-		barnacles = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BARNACLES).addVary(EnumVary.FLOWER).setPart("Base").setPart("Overlay").setScale(1.0f));
-		barnaclesEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BARNACLES_EPIPHYTE).setPart("Base").setPart("Overlay").setScale(1.0f));
-		
+		barnacles = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BARNACLES).setPart("Base").setPart("Overlay").setIsStony().setScale(1.0f));
+		barnaclesEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BARNACLES_EPIPHYTE).addVary(EnumVary.SNOW).setPart("Base").setIsStony().setPart("Overlay").setScale(1.0f));
+		anthill = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.ANTHILL).setPart("Base").addVary(EnumVary.SNOW).setPart("Overlay").setScale(1.0f));
+		sharkEggs = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.SHARK_EGGS).setScale(1.0f).addVary(EnumVary.SNOW));
+		kelpDebris = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.KELP_DEBRIS).setScale(1.0f).addVary(EnumVary.SNOW));
+		seaweedDebris = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.SEAWEED_DEBRIS).setScale(1.0f).addVary(EnumVary.SNOW));
+		deadFish = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.DEAD_FISH).setPart(null).setScale(1.0f).addVary(EnumVary.SNOW));
 		
 		//flowers									
 		africanMilkBarrel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_MILK_BARREL).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
@@ -1320,7 +1347,11 @@ public class AthsBlockSetup {
 		youngSawaraBabyBlueFalsecypress = plantRegistryHelper(new BlockPlantTreeTrimmable().setExtraNames(AthsGlobal.YOUNG_SAWARA_BABY_BLUE_FALSECYPRESS, "Trimmed", "Pom_Pom").addVary(EnumVary.SNOW));
 		youngSawaraLemonThreadFalsecypress = plantRegistryHelper(new BlockPlantTreeTrimmable().setExtraNames(AthsGlobal.YOUNG_SAWARA_LEMON_THREAD_FALSECYPRESS, "Trimmed", "Pom_Pom").addVary(EnumVary.SNOW));
 		youngMediterraneanCypress = plantRegistryHelper(new BlockPlantTreeTrimmable().setExtraNames(AthsGlobal.YOUNG_MEDITERRANEAN_CYPRESS).addVary(EnumVary.SNOW).setScale(8f));
+
+		//fallen branches
+		fallenBranchAcacia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ACACIA, "0","1","2","3").addVary(EnumVary.SNOW));
 		
+
 		//3d
 		lotus = plantRegistryHelper(new BlockPlantLilyPad3dFlower().setOvercrowdRadius(1).setName(AthsGlobal.LOTUS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setNamedVaryPart(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}, "Leaf").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setPart("Root").setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Stamen", "Stamen_Top"}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Stem").setVaryParts(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}, "Lotus_Winter", new String[] {"Stem"}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.OCTOBER).setScale(2.0f).setHasCollision());
 		rafflesia = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.RAFFLESIA).addVary(EnumVary.FLOWER).setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Center"}).setPart("Base").setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2.0f));
