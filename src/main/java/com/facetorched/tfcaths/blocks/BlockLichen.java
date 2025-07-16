@@ -43,9 +43,8 @@ public class BlockLichen extends BlockTerra{
 	public BlockLichen() {
 		super(Material.plant);
 		this.setHardness(0.25F);
-		this.setHarvestLevel("pickaxe", 0);
 		this.setCreativeTab(TFCTabs.TFC_DECORATION);
-		this.setStepSound(Block.soundTypeGlass);
+		this.setStepSound(Block.soundTypePlant);
 		this.isTransparent = false;
 	}
 	
@@ -57,7 +56,7 @@ public class BlockLichen extends BlockTerra{
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ)  
 	{
 		super.onBlockActivated(world, x, y, z, player, side, hitX, hitY, hitZ);
-		if(AthsParser.isHolding(world, player, "itemChisel")) {
+		if(AthsParser.isHolding(world, player, "itemKnife")) {
 			if(!world.isRemote) {
 				dropBlockAsItem(world, x, y, z, new ItemStack(this, 1, 0));
 				world.setBlock(x, y, z, Blocks.air, 0, 2);
@@ -69,11 +68,11 @@ public class BlockLichen extends BlockTerra{
 		
 		if(TFCOptions.enableDebugMode){
 			if (!world.isRemote) {
-				CrystalSpawnData data = new CrystalSpawnData(AthsMod.MODID+":"+this.crystalName, AthsMod.MODID+":"+this.crystalName+"_Cluster", new String[] {"All"}, 1, 1, 1);
+				LichenSpawnData data = new LichenSpawnData(AthsMod.MODID+":"+this.lichenName, AthsMod.MODID+":"+this.lichenName, new String[] {"All"}, 1, 1, 1);
 				Point3D p = new Point3D(x, y, z);
-				ArrayList<Point3D> points = AthsWorldGenCrystals.getValidOpenings(p.add(AthsGlobal.NEIGHBORS), data, world);
+				ArrayList<Point3D> points = AthsWorldGenLichen.getValidOpenings(p.add(AthsGlobal.NEIGHBORS), data, world);
 				for(Point3D point : points) {
-					AthsWorldGenCrystals.placeCrystal(point, data, world, new Random());
+					AthsWorldGenLichen.placeLichen(point, data, world, new Random());
 				}
 			}
 		}
@@ -189,47 +188,33 @@ public class BlockLichen extends BlockTerra{
     
     @Override
     public Item getItemDropped(int meta, Random random, int fortune){
-        return this.crystalItem; // can be null
+        return null; // can be null
     }
     
     @Override
     public int damageDropped(int meta){
-    	if(crystalMetas == null) {
+    	if(lichenMetas == null) {
     		return 0;
     	}
-    	Random random = new Random();
-    	return crystalMetas[random.nextInt(crystalMetas.length)];
-    }
     
-    public BlockCrystal setItem(Item item, int meta) {
+    public BlockLichen setItem(Item item, int meta) {
     	return setItem(item, new int[] {meta});
     }
     
-    public BlockCrystal setItem(Item item, int[] metas) {
-    	this.crystalItem = item;
-    	this.crystalMetas = metas;
+    public BlockLichen setItem(Item item, int[] metas) {
+    	this.lichenItem = item;
+    	this.lichenMetas = metas;
     	return this;
-    }
     
-    
-    public BlockCrystal setItemRare(Item item) {
-    	// "Chipped" = 0, "Flawed" = 1, "Normal" = 2, "Flawless" = 3, "Exquisite" = 4
-    	return this.setItem(item, new int[]{2,3,4});
-    }
-    
-    public BlockCrystal setItemCommon(Item item) {
-    	// "Chipped" = 0, "Flawed" = 1, "Normal" = 2, "Flawless" = 3, "Exquisite" = 4
-    	return this.setItem(item, new int[]{0,1,2});
-    }
 	
-	public BlockCrystal setName(String name) {
-		this.crystalName = name;
+	public BlockLichen setName(String name) {
+		this.lichenName = name;
 		this.setBlockName(name);
-		this.setBlockTextureName(AthsMod.MODID + ":crystals/" + crystalName);
+		this.setBlockTextureName(AthsMod.MODID + ":plants/" + lichenName);
 		return this;
 	}
 	
-	public BlockCrystal setIsTransparent() {
+	public BlockLichen setIsTransparent() {
 		this.isTransparent = true;
 		return this;
 	}
