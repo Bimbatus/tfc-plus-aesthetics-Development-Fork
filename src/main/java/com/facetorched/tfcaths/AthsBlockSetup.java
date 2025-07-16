@@ -1046,11 +1046,43 @@ public class AthsBlockSetup {
 		violetToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.VIOLET_TOOTH_FUNGUS).setPart(null));
 		
 		//lichen
-		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft").setScale(1.5f));
-		bootstapLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BOOTSTRAP_LICHEN).setPart("Leaf").setScale(1f).setLayerBounds(0.2f)); //.setPart("Leaf_Overlay")
-		bootstapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE).setPart("Leaf").setScale(1.3f)); //.setPart("Leaf_Overlay").setIsConstantSize()
+		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
+		bootstapLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.6f)); //.setPart("Leaf_Overlay")
+		bootstapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy".setPart("Tuft").setScale(0.6f));
+		orangeSeaLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		orangeSeaLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy".setPart("Base").setPart("Overlay".setIsConstantSize()).setLayerBounds(0.2f));
+		wolfLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.WOLF_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").addVary(EnumVary.SNOW).setScale(1f)); //.setPart("Leaf_Overlay")
+		wolfLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.WOLF_LICHEN, "Patchy".setPart("Tuft").setScale(1f));
+		saltedShieldLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		saltedShieldLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN, "Patchy".setPart("Base").setPart("Overlay".setIsConstantSize()).setLayerBounds(0.2f));
+		bloodstainLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		bloodstainLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		jewelLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.JEWEL_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		jewelLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.JEWEL_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		mapLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.MAP_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		mapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.MAP_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		moonglowLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.MOONGLOW_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		moonglowLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.MOONGLOW_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		rockOliveLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		rockOliveLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		rockTripeLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		rockTripeLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		rosetteLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		rosetteLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		wreathLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		wreathLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		horsehairLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.HORSEHAIR_LICHEN).setPart(null).setScale(0.5f));
+		sulphurDustLichen = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.SULPHUR_DUST_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		melanohaleaLichen = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.MELANOHALEA_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		whitewashLichen = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.WHITEWASH_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		greenshieldLichen = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.GREENSHIELD_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		britishSoldiersLichen = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.BRITISH_SOLDIERS_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		frecklePeltLichen = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.FRECKLE_PELT_LICHEN).addVary(EnumVary.SNOW));
 		
-		// flowers
+		//slime mold
+		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Diachea","Dog_Sick","Jasmine","The_Blob","Trichia","White_Finger","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		
+		//flowers									
 		africanMilkBarrel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_MILK_BARREL).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
 		africanMilkTree = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.AFRICAN_MILK_TREE).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
 		albanianSpurge = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ALBANIAN_SPURGE).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.APRIL).setRenderID(plantCropRenderID).setScale(2.0f));
