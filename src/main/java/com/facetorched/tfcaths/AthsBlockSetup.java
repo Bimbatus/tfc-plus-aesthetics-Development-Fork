@@ -1067,6 +1067,8 @@ public class AthsBlockSetup {
 		rockOliveLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
 		rockTripeLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
 		rockTripeLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		sunburstLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
+		sunburstLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
 		rosetteLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
 		rosetteLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
 		wreathLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
@@ -1080,7 +1082,7 @@ public class AthsBlockSetup {
 		frecklePeltLichen = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.FRECKLE_PELT_LICHEN).addVary(EnumVary.SNOW));
 		
 		//slime mold
-		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Diachea","Dog_Sick","Jasmine","The_Blob","Trichia","White_Finger","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Chocolate_Tube","Diachea","Dog_Sick","Jasmine","Raspberry","The_Blob","Trichia","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
 		
 		//flowers									
 		africanMilkBarrel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_MILK_BARREL).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
