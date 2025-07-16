@@ -458,7 +458,7 @@ public class Config {
 				/*size*/64, /*dispersion*/1, /*rarity*/668, /*minAltitude*/144, /*maxAltitude*/160, /*minTemp*/-10f, /*maxTemp*/40f, /*minRain*/500f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.DUMB_CANE, new int[] {0,1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/6, /*dispersion*/4, /*rarity*/4384, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/21f, /*maxTemp*/30f, /*minRain*/900f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
-		athsPlantHelper(AthsGlobal.DUNE_GRASS, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary"}, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.DUNE_GRASS, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary"}, new String[]{"Americas","Asia"},
 				/*size*/12, /*dispersion*/4, /*rarity*/256, /*minAltitude*/145, /*maxAltitude*/255, /*minTemp*/4f, /*maxTemp*/16f, /*minRain*/220f, /*maxRain*/1500f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.DWARF_PALMETTO, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"High Hills","Plains","High Hills Edge","Rolling Hills","High Plains","Lakeshore","Riverbank","Swamp"}, new String[]{"Americas"},
 				/*size*/15, /*dispersion*/16, /*rarity*/4969, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/18f, /*maxTemp*/26f, /*minRain*/600f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f);
