@@ -648,9 +648,17 @@ public class AthsGlobal {
 	public static final String GREENSHIELD_LICHEN = "Greenshield_Lichen";
 	public static final String WHITEWASH_LICHEN = "Whitewash_Lichen";
 	public static final String BRITISH_SOLDIERS_LICHEN = "British_Soldiers_Lichen";
-	public static final String 
-	public static final String 
-	public static final String 
+	public static final String SEA_OATS = "Sea_Oats";
+	public static final String BEACH_GRASS = "Beach_Grass";
+	public static final String MARRAM_GRASS = "Marram_Grass";
+	public static final String WATER_CORDGRASS = "Water_Cordgrass";
+	public static final String SEA_LAVENDER = "Sea_Lavender";
+	public static final String RUSHES = "Rushes";
+	public static final String SEA_COUCH_GRASS = "Sea_Couch_Grass";
+	public static final String SPINIFEX = "Spinifex";
+	public static final String SOUTBOSSIE = "Soutbossie";
+	public static final String BRASS_BUTTONS = "Brass_Buttons";
+	public static final String SEA_LYME_GRASS = "Sea_Lyme_Grass";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach"};
