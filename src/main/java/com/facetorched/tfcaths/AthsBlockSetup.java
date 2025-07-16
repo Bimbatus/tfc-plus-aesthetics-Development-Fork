@@ -713,6 +713,9 @@ public class AthsBlockSetup {
 	public static Block soutbossie;
 	public static Block spinifex;
 	public static Block mulch
+	public static Block whitewashLichen;
+	public static Block britishSoldiersLichen;
+
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
