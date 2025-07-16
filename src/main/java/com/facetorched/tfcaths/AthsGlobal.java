@@ -620,6 +620,37 @@ public class AthsGlobal {
 	public static final String CAPE_WILD_BANANA = "Cape_Wild_Banana";
 	public static final String MOREA_IRIS = "Morea_Iris";
 	public static final String GROUND_CEDARS = "Ground_Cedars";
+	public static final String FALLEN_BRANCH = "Fallen_Branch":
+	public static final String FALLEN_BRANCH_1 = "Fallen_Branch_1":
+	public static final String FALLEN_BRANCH_2 = "Fallen_Branch_2":
+	public static final String FALLEN_BRANCH_3 = "Fallen_Branch_3":
+	public static final String FALLEN_BRANCH_4 = "Fallen_Branch_4":
+	public static final String FALLEN_BRANCH_5 = "Fallen_Branch_5":
+	public static final String FALLEN_BRANCH_6 = "Fallen_Branch_6":
+	public static final String FALLEN_BRANCH_7 = "Fallen_Branch_7":
+	public static final String DRIFTWOOD = "Driftwood";
+	public static final String WOODY_DEBRIS = "Woody_Debris";
+	public static final String SHARk_EGGS = "Shark_Eggs";
+	public static final String DEAD_FISH = "Dead_Fish";
+	public static final String SEAWEED_DEBRIS = "Seaweed_Debris";
+	public static final String KELP_DEBRIS = "Kelp_Debris";
+	public static final String BARNACLES = "Barnacles";
+	public static final String ANTHILL = "Anthill";
+	public static final String MOSS_CARPET = "Moss_Carpet";
+	public static final String PEAT_MOSS_CARPET "Peat_Moss_Carpet";
+	public static final String MULCH = "Mulch";
+	public static final String GREEN_ELFCUP = "Green_Elfcup";
+	public static final String SLIME_MOLD = "Slime_Mold";
+	public static final String SULPHUR_DUST_LICHEN = "Sulphur_Dust_Lichen";
+	public static final String MELANOHALEA_LICHEN = "Melanohalea_Lichen";
+	public static final String WOLF_LICHEN = "Wolf_Lichen";
+	public static final String WREATH_LICHEN = "Wreath_Lichen";
+	public static final String GREENSHIELD_LICHEN = "Greenshield_Lichen";
+	public static final String WHITEWASH_LICHEN = "Whitewash_Lichen";
+	public static final String BRITISH_SOLDIERS_LICHEN = "British_Soldiers_Lichen";
+	public static final String 
+	public static final String 
+	public static final String 
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach"};
