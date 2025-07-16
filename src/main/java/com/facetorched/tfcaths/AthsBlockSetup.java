@@ -772,7 +772,7 @@ public class AthsBlockSetup {
 		quillwort = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.QUILLWORT).addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(1f).setIsWaterPlant());
 		hornwort = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.HORNWORT).addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(1f));
 		spikemoss = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.SPIKEMOSS));
-		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F));
+		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F).setIsStony());
 		moonwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MOONWORT).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW, EnumVary.WINTER}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(1f));
 		addersTongueFern = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ADDERS_TONGUE_FERN).addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
 		basketGrass = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.BASKET_GRASS).addIconVary(EnumVary.DEFAULT).setHasNoDrops());
