@@ -672,8 +672,47 @@ public class AthsBlockSetup {
 	public static Block wrinkledPsathyrella;
 	public static Block wrinkledPeach;
 	public static Block sheathedWoodtuft;
-
 	
+	public static Block fallenBranch;
+	public static Block fallenBranch1;
+	public static Block fallenBranch2;
+	public static Block fallenBranch3;
+	public static Block fallenBranch4;
+	public static Block fallenBranch5;
+	public static Block fallenBranch6;
+	public static Block fallenBranch7;
+	public static Block deadFish;
+	public static Block barnacles;
+	public static Block kelpDebris;
+	public static Block seaweedDebris;
+	public static Block driftwood;
+	public static Block woodyDebris;
+	public static Block sharkEggs;
+	public static Block anthill;
+	public static Block greenElfcup;
+	public static Block mossCarpet;
+	public static Block peatMossCarpet;
+	public static Block sulphurDustLichen;
+	public static Block bootstrapLichen;
+	public static Block bootstrapLichenEpiphyte;
+	public static Block melanohaleaLichen;
+	public static Block wolfLichen;
+	public static Block wreathLichen;
+	public static Block frecklePeltLichen;
+	public static Block greenshieldLichen;
+	public static Block slimeMold;
+	public static Block seaOats;
+	public static Block beachGrass;
+	public static Block marramGrass;
+	public static Block waterCordgrass;
+	public static Block seaLavender;
+	public static Block rushes;
+	public static Block seaCouchGrass;
+	public static Block seaLymeGrass;
+	public static Block brassButtons;
+	public static Block soutbossie;
+	public static Block spinifex;
+	public static Block mulch
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
