@@ -180,6 +180,12 @@ public class BlockPlant extends BlockTerra{
 		this.setIsFlammable();
 		return this.setHasCollision();
 	}
+	public BlockPlant setIsStony() {
+		this.setHardness(2.0F);
+		this.setStepSound(Block.soundTypeStone);
+		this.setHarvestLevel("pickaxe", 0);
+		return this.setHasCollision();
+	}
 	public BlockPlant setPoisonDuration(int d) {
 		this.poisonDuration = d;
 		return this;
