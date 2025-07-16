@@ -664,6 +664,10 @@ public class AthsGlobal {
 	public static final String MOONGLOW_LICHEN_EPIPHYTE = "Bootstrap_Lichen_Epiphyte";
 	public static final String ROCK_OLIVE_LICHEN = "Bootstrap_Lichen";
 	public static final String ROCK_OLIVE_LICHEN_EPIPHYTE = "Bootstrap_Lichen_Epiphyte";
+	public static final String COBBLESTONE_LICHEN = "Cobblestone_Lichen_Brown";
+	public static final String COBBLESTONE_LICHEN_EPIPHYTE = "Cobblestone_Lichen_Epiphyte_Brown";
+	public static final String COBBLESTONE_LICHEN = "Cobblestone_Lichen_Yellow";
+	public static final String COBBLESTONE_LICHEN_EPIPHYTE = "Cobblestone_Lichen_Epiphyte_Yellow";
 	public static final String ROCK_TRIPE_LICHEN = "Bootstrap_Lichen";
 	public static final String ROCK_TRIPE_LICHEN_EPIPHYTE = "Bootstrap_Lichen_Epiphyte";
 	public static final String ROSETTE_LICHEN = "Bootstrap_Lichen";
