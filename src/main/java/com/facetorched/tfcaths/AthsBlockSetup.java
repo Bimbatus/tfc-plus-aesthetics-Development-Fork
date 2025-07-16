@@ -695,6 +695,26 @@ public class AthsBlockSetup {
 	public static Block sulphurDustLichen;
 	public static Block bootstrapLichen;
 	public static Block bootstrapLichenEpiphyte;
+	public static Block orangeSeaLichen;
+	public static Block orangeSeaLichenEpiphyte;
+	public static Block saltedShieldLichen;
+	public static Block saltedShieldLichenEpiphyte;
+	public static Block horsehairLichen;
+	public static Block horsehairLichenEpiphyte;
+	public static Block bloodstainLichen;
+	public static Block bloodstainLichenEpiphyte;
+	public static Block jewelLichen;
+	public static Block jewelLichenEpiphyte;
+	public static Block mapLichen;
+	public static Block mapLichenEpiphyte;
+	public static Block moonglowLichen;
+	public static Block moonglowLichenEpiphyte;
+	public static Block rockOliveLichen;
+	public static Block rockOliveLichenEpiphyte;
+	public static Block rockTripeLichen;
+	public static Block rockTripeLichenEpiphyte;
+	public static Block rosetteLichen;
+	public static Block rosetteLichenEpiphyte;
 	public static Block melanohaleaLichen;
 	public static Block wolfLichen;
 	public static Block wreathLichen;
@@ -1027,6 +1047,8 @@ public class AthsBlockSetup {
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft").setScale(1.5f));
+		bootstapLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BOOTSTRAP_LICHEN).setPart("Leaf").setScale(1f).setLayerBounds(0.2f)); //.setPart("Leaf_Overlay")
+		bootstapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE).setPart("Leaf").setScale(1.3f)); //.setPart("Leaf_Overlay").setIsConstantSize()
 		
 		// flowers
 		africanMilkBarrel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_MILK_BARREL).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
