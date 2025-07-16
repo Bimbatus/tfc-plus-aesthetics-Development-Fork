@@ -646,6 +646,9 @@ public class AthsGlobal {
 	public static final String WOLF_LICHEN = "Wolf_Lichen";
 	public static final String WREATH_LICHEN = "Wreath_Lichen";
 	public static final String GREENSHIELD_LICHEN = "Greenshield_Lichen";
+	public static final String FRECKLE_PELT_LICHEN = "Freckle_Pelt_Lichen";
+	public static final String BOOTSTRAP_LICHEN = "Bootstrap_Lichen";
+	public static final String BOOTSTRAP_LICHEN_EPIPHYTE = "Bootstrap_Lichen_Epiphyte";
 	public static final String WHITEWASH_LICHEN = "Whitewash_Lichen";
 	public static final String BRITISH_SOLDIERS_LICHEN = "British_Soldiers_Lichen";
 	public static final String SEA_OATS = "Sea_Oats";
