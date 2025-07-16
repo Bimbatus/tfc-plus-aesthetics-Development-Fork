@@ -31,18 +31,18 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 
-public class BlockCrystal extends BlockTerra{
+public class BlockLichen extends BlockTerra{
 	@SideOnly(Side.CLIENT)
 	protected IIcon[] icons;
 	
-	public Item crystalItem;
-	public String crystalName;
-	public int[] crystalMetas;
+	public Item lichenItem;
+	public String lichenName;
+	public int[] lichenMetas;
 	public boolean isTransparent;
 	
-	public BlockCrystal() {
-		super(Material.rock);
-		this.setHardness(1.0F);
+	public BlockLichen() {
+		super(Material.plant);
+		this.setHardness(0.25F);
 		this.setHarvestLevel("pickaxe", 0);
 		this.setCreativeTab(TFCTabs.TFC_DECORATION);
 		this.setStepSound(Block.soundTypeGlass);
