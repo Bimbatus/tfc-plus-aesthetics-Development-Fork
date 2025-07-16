@@ -630,11 +630,12 @@ public class AthsGlobal {
 	public static final String FALLEN_BRANCH_7 = "Fallen_Branch_7":
 	public static final String DRIFTWOOD = "Driftwood";
 	public static final String WOODY_DEBRIS = "Woody_Debris";
-	public static final String SHARk_EGGS = "Shark_Eggs";
+	public static final String SHARK_EGGS = "Shark_Eggs";
 	public static final String DEAD_FISH = "Dead_Fish";
 	public static final String SEAWEED_DEBRIS = "Seaweed_Debris";
 	public static final String KELP_DEBRIS = "Kelp_Debris";
 	public static final String BARNACLES = "Barnacles";
+	public static final String BARNACLES_EPIPHYTE = "Barnacles_Epiphyte";
 	public static final String ANTHILL = "Anthill";
 	public static final String MOSS_CARPET = "Moss_Carpet";
 	public static final String PEAT_MOSS_CARPET "Peat_Moss_Carpet";
