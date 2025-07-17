@@ -1350,6 +1350,35 @@ public class AthsBlockSetup {
 
 		//fallen branches
 		fallenBranchAcacia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ACACIA, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchAsh = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASH, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchAspen = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASPEN, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchBaobab = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BAOBAB, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchBirch = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BIRCH, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchChestnut = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_CHESTNUT, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchDouglasFir = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_DOUGLAS_FIR, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchEbony = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_EBONY, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchHickory = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_HICKORY, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchGhaf = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GHAF, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchGingko = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GINGKO, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchJoshua = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_JOSHUA, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchKapok = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_KAPOK, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchLaurel = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LAUREL, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchLimba = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LIMBA, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchMahoe = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchMangrove = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MANGROVE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchMaple = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAPLE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchMahogany = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOGANY, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchOak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_OAK, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchPalm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PALM, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchPine = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PINE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchSequoia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SEQUOIA, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchSpruce = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SPRUCE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchSycamore = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SYCAMORE, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchTeak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_TEAK, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchWhiteCedar = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_CEDAR, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchWhiteElm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_ELM, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchWillow = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WILLOW, "0","1","2","3").addVary(EnumVary.SNOW));
+		fallenBranchYew = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_YEW, "0","1","2","3").addVary(EnumVary.SNOW));
 		
 
 		//3d
