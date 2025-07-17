@@ -700,7 +700,6 @@ public class AthsGlobal {
 	public static final String WHITEWASH_LICHEN = "Whitewash_Lichen";
 	public static final String BRITISH_SOLDIERS_LICHEN = "British_Soldiers_Lichen";
 	public static final String SEA_OATS = "Sea_Oats";
-	public static final String BEACH_GRASS = "Beach_Grass";
 	public static final String MARRAM_GRASS = "Marram_Grass";
 	public static final String WATER_CORDGRASS = "Water_Cordgrass";
 	public static final String SEA_LAVENDER = "Sea_Lavender";
