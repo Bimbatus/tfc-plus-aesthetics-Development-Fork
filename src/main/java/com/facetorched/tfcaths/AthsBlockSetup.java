@@ -750,7 +750,6 @@ public class AthsBlockSetup {
 	public static Block greenshieldLichen;
 	public static Block slimeMold;
 	public static Block seaOats;
-	public static Block beachGrass;
 	public static Block marramGrass;
 	public static Block waterCordgrass;
 	public static Block seaLavender;
@@ -841,7 +840,6 @@ public class AthsBlockSetup {
 		fountainGrass = plantRegistryHelper(new BlockPlantStraw().setNames(AthsGlobal.FOUNTAIN_GRASS, new String[] {"Green","Purple"}).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(2.0F));
 		reedCanaryGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.REED_CANARY_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setIsWaterPlant().setScale(2.0F));
 		japaneseStiltgrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.JAPANESE_STILTGRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setScale(1f));
-		beachGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BEACH_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		marramGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.MARRAM_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		seaCouchGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SEA_COUCH_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		seaLymeGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SEA_LYME_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
