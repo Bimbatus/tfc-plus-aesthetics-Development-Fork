@@ -1875,6 +1875,14 @@ public class Config {
 				/*size*/100, /*dispersion*/4, /*rarity*/4128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/18f, /*minRain*/200f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
 		athsPlantHelper(AthsGlobal.SIGNALGRASS, new int[] {0,1,2}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","Mountains","Rolling Hills","High Hills Edge","Foothills","Mountain Range Edge","Mountain Range","High Plains"}, new String[]{"Asia", "Africa"},
 				/*size*/100, /*dispersion*/4, /*rarity*/4128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/22f, /*maxTemp*/40f, /*minRain*/200f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
+		athsPlantHelper(AthsGlobal.SWEET_VERNAL_GRASS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","Rolling Hills","High Hills Edge"}, new String[]{"Asia", "Africa", "Europe"},
+				/*size*/80, /*dispersion*/4, /*rarity*/4128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/18f, /*minRain*/200f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
+		athsPlantHelper(AthsGlobal.KENTUCKY_BLUEGRASS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","Rolling Hills","High Hills Edge"}, new String[]{"Asia", "Europe"},
+				/*size*/40, /*dispersion*/4, /*rarity*/2128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/5f, /*maxTemp*/21f, /*minRain*/300f, /*maxRain*/950f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/0.0f);
+		athsPlantHelper(AthsGlobal.FALSE_OAT_GRASS, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","Rolling Hills","High Hills Edge", "Riverbank","Beach"}, new String[]{"Asia", "Africa", "Europe"},
+				/*size*/100, /*dispersion*/4, /*rarity*/4128, /*minAltitude*/146, /*maxAltitude*/255, /*minTemp*/2f, /*maxTemp*/15f, /*minRain*/300f, /*maxRain*/950f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
+		athsPlantHelper(AthsGlobal.REED_GRASS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[] {"Plains","Rolling Hills","Mountains","Mountains Edge","Foothills","Mountain Range Edge","Mountain Range","High Hills","Rolling Hills","High Hills Edge"}, new String[]{"Asia", "Americas", "Europe"},
+				/*size*/80, /*dispersion*/4, /*rarity*/4128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-6f, /*maxTemp*/24f, /*minRain*/200f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
 		
 
 		
