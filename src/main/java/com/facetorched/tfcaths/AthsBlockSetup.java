@@ -1113,7 +1113,7 @@ public class AthsBlockSetup {
 		frecklePeltLichen = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.FRECKLE_PELT_LICHEN).addVary(EnumVary.SNOW));
 		
 		//slime mold
-		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Chocolate_Tube","Diachea","Dog_Sick","Jasmine","Raspberry","The_Blob","Trichia","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Chocolate_Tube","Diachea","False_Puffball","Jasmine","Raspberry","The_Blob","Trichia","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
 
 		//non-plant decorators
 		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F).setIsStony());
