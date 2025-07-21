@@ -786,6 +786,42 @@ public class AthsBlockSetup {
 	public static Block blueGrama;
 	public static Block featherGrass;
 	public static Block wavyHairGrass;
+	public static Block blackSpeargrass;
+	public static Block purpleMoorGrass;
+	public static Block pampasGrass;
+	public static Block crownTippedCoralFungus;
+	public static Block bleedingFairyHelmet;
+	public static Block bogAsphodel:
+	public static Block dock;
+	public static Block poisonHemlock;
+	public static Block orpine;
+	public static Block wildDagga;
+	public static Block wolfsBane;
+	public static Block commonMugwort;
+	public static Block commonWormwood;
+	public static Block knapweed;
+	public static Block willowHerb;
+	public static Block angelica;
+	public static Block dogsMercury;
+	public static Block jacobsLadder;
+	public static Block redCatchfly;
+	public static Block waterAvens;
+	public static Block marshFoxtail;
+	public static Block birdsFootTrefoil;
+	public static Block ladysMantle;
+	public static Block pignut;
+	public static Block greatBurnet;
+	public static Block coneflower;
+	public static Block prairieSmoke;
+	public static Block smoketree;
+	public static Block pasqueFlower;
+	public static Block commonMilkweed;
+	public static Block prairieLoosestrife;
+	public static Block primrose;
+	public static Block lobelia;
+	public static Block marshFern;
+	public static Block dwarfBirch;
+	public static Block blueSage;
 
 
 	public static int plantCrossRenderID;
