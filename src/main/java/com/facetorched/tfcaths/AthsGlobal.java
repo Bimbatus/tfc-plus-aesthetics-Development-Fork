@@ -756,7 +756,7 @@ public class AthsGlobal {
 	public static final String LADYS_MANTLE = "Ladys_Mantle";
 	public static final String PIGNUT = "Pignut";
 	public static final String GREAT_BURNET = "Great_Burnet";
-	public static final String TUSSOCK_GRASS = "Tussock_Grass";
+	public static final String BLACK_SPEARGRASS = "Black_Speargrass";
 	public static final String CONEFLOWER = "Coneflower";
 	public static final String PRAIRIE_SMOKE = "Prairie_Smoke";
 	public static final String SMOKETREE = "Smoketree";
