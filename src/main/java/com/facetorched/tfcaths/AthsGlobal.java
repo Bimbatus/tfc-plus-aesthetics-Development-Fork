@@ -713,7 +713,7 @@ public class AthsGlobal {
 	public static final String SIGNALGRASS = "Signalgrass";
 	public static final String SWEET_VERNAL_GRASS = "Sweet_Vernal_Grass";
 	public static final String FALSE_OAT_GRASS = "False_Oat_Grass";
-	public static final String KENTUCKY_BLUEGRASS = "Kentucky_Bluegrass";
+	public static final String BLUEGRASS = "Bluegrass";
 	public static final String GUINEA_GRASS = "Guinea_Grass";
 	public static final String AFRICAN_BRISTLEGRASS = "African_Bristlegrass";
 	public static final String SORGHUM = "Sorghum";
@@ -722,7 +722,7 @@ public class AthsGlobal {
 	public static final String COCKS_FOOT = "Cocks_Foot";
 	public static final String COMMON_BENT = "Common_Bent";
 	public static final String MEADOW_FOXTAIL = "Meadow_Foxtail";
-	public static final String MEADOW_FESCUE = "Meadow_Fescue";
+	public static final String TALL_FESCUE = "Tall_Fescue";
 	public static final String INDIAN_GRASS = "Indian_Grass";
 	public static final String BIG_BLUESTEM = "Big_Bluestem";
 	public static final String LITTLE_BLUESTEM = "Little_Bluestem";
@@ -732,6 +732,13 @@ public class AthsGlobal {
 	public static final String BLUE_GRAMA = "Blue_Grama";
 	public static final String FEATHER_GRASS = "Feather_Grass";
 	public static final String WAVY_HAIR_GRASS = "Wavy_Hair_Grass";
+	
+	public static final String PAMPAS_GRASS = "Pampas_Grass";
+	public static final String CROWN_TIPPED_CORAL_FUNGUS = "Crown_Tipped_Coral_Fungus";
+	public static final String BLEEDING_FAIRY_HELMET = "Bleeding_Fairy_Helmet";
+	public static final String BOG_ASPHODEL = "Bog_Asphodel";
+	public static final String DOCK = "Dock";
+	public static final String POISON_HEMLOCK = "Poison_Hemlock";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach"};
