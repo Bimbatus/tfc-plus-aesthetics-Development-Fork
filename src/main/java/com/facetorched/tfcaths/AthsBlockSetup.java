@@ -767,7 +767,7 @@ public class AthsBlockSetup {
 	public static Block signalGrass;
 	public static Block sweetVernalGrass;
 	public static Block falseOatGrass;
-	public static Block kentuckyBluegrass;
+	public static Block bluegrass;
 	public static Block guineaGrass;
 	public static Block africanBristlegrass
 	public static Block sorghum
@@ -776,7 +776,7 @@ public class AthsBlockSetup {
 	public static Block cocksFoot;
 	public static Block commonBent;
 	public static Block meadowFoxtail;
-	public static Block meadowFescue;
+	public static Block tallFescue;
 	public static Block indianGrass;
 	public static Block bigBluestem;
 	public static Block littleBluestem;
@@ -853,7 +853,7 @@ public class AthsBlockSetup {
 		saltwort = plantRegistryHelper(new BlockPlant(Material.vine).setExtraNames(AthsGlobal.SALTWORT, "Small").addVary(EnumVary.SNOW).setLayerBounds(.25f));
 		jadePlant = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.JADE_PLANT,"Small").addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.DECEMBER, TFC_Time.FEBRUARY).setScale(2.0f));
 		switchgrass = plantRegistryHelper(new BlockPlantStraw().setExtraNames(AthsGlobal.SWITCHGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(2.0F));
-		meadowFescue = plantRegistryHelper(new BlockPlantStraw().setExtraNames(AthsGlobal.MEADOW_FESCUE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(2.0F));
+		tallFescue = plantRegistryHelper(new BlockPlantStraw().setExtraNames(AthsGlobal.TALL_FESCUE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(2.0F));
 		signalgrass = plantRegistryHelper(new BlockPlantStraw().setExtraNames(AthsGlobal.SIGNALGRASS).addVary(EnumVary.FLOWER).setIsFoliageColor().setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setRenderID(plantCropRenderID).setScale(2.0F));
 		
 		// straw dropping plants
@@ -876,7 +876,7 @@ public class AthsBlockSetup {
 		spinifex = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SPINIFEX).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(2.0F));
 		sweetVernalGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SWEET_VERNAL_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}));
 		falseOatGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FALSE_OAT_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f));
-		kentuckyBluegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.KENTUCKY_BLUEGRASS).addVarys(new EnumVary[] {EnumVary.SNOW}));
+		bluegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLUEGRASS).addVarys(new EnumVary[] {EnumVary.SNOW}));
 		sorghum = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SORGHUM).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(4.0f));
 		guineaGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.GUINEA_GRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.JULY).setScale(2.0f));
 		africanBristlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.AFRICAN_BRISTLEGRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.SEPTEMBER, TFC_Time.JUNE);
@@ -1232,7 +1232,7 @@ public class AthsBlockSetup {
 		rosebush = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.ROSEBUSH, new String[] {"Red", "Cream", "Pink"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW, EnumVary.FLOWER}).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.SEPTEMBER).setIsDamaging().setScale(2f));
 		sorbus = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.SORBUS).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVary(TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		sunflower = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.SUNFLOWER).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setScale(3f));
-		thistle = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.THISTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.AUGUST).setIsDamaging().setScale(1f));
+		thistle = plantRegistryHelper(new BlockPlantFlower().setExtraNames(AthsGlobal.THISTLE, "Large").addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.AUGUST).setIsDamaging().setScale(2F));
 		yarrow = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.YARROW).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setScale(1f));
 		saguaro = plantRegistryHelper(new BlockPlantCactus().setNames(AthsGlobal.SAGUARO, new String[] {"Fork", "Side", "Short", "Staggered", "Stumpy"}).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(6f).setTreeBounds());
 		pricklyPear = plantRegistryHelper(new BlockPlantCactus().setName(AthsGlobal.PRICKLY_PEAR).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonth(TFC_Time.MAY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(2f));
