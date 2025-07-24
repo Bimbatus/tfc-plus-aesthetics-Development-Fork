@@ -1497,6 +1497,8 @@ public class AthsBlockSetup {
 		fallenBranchWhiteElm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_ELM, "0","1","2","3").addVary(EnumVary.SNOW));
 		fallenBranchWillow = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WILLOW, "0","1","2","3").addVary(EnumVary.SNOW));
 		fallenBranchYew = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_YEW, "0","1","2","3").addVary(EnumVary.SNOW));
+		driftwood = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.DRIFTWOOD, "0","1","2","3").addVary(EnumVary.SNOW));
+		woodyDebris = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.WOODY_DEBRIS, "0","1","2","3").addVary(EnumVary.SNOW));
 		
 
 		//3d
