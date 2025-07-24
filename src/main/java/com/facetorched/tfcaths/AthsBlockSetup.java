@@ -1175,6 +1175,9 @@ public class AthsBlockSetup {
 		sulphurShelfRosette = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF_ROSETTE,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		berkeleysPolypore = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.BERKELEYS_POLYPORE).setModelOverrideName().setPart(null).setBrownMushroom(20f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
 		blackStainintgPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.BLACK_STAINING_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
+		mossyMazePolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.MOSSY_MAZE_POLYPORE).setPart(null));
+		tenderNestingPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.TENDER_NESTING_POLYPORE).setRedMushroom(12f).setPart(null));
+		falseTurkeyTail = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.FALSE_TURKEY_TAIL).setPart(null));
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
