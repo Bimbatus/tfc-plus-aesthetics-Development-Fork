@@ -2009,11 +2009,11 @@ public class Config {
 		athsPlantHelper(AthsGlobal.MOSS_CARPET_PEAT, new int[] {0,1,2}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Peat Bog"}, new String[]{"Americas", "Asia","Europe","Africa"},
 				/*size*/32, /*dispersion*/3, /*rarity*/2968, /*minAltitude*/0, /*maxAltitude*/235, /*minTemp*/-20f, /*maxTemp*/40f, /*minRain*/800f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f);
 
-		athsPlantHelper(AthsGlobal.SULPHUR_SHELF + "_White_Pored", new int[] {0}, new String[] {"oak","willow"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Europe"},
+		athsPlantHelper(AthsGlobal.SULPHUR_SHELF + "_White_Pored",AthsGlobal.SULPHUR_SHELF, new int[] {0}, new String[] {"oak","willow"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/4000, /*minAltitude*/0, /*maxAltitude*/185, /*minTemp*/-1f, /*maxTemp*/14f, /*minRain*/750f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
-		athsPlantHelper(AthsGlobal.SULPHUR_SHELF + "_Rosette", new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe"},
+		athsPlantHelper(AthsGlobal.SULPHUR_SHELF_ROSETTE, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/8600, /*minAltitude*/0, /*maxAltitude*/185, /*minTemp*/-1f, /*maxTemp*/14f, /*minRain*/750f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
-		athsPlantHelper(AthsGlobal.SULPHUR_SHELF + "_White_Pored_Rosette", new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Europe"},
+		athsPlantHelper(AthsGlobal.SULPHUR_SHELF_ROSETTE + "_White_Pored_Rosette",AthsGlobal.SULPHUR_SHELF_ROSETTE, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/7600, /*minAltitude*/0, /*maxAltitude*/185, /*minTemp*/-1f, /*maxTemp*/14f, /*minRain*/750f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.DISTANT_WEBCAP, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat"},  AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/2, /*dispersion*/2, /*rarity*/6796, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/3f, /*maxTemp*/18f, /*minRain*/750f, /*maxRain*/2400f, /*minEVT*/1f, /*maxEVT*/7f,/*forestGen*/1.0f);
