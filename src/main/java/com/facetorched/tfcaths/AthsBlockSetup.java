@@ -1387,6 +1387,7 @@ public class AthsBlockSetup {
 		blueSage = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BLUE_SAGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
 		smoketree = plantRegistryHelper(new BlockPlantTreeFlower().setExtraNames(AthsGlobal.SMOKETREE, "Purple").addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.AUGUST));
 		
+		mossCarpet = plantRegistryHelper(new BlockPlantLow().setColorRange(.6667f, 80, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET).addVary(EnumVary.SNOW));
 			
 		// lily pad like plants
 		lilyPad = plantRegistryHelper(new BlockPlantLilyPad().setExtraNames(AthsGlobal.LILY_PAD).addVary(EnumVary.SNOW));
