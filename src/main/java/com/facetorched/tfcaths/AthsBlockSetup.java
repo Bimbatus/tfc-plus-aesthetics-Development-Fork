@@ -822,6 +822,7 @@ public class AthsBlockSetup {
 	public static Block marshFern;
 	public static Block dwarfBirch;
 	public static Block blueSage;
+	public static Block sulphurShelfRosette;
 
 
 	public static int plantCrossRenderID;
@@ -1143,7 +1144,7 @@ public class AthsBlockSetup {
 		lionsMane = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.LIONS_MANE).setPart(null).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
 		reishi = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.REISHI).setPart(null).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
 		shaggyBracket = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SHAGGY_BRACKET).setPart(null).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
-		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SULPHUR_SHELF).setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
+		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		woodEar = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.WOOD_EAR).setPart("Sporocarp").setBrownMushroom(80f).setScale(0.6f));
 		turkeyTail = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.TURKEY_TAIL).setPart(null));
 		oysterMushroom = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.OYSTER_MUSHROOM, new String[] {"Common","Golden","Aspen","Summer","Pink","King_Trumpet","Lynx_Paw"}).setOverrideModelName().setNamedPart("Sporocarp").setBrownMushroom(50f));oldMansBeardLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.OLD_MANS_BEARD_LICHEN).setPart(null));
@@ -1156,6 +1157,7 @@ public class AthsBlockSetup {
 		resinousPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.RESINOUS_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER));
 		northernToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.NORTHERN_TOOTH_FUNGUS).setPart(null).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		violetToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.VIOLET_TOOTH_FUNGUS).setPart(null));
+		sulphurShelfRosette = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF_ROSETTE,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
