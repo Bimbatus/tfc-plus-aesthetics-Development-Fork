@@ -2007,6 +2007,11 @@ public class Config {
 				/*size*/11, /*dispersion*/10, /*rarity*/58528, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-7f, /*maxTemp*/17, /*minRain*/170f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
 		athsPlantHelper(AthsGlobal.DWARF_BIRCH, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","ore:stone","ore:blockGravel","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","High Plains","Mountains","Mountain Range","Mountains Edge","Mountain Range Edge","Foothills","Rolling Hills","High Hills Edge","Swamp","Riverbank","Lakeshore"}, new String[]{"Asia", "Africa", "Europe"},
 				/*size*/8, /*dispersion*/20, /*rarity*/4228, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-20, /*maxTemp*/8, /*minRain*/100f, /*maxRain*/750f, /*minEVT*/0.25, /*maxEVT*/2f,/*forestGen*/-0.5f);
+
+		athsPlantHelper(AthsGlobal.MOSS_CARPET_GREEN, new int[] {0,1,2}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","ore:stone","ore:blockGravel","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia","Europe","Africa"},
+				/*size*/32, /*dispersion*/3, /*rarity*/2968, /*minAltitude*/0, /*maxAltitude*/235, /*minTemp*/-20f, /*maxTemp*/40f, /*minRain*/800f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.MOSS_CARPET_PEAT, new int[] {0,1,2}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Peat Bog"}, new String[]{"Americas", "Asia","Europe","Africa"},
+				/*size*/32, /*dispersion*/3, /*rarity*/2968, /*minAltitude*/0, /*maxAltitude*/235, /*minTemp*/-20f, /*maxTemp*/40f, /*minRain*/800f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f);
 		
 
 
