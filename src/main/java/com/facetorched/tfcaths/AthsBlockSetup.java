@@ -823,7 +823,17 @@ public class AthsBlockSetup {
 	public static Block dwarfBirch;
 	public static Block blueSage;
 	public static Block sulphurShelfRosette;
-
+	public static Block thePrince;
+	public static Block yellowStainingAgaricus;
+	public static Block pinkmottleWoodwax;
+	public static Block blackStainingPolypore;
+	public static Block distantWebcap;
+	public static Block curvyStalkedBolete;
+	public static Block shaggyParasol;
+	public static Block berkeleysPolypore;
+	public static Block tenderNestingPolypore;
+	public static Block falseTurkeyTail;
+	public static Block mossyMazePolypore;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1117,6 +1127,11 @@ public class AthsBlockSetup {
 		oakLovingGymnopus = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.OAK_LOVING_GYMNOPUS).setScale(0.6f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
 		crownTippedCoralFunugs = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CROWN_TIPPED_CORAL_FUNGUS).setBrownMushroom(6f).setScale(0.6f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
 		bleedingFairyHelmet = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BLEEDING_FAIRY_HELMET).setScale(0.4f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
+		thePrince = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.THE_PRINCE).setBrownMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
+		distantWebcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DISTANT_WEBCAP).setScale(0.5f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
+		curvyStalkedBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CURVY_STALKED_BOLETE).setBrownMushroom(7ff).setScale(0.7f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
+		pinkmottleWoodwax = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.PINKMOTTLE_WOODWAX).setBrownMushroom(8f).setScale(0.7f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
+		shaggyParasol = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHAGGY_PARASOL).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.AUGUST));
 		
 		//3d mushroom
 		chiNguluNgulu = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.CHI_NGULU_NGULU).setPart("Sporocarp").setScale(1.0f).setBrownMushroom(160f).setHasCollision().setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.MARCH));
@@ -1158,6 +1173,8 @@ public class AthsBlockSetup {
 		northernToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.NORTHERN_TOOTH_FUNGUS).setPart(null).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		violetToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.VIOLET_TOOTH_FUNGUS).setPart(null));
 		sulphurShelfRosette = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF_ROSETTE,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
+		berkeleysPolypore = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.BERKELEYS_POLYPORE).setModelOverrideName().setPart(null).setBrownMushroom(20f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
+		blackStainintgPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.BLACK_STAINING_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
