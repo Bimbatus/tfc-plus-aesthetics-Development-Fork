@@ -661,9 +661,9 @@ public class AthsGlobal {
 	public static final String BARNACLES = "Barnacles";
 	public static final String BARNACLES_EPIPHYTE = "Barnacles_Epiphyte";
 	public static final String ANTHILL = "Anthill";
-	public static final String CARPET = "Carpet";
-	public static final String CARPET_MOSS = "Carpet_Moss";
-	public static final String CARPET_PEAT_MOSS = "Carpet_Peat_Moss";
+	public static final String MOSS_CARPET = "Moss_Carpet";
+	public static final String MOSS_CARPET_GREEN = "Moss_Carpet_Green";
+	public static final String MOSS_CARPET_PEAT = "Moss_Carpet_Peat";
 	public static final String MULCH = "Mulch";
 	public static final String GREEN_ELFCUP = "Green_Elfcup";
 	public static final String SLIME_MOLD = "Slime_Mold";
