@@ -4129,4 +4129,10 @@ tile.Sulphur_Shelf_Rosette.Sulphur_Shelf_Rosette_White_Pored.name=White Pored Ch
 gui.Sulphur_Shelf_Rosette.Sulphur_Shelf_Rosette_White_Pored.sciname=Laetiporus spp.
 tile.Sulphur_Shelf.Sulphur_Shelf_White_Pored.name=White Pored Chicken of the Woods
 gui.Sulphur_Shelf.Sulphur_Shelf_White_Pored.sciname=Laetiporus spp.
+tile.Salted_Shield_Lichen.Salted_Shield_Lichen.name=Salted Shield Lichen
+tile.Salted_Shield_Lichen.Salted_Shield_Lichen_Snow.name=Salted Shield Lichen
+tile.Salted_Shield_Lichen_Epiphyte.Salted_Shield_Lichen_Epiphyte.name=Salted Shield Lichen
+gui.Salted_Shield_Lichen.Salted_Shield_Lichen.sciname=Parmelia saxatilis
+gui.Salted_Shield_Lichen.Salted_Shield_Lichen_Snow.sciname=Parmelia saxatilis
+gui.Salted_Shield_Lichen_Epiphyte.Salted_Shield_Lichen_Epiphyte.sciname=Parmelia saxatilis
 
