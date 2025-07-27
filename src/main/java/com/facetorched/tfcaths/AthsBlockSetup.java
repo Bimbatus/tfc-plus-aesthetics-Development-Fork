@@ -1181,8 +1181,8 @@ public class AthsBlockSetup {
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
-		bootstapLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.6f)); //.setPart("Leaf_Overlay")
-		bootstapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy".setPart("Tuft").setScale(0.6f));
+		bootstrapLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.6f)); //.setPart("Leaf_Overlay")
+		bootsrtapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy".setPart("Tuft").setScale(0.6f));
 		orangeSeaLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
 		orangeSeaLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize()).setLayerBounds(0.2f));
 		wolfLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.WOLF_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").addVary(EnumVary.SNOW).setScale(1f)); //.setPart("Leaf_Overlay")
