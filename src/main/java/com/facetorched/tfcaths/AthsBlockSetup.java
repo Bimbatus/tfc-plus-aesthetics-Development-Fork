@@ -735,10 +735,10 @@ public class AthsBlockSetup {
 	public static Block moonglowLichenEpiphyte;
 	public static Block rockOliveLichen;
 	public static Block rockOliveLichenEpiphyte;
+	public static Block cobblestoneLichenBrown;
+	public static Block cobblestoneLichenBrownEpiphyte;
 	public static Block cobblestoneLichenYellow;
-	public static Block cobblestoneLichenEpiphyteYellow;
-	public static Block cobblestoneLichenYellow;
-	public static Block cobblestoneLichenEpiphyteYellow;
+	public static Block cobblestoneLichenYellowEpiphyte;
 	public static Block rockTripeLichen;
 	public static Block rockTripeLichenEpiphyte;
 	public static Block rosetteLichen;
@@ -1200,9 +1200,9 @@ public class AthsBlockSetup {
 		rockOliveLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
 		rockOliveLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
 		cobblestoneLichenBrown = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenEpiphyteBrown = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
+		cobblestoneLichenBrownEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
 		cobblestoneLichenYellow = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenEpiphyteYellow = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
+		cobblestoneLichenYellowEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW_EPIPHYTE, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
 		rockTripeLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
 		rockTripeLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy".setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
 		sunburstLichen = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
