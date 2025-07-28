@@ -763,7 +763,7 @@ public class AthsGlobal {
 	public static final String SMOKETREE = "Smoketree";
 	public static final String PASQUE_FLOWER = "Pasque_Flower";
 	public static final String COMMON_MILKWEED = "Common_Milkweed";
-	public static final String PURPLE_LOOSESTRIFE = "Purple_Loosestrife";
+	public static final String LOOSESTRIFE = "Loosestrife";
 	public static final String PRIMROSE = "Primrose";
 	public static final String LOBELIA = "Lobelia";
 	public static final String MARSH_FERN = "Marsh_Fern";
