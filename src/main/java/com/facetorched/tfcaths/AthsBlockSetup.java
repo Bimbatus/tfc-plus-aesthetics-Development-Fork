@@ -816,7 +816,7 @@ public class AthsBlockSetup {
 	public static Block smoketree;
 	public static Block pasqueFlower;
 	public static Block commonMilkweed;
-	public static Block prairieLoosestrife;
+	public static Block loosestrife;
 	public static Block primrose;
 	public static Block lobelia;
 	public static Block marshFern;
@@ -1403,7 +1403,7 @@ public class AthsBlockSetup {
 		coneflower = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CONEFLOWER).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(1f));
 		prairieSmoke = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PRAIRIE_SMOKE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		pasqueFlower = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PASQUE_FLOWER).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonth(TFC_Time.APRIL).setScale(1f));
-		purpleLoosestrife = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PURPLE_LOOSESTRIFE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
+		loosestrife = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.LOOSESTRIFE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
 		primrose = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.PRIMROSE, new String[] {"Wild","Pink_Sibthorp","Sibthorp","Taigetos"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(1f));
 		lobelia = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.LOBELIA, new String[] {"Blue","White","Cardinal","Giant"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.SEPTEMBER).setScale(4f));
 		blueSage = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BLUE_SAGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
