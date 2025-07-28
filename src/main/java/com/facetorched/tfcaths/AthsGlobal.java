@@ -784,7 +784,7 @@ public class AthsGlobal {
 	public static final String MOSSY_MAZE_POLYPORE = "Mossy_Maze_Polypore";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
-	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach"};
+	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
 	public static final String[] ALL_BIOMES = AthsParser.getBiomes();
 	
 	public static final String[] ROCKTYPES = new String[] {"IgEx","IgIn","Sed","MM"};
