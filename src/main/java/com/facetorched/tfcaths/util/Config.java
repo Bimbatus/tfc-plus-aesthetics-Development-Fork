@@ -2037,6 +2037,8 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/1900, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-2f, /*maxTemp*/13f, /*minRain*/750f, /*maxRain*/1500f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.TENDER_NESTING_POLYPORE, new int[] {0}, new String[] {"oak","spruce","pine","birch"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Africa","Asia"},
 				/*size*/1, /*dispersion*/1, /*rarity*/1900, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/18f, /*minRain*/750f, /*maxRain*/1500f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.BULRUSH, new int[] {0}, new String[] {"ore:blockSoil", "terrafirmacraftplus:FreshWaterStationary","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Lake","Lakeshore","Riverbank","Swamp","Peat Bog","River","Mountains","Mountains Edge","High Hills","High Hills Edge"}, new String[]{"Europe","Asia","Americas","Africa"},
+				/*size*/35, /*dispersion*/1, /*rarity*/1684, /*minAltitude*/0, /*maxAltitude*/145, /*minTemp*/-12, /*maxTemp*/40f, /*minRain*/400f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/6f,/*forestGen*/0f);
 		
 
 
