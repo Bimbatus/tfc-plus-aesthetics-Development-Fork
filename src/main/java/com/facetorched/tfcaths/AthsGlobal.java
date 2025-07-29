@@ -782,6 +782,7 @@ public class AthsGlobal {
 	public static final String TENDER_NESTING_POLYPORE = "Tender_Nesting_Polypore";
 	public static final String FALSE_TURKEY_TAIL = "False_Turkey_Tail";
 	public static final String MOSSY_MAZE_POLYPORE = "Mossy_Maze_Polypore";
+	public static final String BULRUSH = "Bulrush";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
