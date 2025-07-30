@@ -2039,6 +2039,24 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/1900, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/18f, /*minRain*/750f, /*maxRain*/1500f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.BULRUSH, new int[] {0}, new String[] {"ore:blockSoil", "terrafirmacraftplus:FreshWaterStationary","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Lake","Lakeshore","Riverbank","Swamp","Peat Bog","River","Mountains","Mountains Edge","High Hills","High Hills Edge"}, new String[]{"Europe","Asia","Americas","Africa"},
 				/*size*/35, /*dispersion*/1, /*rarity*/1684, /*minAltitude*/0, /*maxAltitude*/145, /*minTemp*/-12, /*maxTemp*/40f, /*minRain*/400f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/6f,/*forestGen*/0f);
+		athsPlantHelper(AthsGlobal.BLUE_COHOSH, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+				/*size*/10, /*dispersion*/3, /*rarity*/5908, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-5f, /*maxTemp*/10f, /*minRain*/750f, /*maxRain*/1020, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.MEADOW_RUE, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Asia","Africa"},
+				/*size*/10, /*dispersion*/5, /*rarity*/4908, /*minAltitude*/200, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/19f, /*minRain*/600f, /*maxRain*/820, /*minEVT*/0f, /*maxEVT*/2f);
+		athsPlantHelper(AthsGlobal.COLUMBINE /*Blue_Eurasia*/, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia"},
+				/*size*/8, /*dispersion*/5, /*rarity*/5208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Blue_Americas", AthsGlobal.COLUMBINE, new int[] {3}, new String[] {"ore:blockSoil"}, new String []{"Mountains","Mountain Range","Mounatin Range Edge", "High Plains"}, new String[]{"Americas"},
+				/*size*/8, /*dispersion*/5, /*rarity*/5208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Blue_Africa", AthsGlobal.COLUMBINE, new int[] {3}, new String[] {"ore:blockSoil"}, new String []{"Mountains","Mountain Range","Mounatin Range Edge", "High Plains"}, new String[]{"Africa"},
+				/*size*/8, /*dispersion*/5, /*rarity*/9208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Dark", AthsGlobal.COLUMBINE, new int[] {3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
+				/*size*/8, /*dispersion*/5, /*rarity*/7208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Americas", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
+				/*size*/8, /*dispersion*/5, /*rarity*/5208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Eurasia", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+				/*size*/8, /*dispersion*/5, /*rarity*/8208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Red", AthsGlobal.COLUMBINE, new int[] {2}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
+				/*size*/8, /*dispersion*/5, /*rarity*/6208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
 		
 
 
