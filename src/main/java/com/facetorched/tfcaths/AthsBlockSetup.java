@@ -1414,7 +1414,7 @@ public class AthsBlockSetup {
 		blueSage = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BLUE_SAGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
 		smoketree = plantRegistryHelper(new BlockPlantTreeFlower().setExtraNames(AthsGlobal.SMOKETREE, "Purple").addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.AUGUST));
 		blueCohosh = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BLUE_COHOSH).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonth(TFC_Time.APRIL).setMonthVaryRange(TFC_Time.MAY, TFC_Time.JUNE, EnumVary.FRUIT).setScale(1f));
-		columbine = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.COLUMBINE, new String []{"Blue","Yellow","Red","Purple"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
+		columbine = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.COLUMBINE, new String []{"Blue","Yellow","Red","Dark"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		meadowRue = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MEADOW_RUE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
