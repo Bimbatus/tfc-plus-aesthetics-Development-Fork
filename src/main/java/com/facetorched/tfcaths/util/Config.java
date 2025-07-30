@@ -1917,8 +1917,11 @@ public class Config {
 				/*size*/80, /*dispersion*/1, /*rarity*/6128, /*minAltitude*/0, /*maxAltitude*/155, /*minTemp*/-1f, /*maxTemp*/13f, /*minRain*/320f, /*maxRain*/850f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
 		athsPlantHelper(AthsGlobal.BLACK_SPEARGRASS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","High Hills","Rolling Hills","High Hills Edge"}, new String[]{"Asia", "Africa"},
 				/*size*/80, /*dispersion*/1, /*rarity*/6128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/320f, /*maxRain*/850f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
-		athsPlantHelper(AthsGlobal.PAMPAS_GRASS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","Lakeshore","Rolling Hills","Riverbank"}, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.PAMPAS_GRASS /*White*/, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","Lakeshore","Rolling Hills","Riverbank"}, new String[]{"Americas"},
 				/*size*/80, /*dispersion*/1, /*rarity*/6128, /*minAltitude*/0, /*maxAltitude*/160, /*minTemp*/17f, /*maxTemp*/26f, /*minRain*/320f, /*maxRain*/850f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
+		athsPlantHelper(AthsGlobal.PAMPAS_GRASS + "_Pink", AthsGlobal.PAMPAS_GRASS, new int[] {1}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, new String[]{"Plains","Lakeshore","Rolling Hills","Riverbank"}, new String[]{"Americas"},
+				/*size*/80, /*dispersion*/1, /*rarity*/8128, /*minAltitude*/0, /*maxAltitude*/160, /*minTemp*/17f, /*maxTemp*/26f, /*minRain*/320f, /*maxRain*/850f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
+		
 		athsPlantHelper(AthsGlobal.BLEEDING_FAIRY_HELMET, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia","Americas","Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/8128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-4f, /*maxTemp*/30f, /*minRain*/800f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.CROWN_TIPPED_CORAL_FUNGUS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia","Americas","Europe"},
