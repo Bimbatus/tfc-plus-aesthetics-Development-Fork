@@ -947,7 +947,7 @@ public class AthsBlockSetup {
 		blueGrama = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLUE_GRAMA).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING, EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		purpleMoorGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.PURPLE_MOOR_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		blackSpeargrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLACK_SPEARGRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER).setScale(2.0f).setIsFoliageColor());
-		pampasGrass = plantRegistryHelper(new BlockPlantStraw().setNames(AthsGlobal.PAMPAS_GRASS, new String[] {"White","Pink"}).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setScale(4.0f));
+		pampasGrass = plantRegistryHelper(new BlockPlantStraw().setNames(AthsGlobal.PAMPAS_GRASS, new String[] {"White","Pink"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setScale(4.0f));
 		
 		//misc plants
 		bearCorn = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.BEAR_CORN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}));
