@@ -931,7 +931,7 @@ public class AthsBlockSetup {
 		bluegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLUEGRASS).addVarys(new EnumVary[] {EnumVary.SNOW}));
 		sorghum = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SORGHUM).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(4.0f).setIsFoliageColor());
 		guineaGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.GUINEA_GRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.JULY).setScale(2.0f).setIsFoliageColor());
-		africanBristlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.AFRICAN_BRISTLEGRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.SEPTEMBER, TFC_Time.JUNE).setIsFoliageColor());
+		africanBristlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.AFRICAN_BRISTLEGRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.SEPTEMBER, TFC_Time.JUNE).setIsFoliageColor().setScale(2.0f));
 		reedGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.REED_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		fescue = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FESCUE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		commonBent = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.COMMON_BENT).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
