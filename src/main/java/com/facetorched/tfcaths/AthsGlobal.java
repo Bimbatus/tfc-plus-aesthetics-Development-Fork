@@ -768,7 +768,8 @@ public class AthsGlobal {
 	public static final String LOBELIA = "Lobelia";
 	public static final String MARSH_FERN = "Marsh_Fern";
 	public static final String DWARF_BIRCH = "Dwarf_Birch";
-	public static final String BLUE_SAGE = "Blue_Sage";
+	public static final String SAGE_EVERGREEN = "Sage_Deciduous";
+	public static final String SAGE_EVERGREEN = "Sage_Evergreen";
 	public static final String RED_CATCHFLY = "Red_Catchfly";
 	public static final String SULPHUR_SHELF_ROSETTE = "Sulphur_Shelf_Rosette";
 	public static final String THE_PRINCE = "The_Prince";
