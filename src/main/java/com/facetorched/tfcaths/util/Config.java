@@ -2002,7 +2002,7 @@ public class Config {
 				/*size*/5, /*dispersion*/5, /*rarity*/4208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/40f, /*minRain*/567, /*maxRain*/2100, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.LOBELIA + "_White",AthsGlobal.LOBELIA, new int[] {1}, new String[] {"ore:blockSoil"}, new String[]{"Plains","Rolling Hills","High Hills","High Hills Edge","Mountains Edge","Mountains","Foothills","Swamp","Riverbank","Peat Bog","Lakeshore"}, new String[]{"Europe","Asia","Americas","Africa"},
 				/*size*/5, /*dispersion*/5, /*rarity*/4208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/40f, /*minRain*/567, /*maxRain*/2100, /*minEVT*/0f, /*maxEVT*/10f);
-		athsPlantHelper(AthsGlobal.LOBELIA + "_Cardinal",AthsGlobal.LOBELIA, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Plains","Rolling Hills","Swamp","Riverbank","Peat Bog","Lakeshore"}, new String[]"Americas"},
+		athsPlantHelper(AthsGlobal.LOBELIA + "_Cardinal",AthsGlobal.LOBELIA, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Plains","Rolling Hills","Swamp","Riverbank","Peat Bog","Lakeshore"}, new String[]{"Americas"},
 				/*size*/5, /*dispersion*/5, /*rarity*/6208, /*minAltitude*/0, /*maxAltitude*/160, /*minTemp*/5f, /*maxTemp*/32f, /*minRain*/467, /*maxRain*/4000, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.LOBELIA + "_Giant",AthsGlobal.LOBELIA, new int[] {3}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","Mountains Edge","Mountains","Foothills","Mountain Range","Mountain Range Edge"}, new String[]{"Africa"},
 				/*size*/5, /*dispersion*/5, /*rarity*/3608, /*minAltitude*/170, /*maxAltitude*/255, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/90, /*maxRain*/340, /*minEVT*/0f, /*maxEVT*/10f);
