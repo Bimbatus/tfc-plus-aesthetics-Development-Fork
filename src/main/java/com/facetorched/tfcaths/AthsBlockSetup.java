@@ -840,6 +840,9 @@ public class AthsBlockSetup {
 	public static Block columbine;
 	public static Block meadowRue;
 	public static Block cora;
+	public static Block myrtle;
+	public static Block chusquea;
+	public static Block linochilus;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1420,7 +1423,10 @@ public class AthsBlockSetup {
 		blueCohosh = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BLUE_COHOSH).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonth(TFC_Time.APRIL).setMonthVaryRange(TFC_Time.MAY, TFC_Time.JUNE, EnumVary.FRUIT).setScale(1f));
 		columbine = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.COLUMBINE, new String []{"Blue","Yellow","Red","Dark"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		meadowRue = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MEADOW_RUE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
-		
+		linochilus = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.LINOCHILUS).addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(3f));
+		myrtle = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.MYRTLE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setMonthVaryRange(TFC_Time.JULY, TFC_Time.AUGUST, EnumVary.FRUIT).setScale(5f));
+	
+		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
 		mossCarpetPeat = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.42f, 72, .4f, 40, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_PEAT).addVary(EnumVary.SNOW));
 			
@@ -1486,6 +1492,7 @@ public class AthsBlockSetup {
 		juniper = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.JUNIPER, new String[] {"Bushy","Gnarled","Piney","Twisted","Wispy"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		alpineJuniper = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.ALPINE_JUNIPER).addVarys(new EnumVary[] {EnumVary.FRUIT,EnumVary.WINTER,EnumVary.SNOW}).setRenderID(plantCropRenderID).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.NOVEMBER, EnumVary.FRUIT).setScale(2.0f));
 		dwarfBamboo = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAMBOO).setName(AthsGlobal.DWARF_BAMBOO));
+		chusquea = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.CHUSQUEA));
 		
 		// tree 3d
 		youngPalm = plantRegistryHelper(new BlockPlantTree3d().setSapling(EnumTree.PALM).setName(AthsGlobal.YOUNG_PALM).setPart("Trunk").setPart("Frond").setScale(5f));
