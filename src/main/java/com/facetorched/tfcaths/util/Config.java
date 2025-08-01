@@ -1996,7 +1996,7 @@ public class Config {
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-4f, /*maxTemp*/18f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.PRIMROSE + "_Tibetan", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]{"Asia"},
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-6f, /*maxTemp*/14f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
-		athsPlantHelper(AthsGlobal.PRIMROSE + "_Alpine", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]"Americas"},
+		athsPlantHelper(AthsGlobal.PRIMROSE + "_Alpine", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]{"Americas"},
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-6f, /*maxTemp*/14f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.LOBELIA /*Blue*/, new int[] {0}, new String[] {"ore:blockSoil"}, new String[]{"Plains","Rolling Hills","High Hills","High Hills Edge","Mountains Edge","Mountains","Foothills","Swamp","Riverbank","Peat Bog","Lakeshore"}, new String[]{"Europe","Americas","Africa","Asia"},
 				/*size*/5, /*dispersion*/5, /*rarity*/4208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/0f, /*maxTemp*/40f, /*minRain*/567, /*maxRain*/2100, /*minEVT*/0f, /*maxEVT*/10f);
