@@ -5200,7 +5200,16 @@ gui.Columbine.Columbine_Dark_Winter.sciname=Aquilegia spp.
 gui.Columbine.Columbine_Dark_Snow.sciname=Aquilegia spp.
 tile.Cora.Cora.name=Cora Basidioichen
 gui.Cora.Cora.sciname=Cora spp.
-
-
-
+tile.Myrtle.Myrtle.name=Myrtle
+tile.Myrtle.Myrtle_Flower.name=Myrtle
+tile.Myrtle.Myrtle_Fruit.name=Myrtle
+gui.Myrtle.Myrtle.sciname=Myrtus communis
+gui.Myrtle.Myrtle_Flower.sciname=Myrtus communis
+gui.Myrtle.Myrtle_Fruit.sciname=Myrtus communis
+tile.Linochilus.Linochilus.name=Linochilus Bush
+tile.Linochilus.Linochilus_Flower.name=Linochilus Bush
+gui.Linochilus.Linochilus.sciname=Linochilus spp.
+gui.Linochilus.Linochilus_Flower.sciname=Linochilus spp.
+tile.Chusquea.Chusquea.name=Chusquea Bamboo
+gui.Chusquea.Chusquea.sciname=Chusquea spp.
 
