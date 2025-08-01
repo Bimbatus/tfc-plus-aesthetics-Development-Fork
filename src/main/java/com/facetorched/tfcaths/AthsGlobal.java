@@ -787,6 +787,7 @@ public class AthsGlobal {
 	public static final String BLUE_COHOSH = "Blue_Cohosh";
 	public static final String COLUMBINE = "Columbuine";
 	public static final String MEADOW_RUE = "Meadow_Rue";
+	public static final String CORA = "Cora";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
