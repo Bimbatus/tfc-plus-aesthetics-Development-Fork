@@ -1994,7 +1994,7 @@ public class Config {
 				/*size*/8, /*dispersion*/4, /*rarity*/6084, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/3f, /*maxTemp*/15f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.PRIMROSE + "_Cowslip", AthsGlobal.PRIMROSE, new int[] {1}, new String[] {"ore:blockSoil"}, new String[]{"Plains","Rolling Hills","Riverbank"}, new String[]{"Europe","Asia"},
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-4f, /*maxTemp*/18f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
-		athsPlantHelper(AthsGlobal.PRIMROSE + "_Tibetan", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]"Asia"},
+		athsPlantHelper(AthsGlobal.PRIMROSE + "_Tibetan", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]{"Asia"},
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-6f, /*maxTemp*/14f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.PRIMROSE + "_Alpine", AthsGlobal.PRIMROSE, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills"}, new String[]"Americas"},
 				/*size*/8, /*dispersion*/4, /*rarity*/5884, /*minAltitude*/0, /*maxAltitude*/200, /*minTemp*/-6f, /*maxTemp*/14f, /*minRain*/620f, /*maxRain*/1030f, /*minEVT*/0f, /*maxEVT*/4f);
@@ -2081,6 +2081,8 @@ public class Config {
 				/*size*/8, /*dispersion*/5, /*rarity*/8208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.COLUMBINE + "_Red", AthsGlobal.COLUMBINE, new int[] {2}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
 				/*size*/8, /*dispersion*/5, /*rarity*/6208, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.CORA, new int[] {0}, new String[] {"alltrees","ore:stone"}, new String []{"Mountains","Mountain Range","Mounatin Range Edge", "High Plains","Mountains Edge","Foothills"}, new String[]{"Americas"},
+				/*size*/1, /*dispersion*/1, /*rarity*/3000, /*minAltitude*/180, /*maxAltitude*/255, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1500f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		
 
 
