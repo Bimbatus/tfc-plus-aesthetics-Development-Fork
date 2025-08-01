@@ -943,7 +943,7 @@ public class AthsBlockSetup {
 		bigBluestem = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BIG_BLUESTEM).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		littleBluestem = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.LITTLE_BLUESTEM).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		canadaWildRye = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.CANADA_WILD_RYE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
-		featherGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FEATHER_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
+		featherGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FEATHER_GRASS).addVary(EnumVary.FLOWER).setScale(2.0f).setIsFoliageColor().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER);
 		wavyHairGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.WAVY_HAIR_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		buffalograss = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BUFFALOGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		blueGrama = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLUE_GRAMA).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING, EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
