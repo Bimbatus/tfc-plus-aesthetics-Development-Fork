@@ -2107,6 +2107,8 @@ public class Config {
 				/*size*/5, /*dispersion*/5, /*rarity*/8380, /*minAltitude*/225, /*maxAltitude*/255, /*minTemp*/10f, /*maxTemp*/27f, /*minRain*/200f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.RAFFLESIA_EPIPHYTE, new int[] {0}, new String[] {"alltrees"}, new String[]{"High Hills","Plains","High Hills Edge","Rolling Hills","High Plains","Lake","Foothills","Lakeshore","Riverbank","Swamp","Salt Swamp","Estuary"}, new String[]{"Asia"},
 				/*size*/3, /*dispersion*/6, /*rarity*/7096, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/16f, /*maxTemp*/25f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/1f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.DEAD_MANS_FINGERS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass","ore:blockGravel"},  AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Africa","Europe"},
+				/*size*/3, /*dispersion*/4, /*rarity*/4096, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-8f, /*maxTemp*/40f, /*minRain*/520f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/8f,/*forestGen*/1.0f);
 		
 
 		
