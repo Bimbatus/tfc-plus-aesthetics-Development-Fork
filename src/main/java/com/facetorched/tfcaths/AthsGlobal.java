@@ -791,6 +791,15 @@ public class AthsGlobal {
 	public static final String MYRTLE = "Myrtle";
 	public static final String CHUSQUEA = "Chusquea";
 	public static final String LINOCHILUS = "Linochilus";
+	public static final String RATTAN = "Rattan";
+	public static final String AFRICAN_DREAM_HERB = "African_Dream_Herb";
+	public static final String MIIMOSA = "Mimosa";
+	public static final String DEAD_HORSE_ARUM = "Dead_Horse_Arum";
+	public static final String BASKET_FERN = "Basket_Fern";
+	public static final String SNOWBELL = "Snowbell";
+	public static final String YARETA = "Yareta";
+	public static final String RAFFLESIA_EPIPHYTE = "Rafflesia_Epiphyte";
+	public static final String GIANT_LEAF_COCCOLOBA = "Giant_Leaf_Coccoloba";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
