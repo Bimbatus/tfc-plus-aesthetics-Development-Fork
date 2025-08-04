@@ -843,6 +843,16 @@ public class AthsBlockSetup {
 	public static Block myrtle;
 	public static Block chusquea;
 	public static Block linochilus;
+	public static Block mimosa;
+	public static Block rattan;
+	public static Block africanDreamHerb;
+	public static Block giantLeafCoccoloba;
+	public static Block rafflesiaEpiphyte;
+	public static Block deadHorseArum;
+	public static Block basketFern;
+	public static Block snowbell;
+	public static Block yareta;
+	public static Block deadMansFingers;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1142,6 +1152,7 @@ public class AthsBlockSetup {
 		curvyStalkedBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CURVY_STALKED_BOLETE).setBrownMushroom(7ff).setScale(0.7f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		pinkmottleWoodwax = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.PINKMOTTLE_WOODWAX).setBrownMushroom(8f).setScale(0.7f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		shaggyParasol = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHAGGY_PARASOL).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.AUGUST));
+		deadMansFingers = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DEAD_MANS_FINGERS).setScale(0.3f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		
 		//3d mushroom
 		chiNguluNgulu = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.CHI_NGULU_NGULU).setPart("Sporocarp").setScale(1.0f).setBrownMushroom(160f).setHasCollision().setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.MARCH));
@@ -1424,7 +1435,10 @@ public class AthsBlockSetup {
 		meadowRue = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MEADOW_RUE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		linochilus = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.LINOCHILUS).addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(3f));
 		myrtle = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.MYRTLE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setMonthVaryRange(TFC_Time.JULY, TFC_Time.AUGUST, EnumVary.FRUIT).setScale(5f));
-	
+		mimosa = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MIMOSA).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f));
+		snowbell = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.SNOWBELL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(1f));
+		deadHorseArum = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.DEAD_HORSE_ARUM).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.APRIL).setScale(1f));
+		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
 		mossCarpetPeat = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.42f, 72, .4f, 40, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_PEAT).addVary(EnumVary.SNOW));
