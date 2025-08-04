@@ -1700,6 +1700,7 @@ public class AthsBlockSetup {
 		basketFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BASKET_FERN).setPart("Frond").setScale(1f));
 		africanDreamHerb = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.AFRICAN_DREAM_HERB).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.AUGUST,TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(3.5f));
 		rattan = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RATTAN).setPart("Leaf").setPart("Stem").setScale(4.5f));
+		rafflesiaEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RAFFLESIA_EPIPHYTE).addVary(EnumVary.FLOWER).setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Center"}).setPart("Base").setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2.0f));
 	}
 	
 	public static BlockPlant plantRegistryHelper(BlockPlant block) {
