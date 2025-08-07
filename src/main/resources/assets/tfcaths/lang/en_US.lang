@@ -5260,4 +5260,13 @@ tile.Castilla_De_Vaca.Castilla_De_Vaca_Snow.name=Castilla de Vaca Fern
 gui.Castilla_De_Vaca.Castilla_De_Vaca_Snow.sciname=Lomariocyas magellanicum
 tile.Cloud_Forest_Blechum.Cloud_Forest_Blechum.name=Cloud Forest Blechnum
 gui.Cloud_Forest_Blechum.Cloud_Forest_Blechum.sciname=Lomariocyas aurata
-
+tile.Jamesonia_Fern.Jamesonia_Fern.name=Jamesonia Fern
+gui.Jamesonia_Fern.Jamesonia_Fern.sciname=Jamesonia spp.
+tile.Prairie_Fire.Prairie_Fire.name=Prairie Fire
+tile.Prairie_Fire.Prairie_Fire_Flower.name=Prairie Fire
+tile.Prairie_Fire.Prairie_Fire_Winter.name=Prairie Fire
+tile.Prairie_Fire.Prairie_Fire_Snow.name=Prairie Fire
+gui.Prairie_Fire.Prairie_Fire.sciname=Castilleja spp.
+gui.Prairie_Fire.Prairie_Fire_Flower.sciname=Castilleja spp.
+gui.Prairie_Fire.Prairie_Fire_Winter.sciname=Castilleja spp.
+gui.Prairie_Fire.Prairie_Fire_Snow.sciname=Castilleja spp.
