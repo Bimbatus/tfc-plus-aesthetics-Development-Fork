@@ -853,6 +853,9 @@ public class AthsBlockSetup {
 	public static Block snowbell;
 	public static Block yareta;
 	public static Block deadMansFingers;
+	public static Block quilQuil;
+	public static Block cloudForestBlechnum;
+	public static Block castillaDeVaca;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1650,7 +1653,9 @@ public class AthsBlockSetup {
 		ladysMantle = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.LADYS_MANTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN, EnumVary.FLOWER}).setNamedPart("Side").setNamedVaryParts(new EnumVary [] {EnumVary.DEFAULT, EnumVary.AUTUMN, EnumVary.FLOWER}, new String[] {"Top","Middle","Bottom"}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setScale(1.2f));
 		giantLeafCoccoloba = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_LEAF_COCCOLOBA).setPart("Leaf").setPart("Trunk").setIsAxisAligned().setScale(3f));
 		yareta = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.YARETA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
-		
+		castillaDeVaca = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CASTILLA_DE_VACA).addVary(EnumVary.SNOW).setPart("Frond").setScale(1.0f));
+		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setPart("Wilted_Frond").setIsAxisAligned().setScale(2f));
+	
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
 		blackSpleenwort = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BLACK_SPLEENWORT).setPart("Frond").setScale(2f));
@@ -1688,7 +1693,7 @@ public class AthsBlockSetup {
 		trumpetVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.TRUMPET_VINE, new String[] {"American","Chinese"}).setOverrideModelName("Trumpet_Vine").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.AUTUMN, EnumVary.WINTER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setNamedVaryPart(EnumVary.AUTUMN, "Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setIsDamaging().setScale(1.5f));
 		japaneseMountainYam = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.JAPANESE_MOUNTAIN_YAM).setOverrideModelName("Creeper").addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER}).setNamedVaryPart(new EnumVary[]{EnumVary.DEFAULT, EnumVary.AUTUMN}, "Leaf").setPart("Stem").setScale(1.5f));
 		monkeyCupEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.MONKEY_CUP_EPIPHYTE).setNames(AthsGlobal.MONKEY_CUP_EPIPHYTE, new String[] {"Male","Female"}).setOverrideModelName("Monkey_Cup_Epiphyte").addVarys(new EnumVary[] {EnumVary.FLOWER}).setPart("Leaf").setNamedBaseMetaPart(EnumVary.FLOWER, "Flower").setPart("Pitcher").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1.5f));
-		cliffBrake = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLIFF_BRAKE).setPart("Frond").setScale(0.8f));
+		cliffBrake = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLIFF_BRAKE).setPart("Frond").setScale(0.6f));
 		filmyFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.FILMY_FERN).setPart("Frond").setScale(1.7f));
 		lecanopterisFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.LECANOPTERIS_FERN).setPart("Frond").setPart("Rhizome").setPart("Rhizome_Overlay").setScale(1.5f));
 		whiskFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.WHISK_FERN).setPart("Frond").setScale(1.7f));
@@ -1701,6 +1706,8 @@ public class AthsBlockSetup {
 		africanDreamHerb = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.AFRICAN_DREAM_HERB).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.AUGUST,TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(3.5f));
 		rattan = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RATTAN).setPart("Leaf").setPart("Stem").setScale(4.5f));
 		rafflesiaEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RAFFLESIA_EPIPHYTE).addVary(EnumVary.FLOWER).setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Center"}).setPart("Base").setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2.0f));
+		quilQuil = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.QUIL_QUIL).setPart("Frond").setScale(1f));
+		
 	}
 	
 	public static BlockPlant plantRegistryHelper(BlockPlant block) {
