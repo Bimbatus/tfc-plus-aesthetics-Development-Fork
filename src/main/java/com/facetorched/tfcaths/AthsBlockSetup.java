@@ -971,7 +971,7 @@ public class AthsBlockSetup {
 		aloeVera = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ALOE_VERA).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.APRIL));
 		creepingCharlie = plantRegistryHelper(new BlockPlantLayerFlower().setName(AthsGlobal.CREEPING_CHARLIE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JULY));
 		indianPipe = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.INDIAN_PIPE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}));
-		sundew = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.SUNDEW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST));
+		sundew = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.SUNDEW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(0.5f));
 		venusFlytrap = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.VENUS_FLYTRAP).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE));
 		waterPlantain = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WATER_PLANTAIN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2.0F));
 		nettle = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.NETTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setPoisonDuration(2));
