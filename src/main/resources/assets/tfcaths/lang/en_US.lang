@@ -5252,5 +5252,12 @@ tile.Rafflesia_Epiphyte.Rafflesia_Epiphyte.name=Rafflesia
 tile.Rafflesia_Epiphyte.Rafflesia_Epiphyte.name=Rafflesia spp.
 tile.Dead_Mans_Fingers.Dead_Mans_Fingers.name=Dead Man's Fingers
 gui.Dead_Mans_Fingers.Dead_Mana_Fingers.sciname=Xylaria spp.
-
+tile.Quil_Quil.Quil_Quil.name=Quil-Quil Fern
+gui.Quil_Quil.Quil_Quil.sciname=Blechnum arcuatum
+tile.Castilla_De_Vaca.Castilla_De_Vaca.name=Castilla de Vaca Fern
+gui.Castilla_De_Vaca.Castilla_De_Vaca.sciname=Lomariocyas magellanicum
+tile.Castilla_De_Vaca.Castilla_De_Vaca_Snow.name=Castilla de Vaca Fern
+gui.Castilla_De_Vaca.Castilla_De_Vaca_Snow.sciname=Lomariocyas magellanicum
+tile.Cloud_Forest_Blechum.Cloud_Forest_Blechum.name=Cloud Forest Blechnum
+gui.Cloud_Forest_Blechum.Cloud_Forest_Blechum.sciname=Lomariocyas aurata
 
