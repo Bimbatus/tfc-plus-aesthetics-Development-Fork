@@ -801,6 +801,9 @@ public class AthsGlobal {
 	public static final String RAFFLESIA_EPIPHYTE = "Rafflesia_Epiphyte";
 	public static final String GIANT_LEAF_COCCOLOBA = "Giant_Leaf_Coccoloba";
 	public static final String DEAD_MANS_FINGERS = "Dead_Mans_Fingers";
+	public static final String QUIL_QUIL = "Quil_Quil";
+	public static final String COSTILLA_DE_VACA = "Costilla_De_Vaca"
+	public static final String CLOUD_FOREST_BLECHNUM = "Cloud_Forest_Blechnum";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
