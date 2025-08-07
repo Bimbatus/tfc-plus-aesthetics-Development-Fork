@@ -804,6 +804,8 @@ public class AthsGlobal {
 	public static final String QUIL_QUIL = "Quil_Quil";
 	public static final String COSTILLA_DE_VACA = "Costilla_De_Vaca"
 	public static final String CLOUD_FOREST_BLECHNUM = "Cloud_Forest_Blechnum";
+	public static final String JAMESONIA FERN = "Jamesonia_Fern";
+	public static final String PRAIRIE_FIRE = "Prairie_Fire";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
