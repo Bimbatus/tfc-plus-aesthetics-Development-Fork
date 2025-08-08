@@ -811,6 +811,15 @@ public class AthsGlobal {
 	public static final String GNETUM = "Gnetum";
 	public static final String EPHEDRA = "Ephedra";
 	public static final String GOLDENROD = "Goldenrod";
+	public static final String PATAGONIAN_RAGWORT = "Patagonian_Ragwort";
+	public static final String RAGWORT = "Ragwort";
+	public static final String PATAGONIAN_WILD_RYE = "Patagonian_Wild_Rye";
+	public static final String CUSHION_CATCHFLY = "Cushion_Catchfly";
+	public static final String BARBERRY = "Barberry";
+	public static final String OAT_GRASS = "Oat_Grass";
+	public static final String DESERT_NEEDLEGRASS = "Desert_Needlegrass";
+	public static final String RED_ESCALLONIA = "Red_Escallonia";
+	public static final String BOGRUSH = "Bogrush";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
