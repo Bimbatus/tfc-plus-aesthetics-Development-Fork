@@ -813,7 +813,7 @@ public class AthsGlobal {
 	public static final String GOLDENROD = "Goldenrod";
 	public static final String PATAGONIAN_RAGWORT = "Patagonian_Ragwort";
 	public static final String RAGWORT = "Ragwort";
-	public static final String PATAGONIAN_WILD_RYE = "Patagonian_Wild_Rye";
+	public static final String PATAGONIAN_WILD_BARLEY = "Patagonian_Wild_Barley";
 	public static final String CUSHION_CATCHFLY = "Cushion_Catchfly";
 	public static final String BARBERRY = "Barberry";
 	public static final String OAT_GRASS = "Oat_Grass";
