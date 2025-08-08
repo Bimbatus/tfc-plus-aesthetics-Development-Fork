@@ -1002,7 +1002,7 @@ public class AthsBlockSetup {
 		addersTongueFern = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ADDERS_TONGUE_FERN).addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
 		basketGrass = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.BASKET_GRASS).addIconVary(EnumVary.DEFAULT).setHasNoDrops());
 		groundCedars = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.GROUND_CEDARS).addVarys(new EnumVary[] {EnumVary.SNOW}));
-		ephedra = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.EPHEDRA).addVary(EnumVary.SNOW));
+		ephedra = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.EPHEDRA).addVarys(new EnumVary[] {EnumVary.FRUIT, EnumVary.SNOW}).setMonthVaryRange(TFC_Time.MAY, TFC_Time.JULY, EnumVary.FRUIT).setRenderID(plantCropRenderID));
 		
 		// mushrooms
 		basketStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BASKET_STINKHORN).setRedMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
