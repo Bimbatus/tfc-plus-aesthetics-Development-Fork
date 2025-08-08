@@ -1519,7 +1519,7 @@ public class AthsBlockSetup {
 		juniper = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.JUNIPER, new String[] {"Bushy","Gnarled","Piney","Twisted","Wispy"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		alpineJuniper = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.ALPINE_JUNIPER).addVarys(new EnumVary[] {EnumVary.FRUIT,EnumVary.WINTER,EnumVary.SNOW}).setRenderID(plantCropRenderID).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.NOVEMBER, EnumVary.FRUIT).setScale(2.0f));
 		dwarfBamboo = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAMBOO).setName(AthsGlobal.DWARF_BAMBOO));
-		chusquea = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.CHUSQUEA));
+		chusquea = plantRegistryHelper(new BlockPlantTree().setExtraNames(AthsGlobal.CHUSQUEA, "Small"));
 		magellanRimu = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLAN_RIMU).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
 		
 		// tree 3d
