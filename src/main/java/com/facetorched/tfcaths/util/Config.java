@@ -2139,6 +2139,8 @@ public class Config {
 					/*size*/30, /*dispersion*/8, /*rarity*/6080, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/120f, /*maxRain*/200, /*minEVT*/0f, /*maxEVT*/10f, /*forestGen*/ -0.3f);
 		athsPlantHelper(AthsGlobal.EPHEDRA + "_Temperate", AthsGlobal.EPHEDRA, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, AthsGlobal.ALL_BIOMES, new String[]{"Asia","Europe","Africa","Americas"},
 					/*size*/15, /*dispersion*/1, /*rarity*/9080, /*minAltitude*/146, /*maxAltitude*/255, /*minTemp*/8f, /*maxTemp*/18f, /*minRain*/120f, /*maxRain*/400, /*minEVT*/0f, /*maxEVT*/10f, /*forestGen*/ -0.3f);
+		athsPlantHelper(AthsGlobal.GOLDENROD, new int[] {0}, new String[] {"ore:blockSoil"}, new String[]{"Plains","High Hills","Rolling Hills","High Hills Edge","High Plains"}, new String[]{"Americas","Asia","Europe"},
+				/*size*/80, /*dispersion*/2, /*rarity*/3128, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/-4f, /*maxTemp*/22f, /*minRain*/245f, /*maxRain*/780, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/-1.0f);
 		
 
 		
