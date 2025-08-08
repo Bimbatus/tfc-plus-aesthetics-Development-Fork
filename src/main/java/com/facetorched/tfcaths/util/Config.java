@@ -2161,7 +2161,7 @@ public class Config {
 				/*size*/23, /*dispersion*/5, /*rarity*/5728, /*minAltitude*/147, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-2f, /*maxTemp*/16f, /*minRain*/450f, /*maxRain*/850f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/0f);
 		athsPlantHelper(AthsGlobal.BARBERRY, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Africa","Asia","Europe"},
 				/*size*/5, /*dispersion*/5, /*rarity*/6028, /*minAltitude*/146, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-3f, /*maxTemp*/40f, /*minRain*/350f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/-1.0f);
-		athsPlantHelper(AthsGlobal.PATAGONIAN_HORDEUM, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.PATAGONIAN_WILD_BARLEY, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/80, /*dispersion*/4, /*rarity*/5028, /*minAltitude*/146, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/-6f, /*maxTemp*/8f, /*minRain*/170f, /*maxRain*/650f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
 		athsPlantHelper(AthsGlobal.PATAGONIAN_RAGWORT, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/18, /*dispersion*/3, /*rarity*/6028, /*minAltitude*/147, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/-4f, /*maxTemp*/9f, /*minRain*/180f, /*maxRain*/550f, /*minEVT*/0f, /*maxEVT*/2f,/*forestGen*/-1.0f);
@@ -2228,6 +2228,8 @@ public class Config {
 			config.get(category, "rarity", rarity).setMinValue(1).getInt(),
 			config.get(category, "minAltitude", minAltitude).setMinValue(0).setMaxValue(255).getInt(),
 			config.get(category, "maxAltitude", maxAltitude).setMinValue(0).setMaxValue(255).getInt(),
+			config.get(category, "minLatitude", minLatitude).setMinValue(-32000).setMaxValue(32000).getInt(),
+			config.get(category, "maxLatitude", maxLatitude).setMinValue(-32000).setMaxValue(32000).getInt(),
 			(float)config.get(category, "minTemp", minTemp).getDouble(),
 			(float)config.get(category, "maxTemp", maxTemp).getDouble(),
 			(float)config.get(category, "minRainfall", minRainfall).getDouble(),
@@ -2250,6 +2252,8 @@ public class Config {
 			config.get(category, "rarity", rarity).setMinValue(1).getInt(),
 			config.get(category, "minAltitude", minAltitude).setMinValue(0).setMaxValue(255).getInt(),
 			config.get(category, "maxAltitude", maxAltitude).setMinValue(0).setMaxValue(255).getInt(),
+			config.get(category, "minLatitude", minLatitude).setMinValue(-32000).setMaxValue(32000).getInt(),
+			config.get(category, "maxLatitude", maxLatitude).setMinValue(-32000).setMaxValue(32000).getInt(),
 			(float)config.get(category, "minTemp", minTemp).getDouble(),
 			(float)config.get(category, "maxTemp", maxTemp).getDouble(),
 			(float)config.get(category, "minRainfall", minRainfall).getDouble(),
@@ -2280,38 +2284,38 @@ public class Config {
 	public static void athsPlantHelper(String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int rarity, int minAltitude, int maxAltitude, float minTemp, float maxTemp, float minRainfall, float maxRainfall, float minEVT, float maxEVT) {
 		athsPlantHelper(name, name, metas, growOnBlocks, biomes, regions, size, dispersion,
-				rarity, minAltitude, maxAltitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, 0.0f);
+				rarity, minAltitude, maxAltitude, minLatitude, maxLatitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, 0.0f);
 	}
 	//category version
 	public static void athsPlantHelper(String category, String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int rarity, int minAltitude, int maxAltitude, float minTemp, float maxTemp, float minRainfall, float maxRainfall, float minEVT, float maxEVT) {
 		athsPlantHelper(category, name, metas, growOnBlocks, biomes, regions, size, dispersion,
-				rarity, minAltitude, maxAltitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, 0.0f);
+				rarity, minAltitude, maxAltitude, minLatitude, maxLatitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, 0.0f);
 	}
 	
 	/* forestGen version*/
 	public static void athsPlantHelper(String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int rarity, int minAltitude, int maxAltitude, float minTemp, float maxTemp, float minRainfall, float maxRainfall, float minEVT, float maxEVT, float forestGen) {
 		athsPlantHelper(name, name, metas, growOnBlocks, biomes, regions, size, dispersion,
-				rarity, minAltitude, maxAltitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, forestGen);
+				rarity, minAltitude, maxAltitude, minLatitude, maxLatitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, forestGen);
 	}
 	
 	/* forestGen category version*/
 	public static void athsPlantHelper(String category, String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int rarity, int minAltitude, int maxAltitude, float minTemp, float maxTemp, float minRainfall, float maxRainfall, float minEVT, float maxEVT, float forestGen) {
 		AthsWorldGenPlants.plantList.put(category, getPlantData(category, AthsMod.MODID+":"+name, metas, growOnBlocks, biomes, regions, size, dispersion,
-				rarity, minAltitude, maxAltitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, forestGen));
+				rarity, minAltitude, maxAltitude, minLatitude, maxLatitude, minTemp, maxTemp, minRainfall, maxRainfall, minEVT, maxEVT, forestGen));
 	}
 	
 	public static void athsTreeHelper(String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int minAltitude, int maxAltitude, EnumTree tree) {
-		athsTreeHelper(name, name, metas, growOnBlocks, biomes, regions, size, dispersion, minAltitude, maxAltitude, tree);
+		athsTreeHelper(name, name, metas, growOnBlocks, biomes, regions, size, dispersion, minAltitude, maxAltitude, minLatitude, maxLatitude, tree);
 	}
 	
 	/* alternate spawn parameters for same tree*/
 	public static void athsTreeHelper(String category, String name, int[] metas, String[] growOnBlocks, String[] biomes, String[] regions, int size, int dispersion,
 			int minAltitude, int maxAltitude, EnumTree tree) {
 		AthsWorldGenPlants.plantList.put(category, getPlantData(category, AthsMod.MODID+":"+name, metas, growOnBlocks, biomes, regions, size, dispersion,
-				(int)(AthsGlobal.TREE_BASE_RARITY / tree.rarity), minAltitude, maxAltitude, tree.minTemp, tree.maxTemp, tree.minRain, tree.maxRain, tree.minEVT, tree.maxEVT, 1.0f));
+				(int)(AthsGlobal.TREE_BASE_RARITY / tree.rarity), minAltitude, maxAltitude, minLatitude, maxLatitude, tree.minTemp, tree.maxTemp, tree.minRain, tree.maxRain, tree.minEVT, tree.maxEVT, 1.0f));
 	}
 }
