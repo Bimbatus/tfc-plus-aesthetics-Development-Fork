@@ -862,6 +862,7 @@ public class AthsBlockSetup {
 	public static Block ephedra;
 	public static Block gnetum;
 	public static Block gnetumTree;
+	public static Block goldenrod;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1449,6 +1450,7 @@ public class AthsBlockSetup {
 		snowbell = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.SNOWBELL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(1f));
 		deadHorseArum = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.DEAD_HORSE_ARUM).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.APRIL).setScale(1f));
 		prairieFire = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PRAIRIE_FIRE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
+		goldenrod = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.GOLDENROD).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(2sf));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
