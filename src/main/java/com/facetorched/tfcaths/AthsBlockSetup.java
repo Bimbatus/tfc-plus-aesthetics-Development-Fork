@@ -1466,7 +1466,7 @@ public class AthsBlockSetup {
 		ragwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RAGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(1f));
 		patagonianRagwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PATAGONIAN_RAGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(1f));
 		redEscallonia = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RED_ESCALLONIA).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setIsWoody().setScale(2f));
-		barberry = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BARBERRY).addVarys(new EnumVary[] {EnumVary.FRUIT, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setIsWoody().setScale(3f));
+		barberry = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BARBERRY).addVarys(new EnumVary[] {EnumVary.FRUIT, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setIsWoody().setScale(3f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
