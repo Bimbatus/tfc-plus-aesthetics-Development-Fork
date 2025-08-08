@@ -1666,7 +1666,7 @@ public class AthsBlockSetup {
 		giantLeafCoccoloba = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_LEAF_COCCOLOBA).setPart("Leaf").setPart("Trunk").setIsAxisAligned().setScale(3f));
 		yareta = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.YARETA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
 		castillaDeVaca = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CASTILLA_DE_VACA).addVary(EnumVary.SNOW).setPart("Frond").setPart("Base").setScale(1.0f));
-		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setPart("Wilted_Frond").setIsAxisAligned().setScale(2f));
+		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
 	
 		//epiphyte 3d
