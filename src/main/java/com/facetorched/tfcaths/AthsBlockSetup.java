@@ -982,7 +982,7 @@ public class AthsBlockSetup {
 		blackSpeargrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLACK_SPEARGRASS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER).setScale(2.0f).setIsFoliageColor());
 		pampasGrass = plantRegistryHelper(new BlockPlantStraw().setNames(AthsGlobal.PAMPAS_GRASS, new String[] {"White","Pink"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setScale(4.0f));
 		bogrush = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BOGRUSH).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f).setIsFoliageColor());
-		patagonianWildRye = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.PATAGONIAN_WILD_RYE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
+		patagonianWildBarley = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.PATAGONIAN_WILD_BARLEY).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		desertNeedlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.DESERT_NEEDLEGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		oatGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.OAT_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
 		
