@@ -858,6 +858,10 @@ public class AthsBlockSetup {
 	public static Block castillaDeVaca;
 	public static Block jamesoniaFern;
 	public static Block prairieFire;
+	public static Block magellanicRimu;
+	public static Block ephedra;
+	public static Block gnetum;
+	public static Block gnetumTree;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -997,6 +1001,7 @@ public class AthsBlockSetup {
 		addersTongueFern = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ADDERS_TONGUE_FERN).addVarys(new EnumVary[] {EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
 		basketGrass = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.BASKET_GRASS).addIconVary(EnumVary.DEFAULT).setHasNoDrops());
 		groundCedars = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.GROUND_CEDARS).addVarys(new EnumVary[] {EnumVary.SNOW}));
+		ephedra = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.EPHEDRA).addVary(EnumVary.SNOW));
 		
 		// mushrooms
 		basketStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BASKET_STINKHORN).setRedMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
@@ -1487,6 +1492,7 @@ public class AthsBlockSetup {
 		lilac = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.LILAC).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JUNE).setScale(3f));
 		pawpaw = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.PAWPAW).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		dwarfBirch = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.DWARF_BIRCH).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setScale(2f));
+		gnetumTree = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.GNETUM_TREE).addVary(EnumVary.FRUIT).setMonthVaryRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		
 		// trees snowy
 		youngDoglasFir = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.DOUGLASFIR).setName(AthsGlobal.YOUNG_DOUGLAS_FIR).addVary(EnumVary.SNOW));
@@ -1512,6 +1518,7 @@ public class AthsBlockSetup {
 		alpineJuniper = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.ALPINE_JUNIPER).addVarys(new EnumVary[] {EnumVary.FRUIT,EnumVary.WINTER,EnumVary.SNOW}).setRenderID(plantCropRenderID).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.NOVEMBER, EnumVary.FRUIT).setScale(2.0f));
 		dwarfBamboo = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAMBOO).setName(AthsGlobal.DWARF_BAMBOO));
 		chusquea = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.CHUSQUEA));
+		magellanRimu = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLAN_RIMU).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
 		
 		// tree 3d
 		youngPalm = plantRegistryHelper(new BlockPlantTree3d().setSapling(EnumTree.PALM).setName(AthsGlobal.YOUNG_PALM).setPart("Trunk").setPart("Frond").setScale(5f));
@@ -1711,6 +1718,7 @@ public class AthsBlockSetup {
 		rattan = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RATTAN).setPart("Leaf").setPart("Stem").setScale(4.5f));
 		rafflesiaEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RAFFLESIA_EPIPHYTE).addVary(EnumVary.FLOWER).setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Center"}).setPart("Base").setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2.0f));
 		quilQuil = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.QUIL_QUIL).setPart("Frond").setScale(1f));
+		gnetum = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.GNETUM).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.JUNE,TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		
 	}
 	
