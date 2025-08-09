@@ -871,6 +871,7 @@ public class AthsBlockSetup {
 	public static Block desertNeedlegrass;
 	public static Block barberry;
 	public static Block oatGrass;
+	public static Block giantGroundsel;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1685,6 +1686,7 @@ public class AthsBlockSetup {
 		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
 		cushionCatchfly = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CUSHION_CATCHFLY).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
+		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).addVary(EnumVary.SNOW).setPart("Leaf").setPart("Shag").setPart("Branches").setPart("Trunk").setScale(2f));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
