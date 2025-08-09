@@ -5360,5 +5360,8 @@ gui.Patagonian_Wild_Barley.Patagonian_Wild_Barley_Early_Spring.sciname=Hordeum p
 gui.Patagonian_Wild_Barley.Patagonian_Wild_Barley_Winter.sciname=Hordeum patagonicum
 gui.Patagonian_Wild_Barley.Patagonian_Wild_Barley_Snow.sciname=Hordeum patagonicum
 gui.Patagonian_Wild_Barley.Patagonian_Wild_Barley_Autumn.sciname=Hordeum patagonicum
-
+tile.Giant_Groundsel.Giant_Groundsel.name=Giant Groundsel
+tile.Giant_Groundsel.Giant_Groundsel_Snow.name=Giant Groundsel
+gui.Giant_Groundsel.Giant_Groundsel.sciname=Dendrosenecio kilimanjarii
+gui.Giant_Groundsel.Giant_Groundsel_Snow.sciname=Dendrosenecio kilimanjarii
 
