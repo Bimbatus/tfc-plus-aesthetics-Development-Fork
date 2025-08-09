@@ -2173,6 +2173,8 @@ public class Config {
 				/*size*/5, /*dispersion*/5, /*rarity*/6380, /*minAltitude*/225, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0f, /*minTemp*/-10, /*maxTemp*/12f, /*minRain*/200f, /*maxRain*/1420f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.CUSHION_CATCHFLY + "_Arctic", AthsGlobal.CUSHION_CATCHFLY, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia","Americas"},
 				/*size*/5, /*dispersion*/5, /*rarity*/4380, /*minAltitude*/225, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/-20000f, /*minTemp*/-20, /*maxTemp*/-8, /*minRain*/100f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/5f);
+		athsPlantHelper(AthsGlobal.GIANT_GROUNDSEL, new int[] {3}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","Mountains Edge","Mountains","Foothills","Mountain Range","Mountain Range Edge"}, new String[]{"Africa"},
+				/*size*/15, /*dispersion*/15, /*rarity*/6608, /*minAltitude*/170, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/90, /*maxRain*/340, /*minEVT*/0f, /*maxEVT*/10f);
 		
 
 		
