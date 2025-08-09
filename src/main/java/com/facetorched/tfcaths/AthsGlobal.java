@@ -820,6 +820,7 @@ public class AthsGlobal {
 	public static final String DESERT_NEEDLEGRASS = "Desert_Needlegrass";
 	public static final String RED_ESCALLONIA = "Red_Escallonia";
 	public static final String BOGRUSH = "Bogrush";
+	public static final String GIANT_GROUNDSEL = "Giant_Groundsel";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
