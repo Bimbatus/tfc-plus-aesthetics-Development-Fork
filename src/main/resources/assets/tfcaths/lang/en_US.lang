@@ -3806,8 +3806,8 @@ tile.Spikemoss.Spikemoss.name=Spikemoss
 gui.Spikemoss.Spikemoss.sciname=Selaginella spp.
 tile.Ground_Cedars.Ground_Cedars.name=Ground Cedars
 tile.Ground_Cedars.Ground_Cedars_Snow.name=Ground Cedars
-gui.Ground_Cedars.Ground_Cedars.sciname=Diphasiastrum complanatum
-gui.Ground_Cedars.Ground_Cedars_Snow.sciname=Diphasiastrum complanatum
+gui.Ground_Cedars.Ground_Cedars.sciname=Diphasiastrum spp.
+gui.Ground_Cedars.Ground_Cedars_Snow.sciname=Diphasiastrum spp.
 
 tile.Fallen_Branch_Acacia.Fallen_Branch_Acacia_0.name=Fallen Acacia Branch
 tile.Fallen_Branch_Acacia.Fallen_Branch_Acacia_1.name=Fallen Acacia Branch
