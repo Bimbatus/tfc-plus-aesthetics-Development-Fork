@@ -948,7 +948,7 @@ public class AthsBlockSetup {
 		roughHorsetail = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.ROUGH_HORSETAIL).addVary(EnumVary.SNOW));
 		pondGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.POND_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor().setScale(2.0F));
 		commonReeds = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.COMMON_REEDS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setIsWaterPlant().setScale(2.0F));
-		elephantGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.ELEPHANT_GRASS).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(3.0F));
+		elephantGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.ELEPHANT_GRASS).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(4.0F).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER));
 		papyrus = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.PAPYRUS).setIsWaterPlant().setScale(4.0F));
 		fountainGrass = plantRegistryHelper(new BlockPlantStraw().setNames(AthsGlobal.FOUNTAIN_GRASS, new String[] {"Green","Purple"}).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(2.0F));
 		reedCanaryGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.REED_CANARY_GRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setIsWaterPlant().setScale(2.0F));
