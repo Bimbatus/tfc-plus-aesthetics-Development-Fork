@@ -1317,7 +1317,7 @@ public class AthsBlockSetup {
 		woodBitterVetch = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.WOOD_BITTER_VETCH).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY));
 		birdOfParadise = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.BIRD_OF_PARADISE).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.NOVEMBER).setScale(2.0f));
 		devilsTongue = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.DEVILS_TOUNGE).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.MAY).setScale(2.0F));
-		lobsterClaws = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.LOBSTER_CLAWS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.0F));
+		lobsterClaws = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.LOBSTER_CLAWS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(3.0F));
 		titanArum = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.TITAN_ARUM).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.AUGUST).setScale(2.0F));
 		voodooLily = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.VOODOO_LILY).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.JUNE).setScale(2.0F));
 		angelsTrumpet = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.ANGELS_TRUMPET, new String[] {"Orange","Pink","White"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE,TFC_Time.OCTOBER));
