@@ -1307,8 +1307,9 @@ public class Config {
 				/*size*/20, /*dispersion*/15, /*rarity*/2084, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/16f, /*maxTemp*/18f, /*minRain*/150f, /*maxRain*/300f, /*minEVT*/1f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.CAPE_GRAPE, new int[] {0}, new String[] {"alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa"},
 				/*size*/20, /*dispersion*/1, /*rarity*/1984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/11f, /*maxTemp*/21f, /*minRain*/310f, /*maxRain*/1200f, /*minEVT*/0.25f, /*maxEVT*/4f);		
+	}
+	public static void reloadPlants() {
 		
-
 		athsPlantHelper(AthsGlobal.OAK_LOVING_GYMNOPUS, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat"},  AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Asia"},
 				/*size*/2, /*dispersion*/2, /*rarity*/5796, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-6f, /*maxTemp*/16f, /*minRain*/750f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.COMMON_BROWN_CUP, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat"},  AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Asia","Africa"},
