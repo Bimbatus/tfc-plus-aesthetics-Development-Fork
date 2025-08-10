@@ -3,7 +3,7 @@ package com.facetorched.tfcaths.blocks;
 import java.util.Random;
 
 import com.facetorched.tfcaths.AthsGlobal;
-import com.facetorched.tfcaths.items.itemblocks.ItemPlantAlgae;
+import com.facetorched.tfcaths.items.itemblocks.ItemPlantCarpet;
 import com.facetorched.tfcaths.util.AthsRandom;
 
 import cpw.mods.fml.relauncher.Side;
@@ -11,7 +11,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
 import net.minecraft.world.IBlockAccess;
 
-public class BlockPlantAlgae extends BlockPlantLayer{
+public class BlockPlantCarpet extends BlockPlantLayer{
 	public float redMult;
 	public int redShift;
 	public float greenMult;
@@ -61,7 +61,7 @@ public class BlockPlantAlgae extends BlockPlantLayer{
 		return this;
 	}
 	
-	public BlockPlantAlgae setColorRange(float redMult, int redShift, float greenMult, int greenShift, float blueMult, int blueShift) {
+	public BlockPlantCarpet setColorRange(float redMult, int redShift, float greenMult, int greenShift, float blueMult, int blueShift) {
 		this.redMult = redMult;
 		this.redShift = redShift;
 		this.greenMult = greenMult;

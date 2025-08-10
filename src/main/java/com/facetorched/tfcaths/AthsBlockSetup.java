@@ -678,7 +678,7 @@ public class AthsBlockSetup {
 	public static Block fallenBranchAspen;
 	public static Block fallenBranchBaobab;
 	public static Block fallenBranchBirch;
-	public static Block fallenBranchChesnut;
+	public static Block fallenBranchChestnut;
 	public static Block fallenBranchDouglasFir;
 	public static Block fallenBranchEbony;
 	public static Block fallenBranchFever;
@@ -746,6 +746,10 @@ public class AthsBlockSetup {
 	public static Block melanohaleaLichen;
 	public static Block wolfLichen;
 	public static Block wreathLichen;
+	public static Block wolfLichenEpiphyte;
+	public static Block wreathLichenEpiphyte;
+	public static Block sunburstLichen;
+	public static Block sunburstLichenEpiphyte;
 	public static Block frecklePeltLichen;
 	public static Block greenshieldLichen;
 	public static Block slimeMold;
@@ -764,13 +768,13 @@ public class AthsBlockSetup {
 	public static Block britishSoldiersLichen;
 
 	public static Block morningGlory;
-	public static Block signalGrass;
+	public static Block signalgrass;
 	public static Block sweetVernalGrass;
 	public static Block falseOatGrass;
 	public static Block bluegrass;
 	public static Block guineaGrass;
-	public static Block africanBristlegrass
-	public static Block sorghum
+	public static Block africanBristlegrass;
+	public static Block sorghum;
 	public static Block reedGrass;
 	public static Block fescue;
 	public static Block cocksFoot;
@@ -791,7 +795,7 @@ public class AthsBlockSetup {
 	public static Block pampasGrass;
 	public static Block crownTippedCoralFungus;
 	public static Block bleedingFairyHelmet;
-	public static Block bogAsphodel:
+	public static Block bogAsphodel;
 	public static Block dock;
 	public static Block poisonHemlock;
 	public static Block orpine;
@@ -799,7 +803,7 @@ public class AthsBlockSetup {
 	public static Block wolfsBane;
 	public static Block commonMugwort;
 	public static Block commonWormwood;
-	public static Block knapweed;
+	public static Block commonKnapweed;
 	public static Block willowHerb;
 	public static Block angelica;
 	public static Block dogsMercury;
@@ -855,7 +859,7 @@ public class AthsBlockSetup {
 	public static Block deadMansFingers;
 	public static Block quilQuil;
 	public static Block cloudForestBlechnum;
-	public static Block castillaDeVaca;
+	public static Block costillaDeVaca;
 	public static Block jamesoniaFern;
 	public static Block prairieFire;
 	public static Block magellanicRimu;
@@ -870,6 +874,7 @@ public class AthsBlockSetup {
 	public static Block cushionCatchfly;
 	public static Block desertNeedlegrass;
 	public static Block barberry;
+	public static Block bogrush;
 	public static Block oatGrass;
 	public static Block giantGroundsel;
 
@@ -924,10 +929,6 @@ public class AthsBlockSetup {
 		rockCrystal = crystalRegistryHelper(new BlockCrystal().setItem(ItemSetup.looseRock, 15), AthsGlobal.ROCK_CRYSTAL);
 		rockCrystalCluster = crystalRegistryHelper(new BlockCrystalCluster().setItem(ItemSetup.looseRock, 15), AthsGlobal.ROCK_CRYSTAL);
 		
-		//mulch
-		mulch = blockRegistryHelper(new BlockMulch().setBlockName(AthsGlobal.MULCH));
-		
-		
 		// plants with various sizes
 		sagebrush = plantRegistryHelper(new BlockPlant(Material.vine).setExtraNames(AthsGlobal.SAGEBRUSH).addVary(EnumVary.SNOW).setHasNoDrops().setScale(2.0F));
 		prairieGrass = plantRegistryHelper(new BlockPlantStraw().setExtraNames(AthsGlobal.PRAIRIE_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING, EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setIsFoliageColor().setRenderID(plantCropRenderID).setScale(2.0F));
@@ -975,7 +976,7 @@ public class AthsBlockSetup {
 		bigBluestem = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BIG_BLUESTEM).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		littleBluestem = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.LITTLE_BLUESTEM).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		canadaWildRye = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.CANADA_WILD_RYE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
-		featherGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FEATHER_GRASS).addVary(EnumVary.FLOWER).setScale(2.0f).setIsFoliageColor().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER);
+		featherGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.FEATHER_GRASS).addVary(EnumVary.FLOWER).setScale(2.0f).setIsFoliageColor().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		wavyHairGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.WAVY_HAIR_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2.0f).setIsFoliageColor());
 		buffalograss = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BUFFALOGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		blueGrama = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.BLUE_GRAMA).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING, EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
@@ -1135,8 +1136,8 @@ public class AthsBlockSetup {
 		deadlyWebcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DEADLY_WEBCAP).setRedMushroom(6f).setScale(0.8f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.NOVEMBER));
 		foolsWebcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.FOOLS_WEBCAP).setRedMushroom(6f).setScale(0.8f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
 		redBeltedConk = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setOverrideModelName().setNames(AthsGlobal.RED_BELTED_CONK, new String[] {"Eurasian","American"}).setPart(null));
-		scalycap = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SCALYCAP).setPart("Sporocarp").setScale(0.5f).setSeasonalFungus(MAY, NOVEMBER));
-		spongebobMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SPONGEBOB_MUSHROOM).setScale(0.8f).setSeasonalFungus(OCTOBER, MARCH));
+		scalycap = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SCALYCAP).setPart("Sporocarp").setScale(0.5f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.NOVEMBER));
+		spongebobMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SPONGEBOB_MUSHROOM).setScale(0.8f).setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.MARCH));
 		commonStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.COMMON_STINKHORN).setBrownMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER));
 		admirableBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.ADMIRABLE_BOLETE).setBrownMushroom(12f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		blackVelvetBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BLACK_VELVET_BOLETE).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
@@ -1169,11 +1170,11 @@ public class AthsBlockSetup {
 		wrinkledPeach = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.WRINKLED_PEACH).setPart("Sporocarp").setScale(0.4f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		jellyBabyMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.JELLY_BABY_MUSHROOM).setScale(0.3f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.JULY));
 		oakLovingGymnopus = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.OAK_LOVING_GYMNOPUS).setScale(0.6f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
-		crownTippedCoralFunugs = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CROWN_TIPPED_CORAL_FUNGUS).setBrownMushroom(6f).setScale(0.6f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
+		crownTippedCoralFungus = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CROWN_TIPPED_CORAL_FUNGUS).setBrownMushroom(6f).setScale(0.6f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
 		bleedingFairyHelmet = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BLEEDING_FAIRY_HELMET).setScale(0.4f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
 		thePrince = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.THE_PRINCE).setBrownMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
 		distantWebcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DISTANT_WEBCAP).setScale(0.5f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
-		curvyStalkedBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CURVY_STALKED_BOLETE).setBrownMushroom(7ff).setScale(0.7f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
+		curvyStalkedBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CURVY_STALKED_BOLETE).setBrownMushroom(7f).setScale(0.7f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		pinkmottleWoodwax = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.PINKMOTTLE_WOODWAX).setBrownMushroom(8f).setScale(0.7f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		shaggyParasol = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHAGGY_PARASOL).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.AUGUST));
 		deadMansFingers = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DEAD_MANS_FINGERS).setScale(0.3f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
@@ -1204,7 +1205,7 @@ public class AthsBlockSetup {
 		lionsMane = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.LIONS_MANE).setPart(null).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
 		reishi = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.REISHI).setPart(null).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
 		shaggyBracket = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SHAGGY_BRACKET).setPart(null).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
-		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
+		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF,"White_Pored").setOverrideModelName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		woodEar = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.WOOD_EAR).setPart("Sporocarp").setBrownMushroom(80f).setScale(0.6f));
 		turkeyTail = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.TURKEY_TAIL).setPart(null));
 		oysterMushroom = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.OYSTER_MUSHROOM, new String[] {"Common","Golden","Aspen","Summer","Pink","King_Trumpet","Lynx_Paw"}).setOverrideModelName().setNamedPart("Sporocarp").setBrownMushroom(50f));oldMansBeardLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.OLD_MANS_BEARD_LICHEN).setPart(null));
@@ -1217,56 +1218,56 @@ public class AthsBlockSetup {
 		resinousPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.RESINOUS_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER));
 		northernToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.NORTHERN_TOOTH_FUNGUS).setPart(null).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		violetToothFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.VIOLET_TOOTH_FUNGUS).setPart(null));
-		sulphurShelfRosette = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF_ROSETTE,"White_Pored").setModelOverrideName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
-		berkeleysPolypore = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.BERKELEYS_POLYPORE).setModelOverrideName().setPart(null).setBrownMushroom(20f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
-		blackStainintgPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.BLACK_STAINING_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
+		sulphurShelfRosette = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF_ROSETTE,"White_Pored").setOverrideModelName().setPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
+		berkeleysPolypore = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.BERKELEYS_POLYPORE).setOverrideModelName().setPart(null).setBrownMushroom(20f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
+		blackStainingPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.BLACK_STAINING_POLYPORE).setPart(null).setBrownMushroom(40f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		mossyMazePolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.MOSSY_MAZE_POLYPORE).setPart(null));
 		tenderNestingPolypore = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.TENDER_NESTING_POLYPORE).setRedMushroom(12f).setPart(null).setScale(0.7f));
 		falseTurkeyTail = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.FALSE_TURKEY_TAIL).setPart(null));
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft".addVary(EnumVary.SNOW)).setScale(1.5f));
-		bootstrapLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.6f)); //.setPart("Leaf_Overlay")
-		bootsrtapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").setScale(0.6f));
-		orangeSeaLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		orangeSeaLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize()).setLayerBounds(0.2f));
-		wolfLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.WOLF_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").addVary(EnumVary.SNOW).setScale(1f)); //.setPart("Leaf_Overlay")
+		bootstrapLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.6f));
+		bootstrapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").setScale(0.6f));
+		orangeSeaLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		orangeSeaLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		wolfLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.WOLF_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").addVary(EnumVary.SNOW).setScale(1f));
 		wolfLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.WOLF_LICHEN, "Patchy").setPart("Tuft").setScale(1f));
-		saltedShieldLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		saltedShieldLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize()).setLayerBounds(0.2f));
-		bloodstainLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		bloodstainLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		jewelLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.JEWEL_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		jewelLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.JEWEL_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		mapLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.MAP_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		mapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MAP_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		moonglowLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.MOONGLOW_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		moonglowLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MOONGLOW_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		rockOliveLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		rockOliveLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenBrown = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenBrownEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenYellow = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		cobblestoneLichenYellowEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		rockTripeLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		rockTripeLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		sunburstLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		sunburstLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		rosetteLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		rosetteLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Rock_Lichen_Epiphyte").setIsConstantSize().setLayerBounds(0.2f));
-		wreathLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize().setLayerBounds(0.2f));
-		wreathLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setModelOverrideName("Rock_Lichen_Epiphyte").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		saltedShieldLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		saltedShieldLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SALTED_SHIELD_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		bloodstainLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		bloodstainLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BLOODSTAIN_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		jewelLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.JEWEL_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		jewelLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.JEWEL_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		mapLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.MAP_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		mapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MAP_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		moonglowLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.MOONGLOW_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		moonglowLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MOONGLOW_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		rockOliveLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		rockOliveLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROCK_OLIVE_LICHEN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		cobblestoneLichenBrown = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		cobblestoneLichenBrownEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_BROWN_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		cobblestoneLichenYellow = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		cobblestoneLichenYellowEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.COBBLESTONE_LICHEN_YELLOW_EPIPHYTE, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		rockTripeLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		rockTripeLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROCK_TRIPE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		sunburstLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		sunburstLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SUNBURST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		rosetteLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		rosetteLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.ROSETTE_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Rock_Lichen_Epiphyte").setIsConstantSize());
+		wreathLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").addVary(EnumVary.SNOW).setIsAxisAligned().setIsConstantSize());
+		wreathLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.WREATH_LICHEN, "Patchy").setPart("Base").setOverrideModelName("Rock_Lichen_Epiphyte").setPart("Overlay").setIsConstantSize());
 		horsehairLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.HORSEHAIR_LICHEN).setPart(null).setScale(0.5f));
-		sulphurDustLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_DUST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Tree_Lichen").setIsConstantSize().setLayerBounds(0.2f));
-		melanohaleaLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MELANOHALEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Tree_Lichen").setIsConstantSize().setLayerBounds(0.2f));
-		whitewashLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.WHITEWASH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Tree_Lichen").setIsConstantSize().setLayerBounds(0.2f));
-		greenshieldLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.GREENSHIELD_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Tree_Lichen").setIsConstantSize().setLayerBounds(0.2f));
-		britishSoldiersLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BRITISH_SOLDIERS_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setModelOverrideName("Tree_Lichen").setIsConstantSize().setLayerBounds(0.2f));
+		sulphurDustLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_DUST_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Tree_Lichen").setIsConstantSize());
+		melanohaleaLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.MELANOHALEA_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Tree_Lichen").setIsConstantSize());
+		whitewashLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.WHITEWASH_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Tree_Lichen").setIsConstantSize());
+		greenshieldLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.GREENSHIELD_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Tree_Lichen").setIsConstantSize());
+		britishSoldiersLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BRITISH_SOLDIERS_LICHEN, "Patchy").setPart("Base").setPart("Overlay").setOverrideModelName("Tree_Lichen").setIsConstantSize());
 		frecklePeltLichen = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.FRECKLE_PELT_LICHEN).addVary(EnumVary.SNOW));
 		cora = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.CORA).setPart(null).setScale(0.7f));
 		
 		//slime mold
-		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, "Chocolate_Tube","Diachea","False_Puffball","Jasmine","Raspberry","The_Blob","Trichia","Wolfs_Milk").setPart("Base").setPart("Overlay").setIsConstantSize().setLayerBounds(0.2f));
+		slimeMold = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SLIME_MOLD, new String[]{"Chocolate_Tube","Diachea","False_Puffball","Jasmine","Raspberry","The_Blob","Trichia","Wolfs_Milk"}).setPart("Base").setPart("Overlay").setIsConstantSize());
 
 		//non-plant decorators
 		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F).setIsStony());
@@ -1431,11 +1432,11 @@ public class AthsBlockSetup {
 		wildDagga = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.WILD_DAGGA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.NOVEMBER).setScale(3f));
 		poisonHemlock = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.POISON_HEMLOCK, new String[] {"Poison_Hemlock","Water_Hemlock","Hemlock_Water_Dropwort"}).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.AUGUST).setScale(3f));
 		wolfsBane = plantRegistryHelper(new BlockPlantFlower().setExtraNames(AthsGlobal.WOLFS_BANE, "Yellow").addIconVary(EnumVary.FLOWER).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(1f));
-		bogAsphodel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BOG_ASPHODEL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER, EnumVary.AUTUMN, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setMonthVaryRange(EnumVary.FRUIT,TFC_Time.SEPTEMBER, TFC_Time.OCTOBER).setScale(1f));
+		bogAsphodel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BOG_ASPHODEL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER, EnumVary.AUTUMN, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1f));
 		angelica = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ANGELICA).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setScale(2f));
-		knapweed = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.KNAPWEED).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setScale(1f));
-		willowHerb = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.WILLOWHERB).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.SEPTEMBER).setScale(2f));
-		commonMugwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.COMMON_MUGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID.setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(2f));
+		commonKnapweed = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.COMMON_KNAPWEED).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setScale(1f));
+		willowHerb = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.WILLOW_HERB).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.SEPTEMBER).setScale(2f));
+		commonMugwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.COMMON_MUGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(2f));
 		commonWormwood = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.COMMON_WORMWOOD).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(2f));
 		dogsMercury = plantRegistryHelper(new BlockPlantLowFlower().setName(AthsGlobal.DOGS_MERCURY).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.MAY));
 		jacobsLadder = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.JACOBS_LADDER).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setRenderID(plantCropRenderID).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2f));
@@ -1463,7 +1464,7 @@ public class AthsBlockSetup {
 		snowbell = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.SNOWBELL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(1f));
 		deadHorseArum = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.DEAD_HORSE_ARUM).addVary(EnumVary.FLOWER).setFlowerMonth(TFC_Time.APRIL).setScale(1f));
 		prairieFire = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PRAIRIE_FIRE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
-		goldenrod = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.GOLDENROD).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(2sf));
+		goldenrod = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.GOLDENROD).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.OCTOBER).setScale(2f));
 		ragwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RAGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(1f));
 		patagonianRagwort = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.PATAGONIAN_RAGWORT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setScale(1f));
 		redEscallonia = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RED_ESCALLONIA).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.OCTOBER).setIsWoody().setScale(2f));
@@ -1537,7 +1538,7 @@ public class AthsBlockSetup {
 		alpineJuniper = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.ALPINE_JUNIPER).addVarys(new EnumVary[] {EnumVary.FRUIT,EnumVary.WINTER,EnumVary.SNOW}).setRenderID(plantCropRenderID).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.NOVEMBER, EnumVary.FRUIT).setScale(2.0f));
 		dwarfBamboo = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAMBOO).setName(AthsGlobal.DWARF_BAMBOO));
 		chusquea = plantRegistryHelper(new BlockPlantTree().setExtraNames(AthsGlobal.CHUSQUEA, "Small"));
-		magellanRimu = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLAN_RIMU).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
+		magellanicRimu = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLANIC_RIMU).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
 		
 		// tree 3d
 		youngPalm = plantRegistryHelper(new BlockPlantTree3d().setSapling(EnumTree.PALM).setName(AthsGlobal.YOUNG_PALM).setPart("Trunk").setPart("Frond").setScale(5f));
@@ -1553,38 +1554,38 @@ public class AthsBlockSetup {
 		youngMediterraneanCypress = plantRegistryHelper(new BlockPlantTreeTrimmable().setExtraNames(AthsGlobal.YOUNG_MEDITERRANEAN_CYPRESS).addVary(EnumVary.SNOW).setScale(8f));
 
 		//fallen branches
-		fallenBranchAcacia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ACACIA, "0","1","2","3"));
-		fallenBranchAsh = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASH, "0","1","2","3"));
-		fallenBranchAspen = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASPEN, "0","1","2","3"));
-		fallenBranchBaobab = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BAOBAB, "0","1","2","3"));
-		fallenBranchBirch = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BIRCH, "0","1","2","3"));
-		fallenBranchChestnut = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_CHESTNUT, "0","1","2","3"));
-		fallenBranchDouglasFir = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_DOUGLAS_FIR, "0","1","2","3"));
-		fallenBranchEbony = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_EBONY, "0","1","2","3"));
-		fallenBranchHickory = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_HICKORY, "0","1","2","3"));
-		fallenBranchGhaf = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GHAF, "0","1","2","3"));
-		fallenBranchGingko = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GINGKO, "0","1","2","3"));
-		fallenBranchJoshua = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_JOSHUA, "0","1","2","3"));
-		fallenBranchKapok = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_KAPOK, "0","1","2","3"));
-		fallenBranchLaurel = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LAUREL, "0","1","2","3"));
-		fallenBranchLimba = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LIMBA, "0","1","2","3"));
-		fallenBranchMahoe = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOE, "0","1","2","3"));
-		fallenBranchMangrove = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MANGROVE, "0","1","2","3"));
-		fallenBranchMaple = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAPLE, "0","1","2","3");
-		fallenBranchMahogany = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOGANY, "0","1","2","3"));
-		fallenBranchOak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_OAK, "0","1","2","3"));
-		fallenBranchPalm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PALM, "0","1","2","3"));
-		fallenBranchPine = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PINE, "0","1","2","3"));
-		fallenBranchSequoia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SEQUOIA, "0","1","2","3"));
-		fallenBranchSpruce = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SPRUCE, "0","1","2","3"));
-		fallenBranchSycamore = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SYCAMORE, "0","1","2","3"));
-		fallenBranchTeak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_TEAK, "0","1","2","3"));
-		fallenBranchWhiteCedar = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_CEDAR, "0","1","2","3"));
-		fallenBranchWhiteElm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_ELM, "0","1","2","3"));
-		fallenBranchWillow = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WILLOW, "0","1","2","3"));
-		fallenBranchYew = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_YEW, "0","1","2","3"));
-		driftwood = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.DRIFTWOOD, "0","1","2","3"));
-		woodyDebris = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.WOODY_DEBRIS, "0","1","2","3"));
+		fallenBranchAcacia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ACACIA, new String[] {"0","1","2","3"}));
+		fallenBranchAsh = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASH, new String[] {"0","1","2","3"}));
+		fallenBranchAspen = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_ASPEN, new String[] {"0","1","2","3"}));
+		fallenBranchBaobab = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BAOBAB, new String[] {"0","1","2","3"}));
+		fallenBranchBirch = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_BIRCH, new String[] {"0","1","2","3"}));
+		fallenBranchChestnut = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_CHESTNUT, new String[] {"0","1","2","3"}));
+		fallenBranchDouglasFir = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_DOUGLAS_FIR, new String[] {"0","1","2","3"}));
+		fallenBranchEbony = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_EBONY, new String[] {"0","1","2","3"}));
+		fallenBranchHickory = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_HICKORY, new String[] {"0","1","2","3"}));
+		fallenBranchGhaf = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GHAF, new String[] {"0","1","2","3"}));
+		fallenBranchGingko = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_GINGKO, new String[] {"0","1","2","3"}));
+		fallenBranchJoshua = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_JOSHUA, new String[] {"0","1","2","3"}));
+		fallenBranchKapok = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_KAPOK, new String[] {"0","1","2","3"}));
+		fallenBranchLaurel = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LAUREL, new String[] {"0","1","2","3"}));
+		fallenBranchLimba = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_LIMBA, new String[] {"0","1","2","3"}));
+		fallenBranchMahoe = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOE, new String[] {"0","1","2","3"}));
+		fallenBranchMangrove = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MANGROVE, new String[] {"0","1","2","3"}));
+		fallenBranchMaple = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAPLE, new String[] {"0","1","2","3"}));
+		fallenBranchMahogany = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_MAHOGANY, new String[] {"0","1","2","3"}));
+		fallenBranchOak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_OAK, new String[] {"0","1","2","3"}));
+		fallenBranchPalm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PALM, new String[] {"0","1","2","3"}));
+		fallenBranchPine = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_PINE, new String[] {"0","1","2","3"}));
+		fallenBranchSequoia = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SEQUOIA, new String[] {"0","1","2","3"}));
+		fallenBranchSpruce = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SPRUCE, new String[] {"0","1","2","3"}));
+		fallenBranchSycamore = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_SYCAMORE, new String[] {"0","1","2","3"}));
+		fallenBranchTeak = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_TEAK, new String[] {"0","1","2","3"}));
+		fallenBranchWhiteCedar = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_CEDAR, new String[] {"0","1","2","3"}));
+		fallenBranchWhiteElm = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WHITE_ELM, new String[] {"0","1","2","3"}));
+		fallenBranchWillow = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_WILLOW, new String[] {"0","1","2","3"}));
+		fallenBranchYew = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.FALLEN_BRANCH_YEW, new String[] {"0","1","2","3"}));
+		driftwood = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.DRIFTWOOD, new String[] {"0","1","2","3"}));
+		woodyDebris = plantRegistryHelper(new BlockPlantTree().setNames(AthsGlobal.WOODY_DEBRIS, new String[] {"0","1","2","3"}));
 		
 
 		//3d
@@ -1682,7 +1683,7 @@ public class AthsBlockSetup {
 		ladysMantle = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.LADYS_MANTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN, EnumVary.FLOWER}).setNamedPart("Side").setNamedVaryParts(new EnumVary [] {EnumVary.DEFAULT, EnumVary.AUTUMN, EnumVary.FLOWER}, new String[] {"Top","Middle","Bottom"}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setScale(1.2f));
 		giantLeafCoccoloba = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_LEAF_COCCOLOBA).setPart("Leaf").setPart("Trunk").setIsAxisAligned().setScale(3f));
 		yareta = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.YARETA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
-		castillaDeVaca = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CASTILLA_DE_VACA).addVary(EnumVary.SNOW).setPart("Frond").setPart("Base").setScale(1.0f));
+		costillaDeVaca = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.COSTILLA_DE_VACA).addVary(EnumVary.SNOW).setPart("Frond").setPart("Base").setScale(1.0f));
 		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
 		cushionCatchfly = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CUSHION_CATCHFLY).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
