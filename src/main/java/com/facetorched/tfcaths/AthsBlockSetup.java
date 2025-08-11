@@ -862,7 +862,7 @@ public class AthsBlockSetup {
 	public static Block costillaDeVaca;
 	public static Block jamesoniaFern;
 	public static Block prairieFire;
-	public static Block magellanicRimu;
+	public static Block magellanicDwarfPodocarp;
 	public static Block ephedra;
 	public static Block gnetum;
 	public static Block gnetumTree;
@@ -877,6 +877,7 @@ public class AthsBlockSetup {
 	public static Block bogrush;
 	public static Block oatGrass;
 	public static Block giantGroundsel;
+	public static Block gunnera;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1538,7 +1539,7 @@ public class AthsBlockSetup {
 		alpineJuniper = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.ALPINE_JUNIPER).addVarys(new EnumVary[] {EnumVary.FRUIT,EnumVary.WINTER,EnumVary.SNOW}).setRenderID(plantCropRenderID).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.NOVEMBER, EnumVary.FRUIT).setScale(2.0f));
 		dwarfBamboo = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAMBOO).setName(AthsGlobal.DWARF_BAMBOO));
 		chusquea = plantRegistryHelper(new BlockPlantTree().setExtraNames(AthsGlobal.CHUSQUEA, "Small"));
-		magellanicRimu = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLANIC_RIMU).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
+		magellanicDwarfPodocarp = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.MAGELLANIC_DWARF_PODOCARP).addVary(EnumVary.SNOW).setRenderID(plantCropRenderID).setScale(2.0f));
 		
 		// tree 3d
 		youngPalm = plantRegistryHelper(new BlockPlantTree3d().setSapling(EnumTree.PALM).setName(AthsGlobal.YOUNG_PALM).setPart("Trunk").setPart("Frond").setScale(5f));
@@ -1687,7 +1688,8 @@ public class AthsBlockSetup {
 		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
 		cushionCatchfly = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CUSHION_CATCHFLY).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
-		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).addVary(EnumVary.SNOW).setPart("Leaf").setPart("Shag").setPart("Branches").setPart("Trunk").setScale(2f));
+		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Leaf").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Trunk").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Shag").setScale(2f));
+		gunnera = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GUNNERA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Stem").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(2f));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
