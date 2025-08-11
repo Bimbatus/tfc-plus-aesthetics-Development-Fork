@@ -810,7 +810,7 @@ public class AthsGlobal {
 	public static final String CLOUD_FOREST_BLECHNUM = "Cloud_Forest_Blechnum";
 	public static final String JAMESONIA_FERN = "Jamesonia_Fern";
 	public static final String PRAIRIE_FIRE = "Prairie_Fire";
-	public static final String MAGELLANIC_RIMU = "Magellanic_Rimu";
+	public static final String MAGELLANIC_DWARF_PODOCARP = "Magellanic_Dwarf_Podocarp";
 	public static final String GNETUM_TREE = "Gnetum_Tree";
 	public static final String GNETUM = "Gnetum";
 	public static final String EPHEDRA = "Ephedra";
@@ -825,6 +825,7 @@ public class AthsGlobal {
 	public static final String RED_ESCALLONIA = "Red_Escallonia";
 	public static final String BOGRUSH = "Bogrush";
 	public static final String GIANT_GROUNDSEL = "Giant_Groundsel";
+	public static final String GUNNERA = "Gunnera";
 	
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
