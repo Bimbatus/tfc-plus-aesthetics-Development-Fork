@@ -2137,7 +2137,7 @@ public class Config {
 					/*size*/8, /*dispersion*/4, /*rarity*/5580, /*minAltitude*/175, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/16f, /*maxTemp*/25f, /*minRain*/600f, /*maxRain*/16000, /*minEVT*/0f, /*maxEVT*/5f, /*forestGen*/ -0.3f);
 		athsPlantHelper(AthsGlobal.PRAIRIE_FIRE, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass","ore:stone","ore:blockGravel"}, new String[]{"Foothills","Plains","Rolling Hills","Mountains Edge","Mountains","Mountain Range Edge","Mountain Range","High Hills","High Hills Edge"}, new String[]{"Americas"},
 					/*size*/5, /*dispersion*/3, /*rarity*/5780, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-8f, /*maxTemp*/40f, /*minRain*/250f, /*maxRain*/720f, /*minEVT*/0f, /*maxEVT*/5f, /*forestGen*/ -0.5f);
-		athsPlantHelper(AthsGlobal.MAGELLANIC_RIMU, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass","terrafirmacraftplus:Peat"}, new String[]{"Swamp","Peat Bog","Plains"}, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.MAGELLANIC_DWARF_PODOCARP, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass","terrafirmacraftplus:Peat"}, new String[]{"Swamp","Peat Bog","Plains"}, new String[]{"Americas"},
 					/*size*/30, /*dispersion*/3, /*rarity*/3580, /*minAltitude*/0, /*maxAltitude*/200, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/1f, /*maxTemp*/8f, /*minRain*/850, /*maxRain*/5000, /*minEVT*/0f, /*maxEVT*/5f, /*forestGen*/ 0.5f);
 		athsPlantHelper(AthsGlobal.GNETUM_TREE, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass","terrafirmacraftplus:Peat"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
 					/*size*/1, /*dispersion*/1, /*rarity*/8880, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/24f, /*maxTemp*/40f, /*minRain*/1500f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f, /*forestGen*/ 1f);
@@ -2177,8 +2177,10 @@ public class Config {
 				/*size*/5, /*dispersion*/5, /*rarity*/6380, /*minAltitude*/225, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-10, /*maxTemp*/12f, /*minRain*/200f, /*maxRain*/1420f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.CUSHION_CATCHFLY + "_Arctic", AthsGlobal.CUSHION_CATCHFLY, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia","Americas"},
 				/*size*/5, /*dispersion*/5, /*rarity*/4380, /*minAltitude*/225, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/-20000, /*minTemp*/-20f, /*maxTemp*/-8f, /*minRain*/100f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/5f);
-		athsPlantHelper(AthsGlobal.GIANT_GROUNDSEL, new int[] {3}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","Mountains Edge","Mountains","Foothills","Mountain Range","Mountain Range Edge"}, new String[]{"Africa"},
-				/*size*/15, /*dispersion*/15, /*rarity*/6608, /*minAltitude*/170, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/90, /*maxRain*/340, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.GIANT_GROUNDSEL, new int[] {0}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","Mountains Edge","Mountains","Foothills","Mountain Range","Mountain Range Edge"}, new String[]{"Africa"},
+				/*size*/15, /*dispersion*/15, /*rarity*/6608, /*minAltitude*/170, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/90f, /*maxRain*/340f, /*minEVT*/0f, /*maxEVT*/10f);
+		athsPlantHelper(AthsGlobal.GUNNERA, new int[] {0}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","Mountains Edge","Mountains","Foothills","Mountain Range","Mountain Range Edge","High Hills Edge","High Plains"}, new String[]{"Africa","Asia","Americas"},
+				/*size*/15, /*dispersion*/8, /*rarity*/5870, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-6000, /*maxLatitude*/32000, /*minTemp*/2f, /*maxTemp*/40f, /*minRain*/1160f, /*maxRain*/1600f, /*minEVT*/0f, /*maxEVT*/10f, /*forestGen*/1.0f);
 		
 
 		
