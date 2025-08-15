@@ -1748,7 +1748,7 @@ public class AthsBlockSetup {
 		quilQuil = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.QUIL_QUIL).setPart("Frond").setScale(1f));
 		gnetum = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.GNETUM).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.JUNE,TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		clubmossEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE}).setNamedPart(null).setScale(2f));
-		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinathus","Tristerix","Agelanthus"}).addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
+		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinathus","Tristerix","Agelanthus"}).setOverrideModelName("Mistletoe").addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
 		
 	}
 	
