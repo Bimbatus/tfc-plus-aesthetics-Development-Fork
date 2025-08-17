@@ -5496,3 +5496,5 @@ gui.Mullein.Mullein_Second_Year_Flower.sciname=Verbascum thaspus
 gui.Mullein.Mullein_Second_Year_Autumn.sciname=Verbascum thaspus
 gui.Mullein.Mullein_Second_Year_Winter.sciname=Verbascum thaspus
 gui.Mullein.Mullein_Second_Year_Snow.sciname=Verbascum thaspus
+tile.Matted_Caputia.Matted_Caputia.name=Matted Caputia
+gui.Matted_Caputia.Matted_Caputia.sciname=Caputia tomentosa
