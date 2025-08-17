@@ -2235,6 +2235,8 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/3800, /*minAltitude*/165, /*maxAltitude*/255, /*minLatitude*/4500, /*maxLatitude*/32000, /*minTemp*/10f, /*maxTemp*/40f, /*minRain*/1250f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.TROPICAL_MISTLETOE + "_Agelanthus", AthsGlobal.TROPICAL_MISTLETOE, new int[] {7}, new String[] {"alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa"},
 				/*size*/1, /*dispersion*/1, /*rarity*/3800, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-3000, /*maxLatitude*/32000, /*minTemp*/15f, /*maxTemp*/40f, /*minRain*/650f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.MULLEIN, new int[] {1,2}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa","Europe","Asia"},
+				/*size*/15, /*dispersion*/15, /*rarity*/4800, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/7f, /*maxTemp*/19, /*minRain*/520f, /*maxRain*/650, /*minEVT*/0f, /*maxEVT*/1f,/*forestGen*/0f);
 		
 
 		
