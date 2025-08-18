@@ -880,7 +880,11 @@ public class AthsBlockSetup {
 	public static Block gunnera;
 	public static Block clubmossEpiphyte;
 	public static Block tropicalMistletoe;
-	public static Block cycad2;
+	public static Block cycadBread;
+	public static Block cycadDioon;
+	public static Block cycadZamia;
+	public static Block cycadBamboo;
+	public static Block cycadStangeria;
 	public static Block mullein;
 	public static Block mattedCaputia;
 
@@ -1603,8 +1607,12 @@ public class AthsBlockSetup {
 		starfishPlant = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.STARFISH_PLANT).addVary(EnumVary.FLOWER).setVaryPart(EnumVary.FLOWER, "Flower").setPart("Stem").setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setScale(2.0f));
 		swordSanseveria = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.SWORD_SANSEVERIA).setParts(new String[] {"Leaf_Long", "Leaf_Medium", "Leaf_Short", "Stem"}).setScale(2.0f));
 		welwitschia = plantRegistryHelper(new BlockPlant3d().setNames(AthsGlobal.WELWITSCHIA, new String[] {"Male", "Female"}).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setPart(EnumVary.FLOWER, 0, "Flower").setPart(EnumVary.FRUIT, 1, "Cones").setParts(new String[] {"Leaf_Curled", "Leaf_Straight", "Leaf_Wavy", "Stem", "Stem_Center"}).setOverrideModelName().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.SEPTEMBER).setMonthVaryRange(TFC_Time.APRIL, TFC_Time.JUNE, EnumVary.FRUIT).setBlacklistMeta(EnumVary.FRUIT, 0).setBlacklistMeta(EnumVary.FLOWER, 1).setScale(2.0f));
-		cycad = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD, new String[] {"Male", "Female","Male_Dioon", "Female_Dioon","Male_Bread", "Female_Bread","Male_Zamia", "Female_Zamia"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Trunk", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
-		cycad2 = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD2, new String[] {"Male_Stangeria", "Female_Stangeria","Male_Bamboo", "Female_Bamboo"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Stem", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycad = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Trunk", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycadBread = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD_BREAD, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Trunk", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycadDioon = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD_DIOON, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Trunk", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycadZamia = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD_ZAMIA, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Trunk", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycadBamboo = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD_BAMBOO, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Stem", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
+		cycadStangeria = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setNames(AthsGlobal.CYCAD_STANGERIA, new String[] {"Male", "Female"}).addVary(EnumVary.FLOWER).setParts(new String[] {"Frond", "Stem", "Shag"}).setNamedBaseMetaPart(EnumVary.FLOWER, "Cone").setIsAxisAligned().setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.AUGUST).setScale(2.5f));
 		cretanBrakeFern = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.CRETAN_BRAKE_FERN, "Variegated").setNamedPart("Frond").setPart("Stem").setOverrideModelName().setScale(1.2f));
 		deltaMaidenhairFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.DELTA_MAIDENHAIR_FERN).setPart("Frond").setPart("Stem").setScale(2.5f));
 		dwarfPalmetto = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.DWARF_PALMETTO).setPart("Base").setPart("Leaf").setPart("Stem").setScale(1.5f));
