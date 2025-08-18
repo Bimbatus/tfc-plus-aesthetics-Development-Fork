@@ -887,6 +887,7 @@ public class AthsBlockSetup {
 	public static Block cycadStangeria;
 	public static Block mullein;
 	public static Block mattedCaputia;
+	public static Block diamondMaidenhairFern;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1706,6 +1707,7 @@ public class AthsBlockSetup {
 		cushionCatchfly = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CUSHION_CATCHFLY).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
 		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Leaf").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Trunk").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Shag").setScale(2f));
 		gunnera = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GUNNERA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Stem").setNamedVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
+		diamondMaidenhairFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.DIAMOND_MAIDENHAIR_FERN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}).setNamedVaryPart(EnumVary.DEFAULT, "Frond").setNamedVaryPart(EnumVary.AUTUMN, "Frond").setNamedPart("Stem").setScale(1.3f).setLayerBounds(0.6f));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
