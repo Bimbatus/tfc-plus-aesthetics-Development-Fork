@@ -888,6 +888,7 @@ public class AthsBlockSetup {
 	public static Block mullein;
 	public static Block mattedCaputia;
 	public static Block diamondMaidenhairFern;
+	public static Block saltgrass;
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -998,6 +999,7 @@ public class AthsBlockSetup {
 		patagonianWildBarley = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.PATAGONIAN_WILD_BARLEY).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		desertNeedlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.DESERT_NEEDLEGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		oatGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.OAT_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
+		saltgrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SALTGRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
 		
 		//misc plants
 		bearCorn = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.BEAR_CORN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}));
