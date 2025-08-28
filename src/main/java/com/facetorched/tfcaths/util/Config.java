@@ -1797,11 +1797,11 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/3500, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-10f, /*maxTemp*/40f, /*minRain*/200f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 
 		athsPlantHelper(AthsGlobal.SOUTBOSSIE, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary"}, new String[]{"Africa"},
-				/*size*/4, /*dispersion*/2, /*rarity*/4256, /*minAltitude*/145, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/10f, /*maxTemp*/19f, /*minRain*/120f, /*maxRain*/900f, /*minEVT*/0f, /*maxEVT*/5f);
+				/*size*/4, /*dispersion*/2, /*rarity*/4256, /*minAltitude*/145, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/10f, /*maxTemp*/19f, /*minRain*/120f, /*maxRain*/900f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.SEA_LAVENDER, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary","Plains"}, new String[]{"Africa","Americas","Asia","Europe"},
 				/*size*/4, /*dispersion*/2, /*rarity*/4256, /*minAltitude*/145, /*maxAltitude*/155, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-3f, /*maxTemp*/40f, /*minRain*/220f, /*maxRain*/2000f, /*minEVT*/0f, /*maxEVT*/5f);
 		athsPlantHelper(AthsGlobal.BRASS_BUTTONS, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary","Swamp","Peat Bog","Salt_Swamp"}, new String[]{"Africa"},
-				/*size*/4, /*dispersion*/2, /*rarity*/4256, /*minAltitude*/145, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/10f, /*maxTemp*/17f, /*minRain*/180f, /*maxRain*/950f, /*minEVT*/0f, /*maxEVT*/5f);
+				/*size*/4, /*dispersion*/2, /*rarity*/4256, /*minAltitude*/145, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/10f, /*maxTemp*/17f, /*minRain*/180f, /*maxRain*/950f, /*minEVT*/0f, /*maxEVT*/5f);
 
 		athsPlantHelper(AthsGlobal.MARRAM_GRASS, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel"}, new String[]{"Beach","Gravel Beach","Shore","Estuary"}, new String[]{"Americas","Africa","Europe"},
 				/*size*/12, /*dispersion*/4, /*rarity*/256, /*minAltitude*/145, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/-1f, /*maxTemp*/20f, /*minRain*/220f, /*maxRain*/5000f, /*minEVT*/0f, /*maxEVT*/5f);
