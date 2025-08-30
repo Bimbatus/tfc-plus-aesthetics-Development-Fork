@@ -1486,8 +1486,8 @@ public class AthsBlockSetup {
 		mattedCaputia = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MATTED_CAPUTIA).addVary(EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.MAY).setScale(1f));
 		
 		//moss carpet
-		mossCarpetGreen = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
-		mossCarpetPeat = plantRegistryHelper(new BlockPlantCarpet().setColorRange(.42f, 72, .4f, 40, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_PEAT).addVary(EnumVary.SNOW));
+		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
+		mossCarpetPeat = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.42f, 72, .4f, 40, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_PEAT).addVary(EnumVary.SNOW));
 			
 		// lily pad like plants
 		lilyPad = plantRegistryHelper(new BlockPlantLilyPad().setExtraNames(AthsGlobal.LILY_PAD).addVary(EnumVary.SNOW));
