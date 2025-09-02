@@ -846,7 +846,7 @@ public class AthsGlobal {
 	public static final String PEPPER_PLANT = "Pepper_Plant";
 	public static final String PEPPER_VINE = "Pepper_Vine";
 	public static final String WAPATO = "Wapato";
-	public static final String GIANT_MISCANTHUS = "Giant_Miscanthus";
+	public static final String SILVERGRASS = "Silvergrass";
 	public static final String RAVENNGRASS = "Ravenngrass";
 	public static final String GIANT_CANE = "Giant_Cane";
 	public static final String BEEBRUSH = "Beebrush";
