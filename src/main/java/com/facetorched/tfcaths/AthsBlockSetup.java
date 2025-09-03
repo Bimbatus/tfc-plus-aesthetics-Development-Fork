@@ -1600,7 +1600,7 @@ public class AthsBlockSetup {
 		pawpaw = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.PAWPAW).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		dwarfBirch = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.DWARF_BIRCH).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setScale(2f));
 		gnetumTree = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.GNETUM_TREE).addVary(EnumVary.FRUIT).setMonthVaryRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
-		pussyWillow = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.WILLOW).setName(AthsGlobal.PUSSY_WILLOW).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}));
+		pussyWillow = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.WILLOW).setNames(AthsGlobal.PUSSY_WILLOW, new String[]{"American","Gray","Goat_Sallow"}).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}));
 
 		// trees snowy
 		youngDoglasFir = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.DOUGLASFIR).setName(AthsGlobal.YOUNG_DOUGLAS_FIR).addVary(EnumVary.SNOW));
