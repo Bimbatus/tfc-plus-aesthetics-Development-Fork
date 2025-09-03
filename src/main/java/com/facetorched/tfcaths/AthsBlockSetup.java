@@ -1555,6 +1555,11 @@ public class AthsBlockSetup {
 		creosoteBush = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CREOSOTE_BUSH).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JUNE).setIsWoody().setScale(2f));
 		sanPedroCactus = plantRegistryHelper(new BlockPlantCactus().setName(AthsGlobal.SAN_PEDRO_CACTUS).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setScale(6f).setTreeBounds());
 		peyote = plantRegistryHelper(new BlockPlantCactus().setName(AthsGlobal.PEYOTE).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(2f));
+		bottlebrush = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.BOTTLEBRUSH).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY));
+		gympieGympie = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.GYMPIE_GYMPIE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.OCTOBER).setMonthVaryRange(TFC_Time.NOVEMBER, TFC_Time.FEBRUARY, EnumVary.FRUIT).setScale(5f));
+		goldenWattle = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.GOLDEN_WATTLE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setMonthVaryRange(TFC_Time.JULY, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(5f));
+		coprosma = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.COPROSMA, "Large").setIsWoody().setScale(4f));
+		lancewood = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.LANCEWOOD, "Young").setIsWoody().setScale(6f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
