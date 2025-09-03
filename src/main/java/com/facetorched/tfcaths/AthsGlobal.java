@@ -864,7 +864,7 @@ public class AthsGlobal {
 	public static final String CREOSOTE_BUSH = "Creosote_Bush";
 	public static final String PEYOTE = "Peyote":
 	public static final String COYOTE_BUSH = "Coyote_Bush";
-	public static final String CROTON = "Croton";
+	public static final String FIRE_CROTON = "Fire_Croton";
 	public static final String CROWN_FERN = "Crown_Fern";
 	public static final String AMBORELLA = "Amborella";
 	public static final String MAN_FERN = "Man_Fern";
