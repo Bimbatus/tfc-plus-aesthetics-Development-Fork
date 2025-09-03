@@ -889,6 +889,58 @@ public class AthsBlockSetup {
 	public static Block mattedCaputia;
 	public static Block diamondMaidenhairFern;
 	public static Block saltgrass;
+	public static Block starJelly;
+	public static Block pussyWillow;
+	public static Block beggarsticks;
+	public static Block sweetFern;
+	public static Block bogMyrtle;
+	public static Block crepeMyrtle;
+	public static Block watershield;
+	public static Block wineleaf;
+	public static Block leatherleaf;
+	public static Block threeWaySedge;
+	public static Block pepperPlant;
+	public static Block pepperVine;
+	public static Block wapato;
+	public static Block silvergrass;
+	public static Block ravennagrass;
+	public static Block giantCane;
+	public static Block beebrush;
+	public static Block marattiaFern;
+	public static Block kingFern;
+	public static Block screwPine;
+	public static Block africanViolet;
+	public static Block eveningPrimrose;
+	public static Block coralFern;
+	public static Block lipFern;
+	public static Block laceLipFern;
+	public static Block starScaledCloakFern;
+	public static Block paragymnopterisFern;
+	public static Block sanPedroCactus;
+	public static Block creosoteBush;
+	public static Block peyote;
+	public static Block coyoteBush;
+	public static Block croton;
+	public static Block crownFern;
+	public static Block amborella;
+	public static Block manFern;
+	public static Block vegetableSheep;
+	public static Block mountainDwarfPodocarp;
+	public static Block cedreRabougri;
+	public static Block ixora;
+	public static Block giantTreeFern;
+	public static Block softTreeFern;
+	public static Block catsPaw;
+	public static Block clubmoss2;
+	public static Block bottlebrush;
+	public static Block goldenWattle;
+	public static Block gympieGympie;
+	public static Block lancewood;
+	public static Block roughTreeFern;
+	public static Block palmLily;
+	public static Block coprosma;
+	public static Block makurangiFern;
+	
 
 	public static int plantCrossRenderID;
 	public static int plantCropRenderID;
@@ -1000,6 +1052,9 @@ public class AthsBlockSetup {
 		desertNeedlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.DESERT_NEEDLEGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		oatGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.OAT_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
 		saltgrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SALTGRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
+		silvergrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SILVERGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
+		giantCane = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.GIANT_CANE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(4f).setIsFoliageColor());
+		ravennagrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.RAVENNAGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(6f).setIsFoliageColor());
 		
 		//misc plants
 		bearCorn = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.BEAR_CORN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}));
@@ -1030,6 +1085,10 @@ public class AthsBlockSetup {
 		basketGrass = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.BASKET_GRASS).addIconVary(EnumVary.DEFAULT).setHasNoDrops());
 		groundCedars = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.GROUND_CEDARS).addVarys(new EnumVary[] {EnumVary.SNOW}));
 		ephedra = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.EPHEDRA).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setMonthVaryRange(TFC_Time.MAY, TFC_Time.JULY, EnumVary.FRUIT).setRenderID(plantCropRenderID).setScale(2f));
+		starJelly = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.STAR_JELLY).addVary(EnumVary.SNOW));
+		wineleaf = plantRegistryHelper(new BlockPlantLayerFlower().setName(AthsGlobal.WINELEAF).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST));
+		threeWaySedge = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.THREE_WAY_SEDGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2f));
+		wapato = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WAPATO).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2.0F));
 		
 		// mushrooms
 		basketStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BASKET_STINKHORN).setRedMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
@@ -1484,6 +1543,14 @@ public class AthsBlockSetup {
 		barberry = plantRegistryHelper(new BlockPlantFlower().setExtraNames(AthsGlobal.BARBERRY, "Small","Large").addVarys(new EnumVary[] {EnumVary.FRUIT, EnumVary.AUTUMN,EnumVary.WINTER,EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setIsDamaging().setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setIsWoody().setScale(3f));
 		mullein = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.MULLEIN, new String[] {"First_Year","Second_Year"}).addVarys(new EnumVary[] {EnumVary.AUTUMN,EnumVary.WINTER,EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.OCTOBER).setScale(2f));
 		mattedCaputia = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.MATTED_CAPUTIA).addVary(EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.MAY).setScale(1f));
+		sweetFern = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.SWEET_FERN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setScale(1f));
+		bogMyrtle = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.BOG_MYRTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWoody().setScale(2f));
+		crepeMyrtle = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.CREPE_MYRTLE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER));
+		leatherleaf = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.LEATHERLEAF).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW}).setRenderID(plantCropRenderID).setIsWoody().setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
+		pepperPlant = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.PEPPER_PLANT).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(5f));
+		beebrush = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.BEEBRUSH, new String[] {"Whitebrush","Sweet_Almong","Lemon","Rica-Rica"}).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
+		africanViolet = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_VIOLET).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.SEPTEMBER).setScale(1f));
+		eveningPrimrose = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.EVENING_PRIMROSE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(1f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
@@ -1501,6 +1568,7 @@ public class AthsBlockSetup {
 		waterSpangles = plantRegistryHelper(new BlockPlantLilyPad().setName(AthsGlobal.WATER_SPANGLES));
 		waterLettuce = plantRegistryHelper(new BlockPlantLilyPad3d().setName(AthsGlobal.WATER_LETTUCE).setPart("Base").setPart("Roots").setPart("Top"));
 		yellowLotus = plantRegistryHelper(new BlockPlantLilyPad3d().setOvercrowdRadius(1).setName(AthsGlobal.YELLOW_LOTUS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setNamedVaryPart(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}, "Leaf").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setPart("Root").setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Stamen", "Stamen_Top"}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Stem").setVaryParts(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}, "Lotus_Winter", new String[] {"Stem"}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.OCTOBER).setScale(1.4f));
+		watershield = plantRegistryHelper(new BlockPlantLilyPad().setName(AthsGlobal.WATERHISELD).addVary(EnumVary.SNOW));
 		
 		// deciduous trees
 		youngAsh = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.ASH).setName(AthsGlobal.YOUNG_ASH).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}));
@@ -1528,7 +1596,8 @@ public class AthsBlockSetup {
 		pawpaw = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.PAWPAW).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setMonthVaryRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		dwarfBirch = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.DWARF_BIRCH).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setScale(2f));
 		gnetumTree = plantRegistryHelper(new BlockPlantTree().setName(AthsGlobal.GNETUM_TREE).addVary(EnumVary.FRUIT).setMonthVaryRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER, EnumVary.FRUIT));
-		
+		pussyWillow = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.WILLOW).setName(AthsGlobal.PUSSY_WILLOW).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}));
+
 		// trees snowy
 		youngDoglasFir = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.DOUGLASFIR).setName(AthsGlobal.YOUNG_DOUGLAS_FIR).addVary(EnumVary.SNOW));
 		youngPine = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.PINE).setName(AthsGlobal.YOUNG_PINE).addVary(EnumVary.SNOW));
@@ -1707,9 +1776,12 @@ public class AthsBlockSetup {
 		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
 		cushionCatchfly = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.CUSHION_CATCHFLY).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
-		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Leaf").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Trunk").setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Shag").setScale(2f));
+		giantGroundsel = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_GROUNDSEL).setPart("Leaf").setPart("Trunk").setPart("Shag").setScale(2f));
 		gunnera = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GUNNERA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Stem").setNamedVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW, EnumVary.FLOWER}, "Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE).setScale(1f));
 		diamondMaidenhairFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.DIAMOND_MAIDENHAIR_FERN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.AUTUMN, EnumVary.SNOW}).setNamedVaryPart(EnumVary.DEFAULT, "Frond").setNamedVaryPart(EnumVary.AUTUMN, "Frond").setNamedPart("Stem").setScale(1.3f).setLayerBounds(0.6f));
+		kingFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.KING_FERN).setPart("Frond").setPart("Stem").setPart("Base").setScale(2f));
+		marattiaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.MARATTIA_FERN).setPart("Frond").setScale(1f));
+		screwPine = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.SCREW_PINE).setPart("Leaf").setPart("Stem").setNamedVaryPart(new EnumVary[] {EnumVary.FRUIT, EnumVary.FLOWER}, "Fruit").setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.NOVEMBER, EnumVary.FRUIT));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
@@ -1765,6 +1837,7 @@ public class AthsBlockSetup {
 		gnetum = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.GNETUM).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.JUNE,TFC_Time.SEPTEMBER, EnumVary.FRUIT));
 		clubmossEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE}).setNamedPart(null).setScale(2f));
 		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinanthus","Tristerix","Agelanthus"}).setOverrideModelName("Mistletoe").addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
+		pepperVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.PEPPER_VINE).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, EnumVary.FRUIT, "Flower","Fruit").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1.5f));
 		
 	}
 	
