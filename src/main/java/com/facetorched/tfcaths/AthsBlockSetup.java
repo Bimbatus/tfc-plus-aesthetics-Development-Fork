@@ -920,7 +920,7 @@ public class AthsBlockSetup {
 	public static Block creosoteBush;
 	public static Block peyote;
 	public static Block coyoteBush;
-	public static Block croton;
+	public static Block fireCroton;
 	public static Block crownFern;
 	public static Block amborella;
 	public static Block manFern;
