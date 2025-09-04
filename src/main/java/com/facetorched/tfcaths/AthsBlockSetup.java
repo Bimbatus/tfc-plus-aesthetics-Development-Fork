@@ -929,7 +929,6 @@ public class AthsBlockSetup {
 	public static Block cedreRabougri;
 	public static Block ixora;
 	public static Block giantTreeFern;
-	public static Block softTreeFern;
 	public static Block catsPaw;
 	public static Block clubmoss2;
 	public static Block bottlebrush;
@@ -1563,6 +1562,7 @@ public class AthsBlockSetup {
 		lancewood = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.LANCEWOOD, "Young").setIsWoody().setScale(6f));
 		catsPaw = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CATS_PAW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f));
 		amborella = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AMBORELLA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(4f));
+		ixora = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.IXORA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(2f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
@@ -1804,7 +1804,6 @@ public class AthsBlockSetup {
 		fireCroton = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.FIRE_CROTON).setPart("Stem").setPart("Leaf").setPart("Yellow_Leaf").setPart("Red_Leaf").setScale(1f));
 		crownFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.CROWN_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
 		manFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.MAN_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
-		softTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.SOFT_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
 		giantTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.GIANT_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(4f));
 		roughTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.ROUGH_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
 		silverFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.SILVER_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
