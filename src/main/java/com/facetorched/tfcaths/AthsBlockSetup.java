@@ -1562,6 +1562,7 @@ public class AthsBlockSetup {
 		coprosma = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.COPROSMA, "Large").setIsWoody().setScale(4f));
 		lancewood = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.LANCEWOOD, "Young").setIsWoody().setScale(6f));
 		catsPaw = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CATS_PAW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f));
+		amborella = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AMBORELLA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(4f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
