@@ -5840,3 +5840,7 @@ gui.Morning_Glory.Morning_Glory_Woodrose.sciname=Calystegia spp.
 gui.Morning_Glory.Morning_Glory_Woodrose_Flower.sciname=Merremia spp.
 gui.Morning_Glory.Morning_Glory_Woodrose_Winter.sciname=Merremia spp.
 gui.Morning_Glory.Morning_Glory_Woodrose_Autumn.sciname=Merremia spp.
+tile.Mother_Shield_Fern.Mother_Shield_Fern.name=Mother Shield Fern
+tile.Mother_Shield_Fern.Mother_Shield_Fern_Snow.name=Mother Shield Fern
+gui.Mother_Shield_Fern.Mother_Shield_Fern.sciname=Polystichum proliferum
+gui.Mother_Shield_Fern.Mother_Shield_Fern_Snow.sciname=Polystichum proliferum
