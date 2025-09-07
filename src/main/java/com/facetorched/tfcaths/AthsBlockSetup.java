@@ -1053,7 +1053,7 @@ public class AthsBlockSetup {
 		desertNeedlegrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.DESERT_NEEDLEGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setIsFoliageColor());
 		oatGrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.OAT_GRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
 		saltgrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SALTGRASS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}));
-		silvergrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SILVERGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f).setIsFoliageColor());
+		silvergrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.SILVERGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(2f));
 		giantCane = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.GIANT_CANE).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(4f).setIsFoliageColor());
 		ravennagrass = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.RAVENNAGRASS).addVarys(new EnumVary[] {EnumVary.EARLY_SPRING,EnumVary.WINTER, EnumVary.SNOW}).setScale(6f).setIsFoliageColor());
 		
