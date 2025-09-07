@@ -1809,7 +1809,6 @@ public class AthsBlockSetup {
 		giantTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.GIANT_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(4f));
 		roughTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.ROUGH_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
 		silverFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.SILVER_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
-		kangarooFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.KANGAROO_FERN).setPart("Frond").setScale(1f));
 		vegetableSheep = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.VEGETABLE_SHEEP).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(0.6f));
 		grassTree = plantRegistryHelper(new BlockPlant3dFlower().setName(AthsGlobal.GRASS_TREE).addVary(EnumVary.FLOWER).setVaryPart(EnumVary.FLOWER, "Flower").setPart("Leaf").setPart("Trunk").setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(1f));
 		palmLily = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.PALM_LILY, "Pink","Variegated").addVarys(new EnumVary[]{EnumVary.FRUIT, EnumVary.FLOWER}).setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setVaryPart(EnumVary.FRUIT, "Fruit").setNamedParts(new String[] {"Leaf"}).setOverrideModelName().setScale(2.0f));
@@ -1870,6 +1869,7 @@ public class AthsBlockSetup {
 		clubmossEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE}).setNamedPart(null).setScale(2f));
 		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinanthus","Tristerix","Agelanthus"}).setOverrideModelName("Mistletoe").addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
 		pepperVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.PEPPER_VINE).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, EnumVary.FRUIT, "Flower","Fruit").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1.5f));
+		kangarooFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.KANGAROO_FERN).setPart("Frond").setScale(1f));
 		
 	}
 	
