@@ -2446,8 +2446,8 @@ public class Config {
 				/*size*/6, /*dispersion*/10, /*rarity*/6666, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/2080f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.LANCEWOOD, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/15, /*dispersion*/4, /*rarity*/5584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/3f, /*maxTemp*/15f, /*minRain*/660f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
-		athsPlantHelper(AthsGlobal.KANGAROO_FERN, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{""Europe"},
-				/*size*/10, /*dispersion*/3, /*rarity*/5084, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/7f, /*maxTemp*/20f, /*minRain*/800f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.KANGAROO_FERN, new int[] {0,1}, new String[] {"ore:stone","alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3"}, AthsGlobal.LAND_BIOMES, new String[]{""Europe"},
+				/*size*/10, /*dispersion*/3, /*rarity*/2784, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/7f, /*maxTemp*/20f, /*minRain*/800f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.COPROSMA, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia","Europe"},
 				/*size*/15, /*dispersion*/4, /*rarity*/5584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/8f, /*maxTemp*/40f, /*minRain*/750f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.PALM_LILY /*Asia*/, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
