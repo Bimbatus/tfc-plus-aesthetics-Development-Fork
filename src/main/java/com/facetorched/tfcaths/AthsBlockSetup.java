@@ -941,6 +941,7 @@ public class AthsBlockSetup {
 	public static Block kangarooFern;
 	public static Block crownFern;
 	public static Block motherShieldFern;
+	public static Block kudzu;
 	
 
 	public static int plantCrossRenderID;
@@ -1870,6 +1871,8 @@ public class AthsBlockSetup {
 		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinanthus","Tristerix","Agelanthus"}).setOverrideModelName("Mistletoe").addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
 		pepperVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.PEPPER_VINE).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, EnumVary.FRUIT, "Flower","Fruit").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1.5f));
 		kangarooFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.KANGAROO_FERN).setPart("Frond").setScale(1f));
+		kudzu = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.KUDZU, "Tropical").setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setScale(1.7f));
+		kudzuTerrestrial = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.KUDZU_TERRESTRIAL, "Tropical").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER}).setNamedPart("Leaf").setNamedPart("Stem").setScale(1.5f));
 		
 	}
 	
