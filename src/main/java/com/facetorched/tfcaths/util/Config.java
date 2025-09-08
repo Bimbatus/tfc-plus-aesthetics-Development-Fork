@@ -2468,6 +2468,12 @@ public class Config {
 				/*size*/45, /*dispersion*/1, /*rarity*/2200, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.KUDZU + "_Tropical_Oceania", AthsGlobal.KUDZU, new int[] {1}, new String[] {"alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3", "ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia"},
 				/*size*/45, /*dispersion*/1, /*rarity*/2200, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/7000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.KUDZU_TERRESTRIAL, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
+				/*size*/45, /*dispersion*/1, /*rarity*/6600, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/8f, /*maxTemp*/23f, /*minRain*/750f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.KUDZU_TERRESTRIAL + "_Tropical", AthsGlobal.KUDZU_TERRESTRIAL, new int[] {1}, new String[] {"ore:blockSoil","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
+				/*size*/45, /*dispersion*/1, /*rarity*/6600, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.KUDZU_TERRESTRIAL + "_Tropical_Oceania", AthsGlobal.KUDZU_TERRESTRIAL, new int[] {1}, new String[] {"ore:blockSoil","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia"},
+				/*size*/45, /*dispersion*/1, /*rarity*/6600, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/7000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 	
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
