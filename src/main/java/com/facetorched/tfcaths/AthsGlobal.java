@@ -888,6 +888,7 @@ public class AthsGlobal {
 	public static final String KANGAROO_FERN = "Kangaroo_Fern";
 	public static final String CROWN_FERN = "Crown_Fern";
 	public static final String MOTHER_SHIELD_FERN = "Mother_Shield_Fern";
+	public static final String KUDZU = "Kudzu";
 
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore"};
