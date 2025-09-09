@@ -770,6 +770,7 @@ public class AthsGlobal {
 	public static final String LOOSESTRIFE = "Loosestrife";
 	public static final String PRIMROSE = "Primrose";
 	public static final String LOBELIA = "Lobelia";
+	public static final String GIANT_LOBELIA = "Giant_Lobelia";
 	public static final String MARSH_FERN = "Marsh_Fern";
 	public static final String DWARF_BIRCH = "Dwarf_Birch";
 	public static final String SAGE_DECIDUOUS = "Sage_Deciduous";
