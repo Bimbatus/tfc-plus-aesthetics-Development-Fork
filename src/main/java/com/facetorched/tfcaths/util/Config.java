@@ -2457,7 +2457,7 @@ public class Config {
 		athsPlantHelper(AthsGlobal.COPROSMA, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia","Europe"},
 				/*size*/15, /*dispersion*/4, /*rarity*/5584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/8f, /*maxTemp*/40f, /*minRain*/750f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.PALM_LILY /*Asia*/, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
-				/*size*/10, /*dispersion*/3, /*rarity*/6584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/32000, /*maxLatitude*/32000, /*minTemp*/23f, /*maxTemp*/40f, /*minRain*/1650f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
+				/*size*/10, /*dispersion*/3, /*rarity*/6584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/23f, /*maxTemp*/40f, /*minRain*/1650f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.PALM_LILY + "_Oceania", AthsGlobal.PALM_LILY, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/10, /*dispersion*/3, /*rarity*/6584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/23f, /*maxTemp*/40f, /*minRain*/1650f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.MOTHER_SHIELD_FERN, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
@@ -2474,7 +2474,11 @@ public class Config {
 				/*size*/45, /*dispersion*/1, /*rarity*/6600, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.KUDZU_TERRESTRIAL + "_Tropical_Oceania", AthsGlobal.KUDZU_TERRESTRIAL, new int[] {1}, new String[] {"ore:blockSoil","ore:blockGravel","ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia"},
 				/*size*/45, /*dispersion*/1, /*rarity*/6600, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/7000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/1400f, /*maxRain*/4000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
-	
+		athsPlantHelper(AthsGlobal.STRANGLER_FIG, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia","Americas","Africa"},
+				/*size*/1, /*dispersion*/1, /*rarity*/10584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.STRANGLER_FIG + "_Oceania", AthsGlobal.STRANGLER_FIG, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
+				/*size*/1, /*dispersion*/1, /*rarity*/10584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/7f,/*forestGen*/1.0f);
+		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
 		        /*size*/15, /*dispersion*/10, /*rarity*/1550, /*minAltitude*/0, /*maxAltitude*/255, /*minTemp*/8f, /*maxTemp*/30f, /*minRain*/25f, /*maxRain*/135f, /*minEVT*/0f, /*maxEVT*/4f,/*forestGen*/1.0f));
