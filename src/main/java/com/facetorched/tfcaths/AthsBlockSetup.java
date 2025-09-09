@@ -942,6 +942,7 @@ public class AthsBlockSetup {
 	public static Block crownFern;
 	public static Block motherShieldFern;
 	public static Block kudzu;
+	public static Block stranglerFig;
 	
 
 	public static int plantCrossRenderID;
@@ -1814,6 +1815,7 @@ public class AthsBlockSetup {
 		grassTree = plantRegistryHelper(new BlockPlant3dFlower().setName(AthsGlobal.GRASS_TREE).addVary(EnumVary.FLOWER).setVaryPart(EnumVary.FLOWER, "Flower").setPart("Leaf").setPart("Trunk").setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(1f));
 		palmLily = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.PALM_LILY, "Pink","Variegated").addVarys(new EnumVary[]{EnumVary.FRUIT, EnumVary.FLOWER}).setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setVaryPart(EnumVary.FRUIT, "Fruit").setNamedParts(new String[] {"Leaf"}).setOverrideModelName().setScale(2.0f));
 		motherShieldFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.MOTHER_SHIELD_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1.3f));
+		stranglerFig = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.STRANGLER_FIG).setPart("Leaves").setPart("Trunk").setScale(1f));
 		
 		//epiphyte 3d
 		arpophyllumGiganteum = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setName(AthsGlobal.ARPOPHYLLUM_GIGANTEUM).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setScale(2f));
