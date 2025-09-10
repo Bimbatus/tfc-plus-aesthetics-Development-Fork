@@ -122,7 +122,7 @@ public class AthsGlobal {
 	public static final String HARTS_TONGUE_FERN = "Harts_Tongue_Fern";
 	public static final String HEATHER = "Heather";
 	public static final String HIBISCUS = "Hibiscus";
-	public static final String HIBISCUS_SMALL = "Hibiscus_Small";
+	public static final String HIBISCUS_LARGE = "Hibiscus_Large";
 	public static final String HOLLY = "Holly";
 	public static final String HOSTA_HALCYON = "Hosta_Halcyon";
 	public static final String HOSTA_PATRIOT = "Hosta_Patriot";
