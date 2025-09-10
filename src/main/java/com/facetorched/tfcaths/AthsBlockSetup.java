@@ -102,7 +102,7 @@ public class AthsBlockSetup {
 	public static Block goldenWaxcap;
 	public static Block heather;
 	public static Block hibiscus;
-	public static Block hibiscusSmall;
+	public static Block hibiscusLarge;
 	public static Block holly;
 	public static Block hostaNarrowLeaved;
 	public static Block hostaTouchOfClass;
@@ -1410,7 +1410,7 @@ public class AthsBlockSetup {
 		fireweed = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.FIREWEED).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.SEPTEMBER).setScale(2f));
 		giantHogweed = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.GIANT_HOGWEED).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setPoisonDuration(5).setScale(3f));
 		heather = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.HEATHER, new String[] {"Pink","White"}).addVary(EnumVary.FLOWER).addVary(EnumVary.SNOW).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setGrassBounds());
-		hibiscus = plantRegistryHelper(new BlockPlantTreeFlower().setNames(AthsGlobal.HIBISCUS, new String[] {"Orange","Pink","Red"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(6f));
+		hibiscusLarge = plantRegistryHelper(new BlockPlantTreeFlower().setNames(AthsGlobal.HIBISCUS_LARGE, new String[] {"Orange","Pink","Red"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(6f));
 		hibiscus = plantRegistryHelper(new BlockPlantFlower().setNames(AthsGlobal.HIBISCUS, new String[] {"Orange","Pink","Red","White"}).addVary(EnumVary.FLOWER).addIconVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(2f));
 		iris = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.IRIS).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(2f));
 		jackInThePulpit = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.JACK_IN_THE_PULPIT).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JUNE));
