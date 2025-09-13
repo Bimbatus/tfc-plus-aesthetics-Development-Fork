@@ -1094,7 +1094,7 @@ public class AthsBlockSetup {
 		starJelly = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.STAR_JELLY).addVary(EnumVary.SNOW));
 		wineleaf = plantRegistryHelper(new BlockPlantLayerFlower().setName(AthsGlobal.WINELEAF).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST));
 		threeWaySedge = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.THREE_WAY_SEDGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2f));
-		wapato = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WAPATO).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2.0F));
+		wapato = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WAPATO).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setIsWaterPlant().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(2.0F));
 		
 		// mushrooms
 		basketStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BASKET_STINKHORN).setRedMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
