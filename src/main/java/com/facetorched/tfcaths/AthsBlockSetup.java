@@ -1082,7 +1082,7 @@ public class AthsBlockSetup {
 		fawnLily = plantRegistryHelper(new BlockPlantLowFlower().setName(AthsGlobal.FAWN_LILY).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY));
 		riverCane = plantRegistryHelper(new BlockPlantStraw().setName(AthsGlobal.RIVER_CANE).setRenderID(plantCropRenderID).setScale(4.0f));
 		clubmoss = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.CLUBMOSS, "Firmoss","Tropical_Red","Tree","Bog","Southern","Tropical","Staghorn").addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(2f));
-		clubmoss2 = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.CLUBMOSS2, "Bushy","Pseudodiphasium","Mountain","Carpet").addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(2f));
+		clubmoss2 = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.CLUBMOSS2, "Bushy","Mountain","Carpet").addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(2f));
 		swampHorsetail = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.SWAMP_HORSETAIL).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2f));
 		quillwort = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.QUILLWORT).addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(1f).setIsWaterPlant());
 		hornwort = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.HORNWORT).addVarys(new EnumVary[] {EnumVary.SNOW}).setRenderID(plantCropRenderID).setScale(1f));
