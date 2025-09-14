@@ -881,6 +881,7 @@ public class AthsBlockSetup {
 	public static Block giantGroundsel;
 	public static Block gunnera;
 	public static Block clubmossEpiphyte;
+	public static Block clubmossEpiphyte2;
 	public static Block tropicalMistletoe;
 	public static Block cycadBread;
 	public static Block cycadDioon;
@@ -1873,7 +1874,8 @@ public class AthsBlockSetup {
 		rafflesiaEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.RAFFLESIA_EPIPHYTE).addVary(EnumVary.FLOWER).setVaryParts(EnumVary.FLOWER, new String[] {"Petal", "Center"}).setPart("Base").setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MAY).setScale(2.0f));
 		quilQuil = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.QUIL_QUIL).setPart("Frond").setScale(1f));
 		gnetum = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.GNETUM).addVary(EnumVary.FRUIT).setNamedVaryPart(new EnumVary[]{EnumVary.FRUIT}, "Fruit").setPart("Leaf").setPart("Stem").setMonthVaryRange(TFC_Time.JUNE,TFC_Time.SEPTEMBER, EnumVary.FRUIT));
-		clubmossEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE}).setNamedPart(null).setScale(2f));
+		clubmossEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE).setPart("Frond_Upper").setPart("Frond_Lower").setScale(2f));
+		clubmossEpiphyte2 = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CLUBMOSS_EPIPHYTE2).setPart("Frond".setScale(1f));
 		tropicalMistletoe = plantRegistryHelper(new BlockPlantEpiphyte3dFlower().setNames(AthsGlobal.TROPICAL_MISTLETOE, new String[] {"Parrotflower", "Loranthus", "Showy", "Amylotheca","Desmaria","Tapinanthus","Tristerix","Agelanthus"}).setOverrideModelName("Mistletoe").addVary(EnumVary.FLOWER).setNamedPart(null).setOverrideModelName().setFlowerMonthRange(TFC_Time.NOVEMBER, TFC_Time.DECEMBER).setScale(2f));
 		pepperVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.PEPPER_VINE).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, EnumVary.FRUIT, "Flower","Fruit").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1.5f));
 		kangarooFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.KANGAROO_FERN).setPart("Frond").setScale(1f));
