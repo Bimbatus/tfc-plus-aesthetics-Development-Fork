@@ -829,6 +829,7 @@ public class AthsGlobal {
 	public static final String GIANT_GROUNDSEL = "Giant_Groundsel";
 	public static final String GUNNERA = "Gunnera";
 	public static final String CLUBMOSS_EPIPHYTE = "Clubmoss_Epiphyte";
+	public static final String CLUBMOSS_EPIPHYTE2 = "Clubmoss_Epiphyte2";
 	public static final String TROPICAL_MISTLETOE = "Tropical_Mistletoe";
 	public static final String CYCAD2 = "Cycad2";
 	public static final String MULLEIN = "Mullein";
