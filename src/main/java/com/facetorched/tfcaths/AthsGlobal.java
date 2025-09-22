@@ -888,6 +888,7 @@ public class AthsGlobal {
 	public static final String ROUGH_TREE_FERN = "Rough_Tree_Fern";
 	public static final String PALM_LILY = "Palm_Lily";
 	public static final String COPROSMA = "Coprosma";
+	public static final String COPROSMA_PROSTRATE = "Coprosma_Prostrate";
 	public static final String KANGAROO_FERN = "Kangaroo_Fern";
 	public static final String CROWN_FERN = "Crown_Fern";
 	public static final String MOTHER_SHIELD_FERN = "Mother_Shield_Fern";
