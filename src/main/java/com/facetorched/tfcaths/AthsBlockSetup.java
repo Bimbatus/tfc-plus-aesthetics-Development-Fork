@@ -1809,7 +1809,7 @@ public class AthsBlockSetup {
 		screwPine = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.SCREW_PINE).setPart("Leaf").setPart("Stem").setNamedVaryPart(new EnumVary[] {EnumVary.FRUIT, EnumVary.FLOWER}, "Fruit").setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.NOVEMBER, EnumVary.FRUIT));
 		coralFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.CORAL_FERN).setPart("Frond").setPart("Stem").setScale(1f));
 		lipFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.LIP_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
-		laceLipFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.LACE_LIP_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
+		laceLipFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.LACE_LIP_FERN).setPart("Frond").setScale(0.7f));
 		starScaledCloakFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.STAR_SCALED_CLOAK_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
 		paragymnopterisFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.PARAGYMNOPTERIS_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
 		fireCroton = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.FIRE_CROTON).setPart("Stem").setPart("Leaf").setPart("Yellow_Leaf").setPart("Red_Leaf").setScale(1f));
