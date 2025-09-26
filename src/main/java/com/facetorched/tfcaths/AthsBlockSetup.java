@@ -1572,7 +1572,7 @@ public class AthsBlockSetup {
 		goldenWattle = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.GOLDEN_WATTLE).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.FEBRUARY, TFC_Time.MAY).setMonthVaryRange(TFC_Time.JULY, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(5f));
 		coprosma = plantRegistryHelper(new BlockPlant().setaNames(AthsGlobal.COPROSMA, "Karamu","Chatham_Island_Karamu","Mamangi","Kanono","Mingimingi","Taupata","Needle_Leaved","Twiggy").setIsWoody().setScale(6f).addVary(EnumVary.FRUIT).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER));
 		coprosmaProstrate = plantRegistryHelper(new BlockPlantLow().setNames(AthsGlobal.COPROSMA_PROSTRATE, "Creeping","Mirrorplant","Blue_Matcurrant").addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FRUIT}).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER));
-		lancewood = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.LANCEWOOD, "Young").setIsWoody().setScale(6f));
+		lancewood = plantRegistryHelper(new BlockPlant().setExtraNames(AthsGlobal.LANCEWOOD, "Young").setIsWoody().setScale(8f));
 		catsPaw = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CATS_PAW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f));
 		amborella = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AMBORELLA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(4f));
 		ixora = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.IXORA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(2f));
