@@ -1814,7 +1814,7 @@ public class AthsBlockSetup {
 		laceLipFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.LACE_LIP_FERN).setPart("Frond").setScale(0.7f));
 		starScaledCloakFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.STAR_SCALED_CLOAK_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
 		paragymnopterisFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.PARAGYMNOPTERIS_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
-		fireCroton = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.FIRE_CROTON).setPart("Stem").setPart("Leaf").setPart("Yellow_Leaf").setPart("Red_Leaf").setScale(1f));
+		fireCroton = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.FIRE_CROTON).setPart("Stem").setPart("Leaf").setPart("Yellow_Leaf").setPart("Red_Leaf").setPart("Purple_Leaf").setScale(1f));
 		crownFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.CROWN_FERN).addVary(EnumVary.SNOW).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.SNOW}, "Frond").setScale(1f));
 		manFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.MAN_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2.5f));
 		giantTreeFern = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.GIANT_TREE_FERN).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(4f));
