@@ -896,6 +896,7 @@ public class AthsGlobal {
 	public static final String KUDZU_TERRESTRIAL = "Kudzu_Terrestrial";
 	public static final String STRANGLER_FIG = "Strangler_Fig";
 	public static final String LAPLAND_AZALEA = "Lapland_Azalea";
+	public static final String MOONSEED = "Moonseed";
 
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore","!Atoll"};
