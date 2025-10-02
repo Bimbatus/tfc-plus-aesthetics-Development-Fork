@@ -2548,6 +2548,8 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/10584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.STRANGLER_FIG + "_Oceania", AthsGlobal.STRANGLER_FIG, new int[] {0,1}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/10584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/18f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.MOONSEED, new int[] {0}, new String[] {"alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3", "ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+				/*size*/10, /*dispersion*/2, /*rarity*/4500, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/18f, /*minRain*/600f, /*maxRain*/2200f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
