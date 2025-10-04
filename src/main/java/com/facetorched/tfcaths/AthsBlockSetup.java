@@ -1097,7 +1097,7 @@ public class AthsBlockSetup {
 		ephedra = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.EPHEDRA).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setMonthVaryRange(TFC_Time.MAY, TFC_Time.JULY, EnumVary.FRUIT).setRenderID(plantCropRenderID).setScale(2f));
 		starJelly = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.STAR_JELLY).addVary(EnumVary.SNOW));
 		wineleaf = plantRegistryHelper(new BlockPlantLayerFlower().setName(AthsGlobal.WINELEAF).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST));
-		threeWaySedge = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.THREE_WAY_SEDGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2f));
+		threeWaySedge = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.THREE_WAY_SEDGE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setIsFoliageColor().setScale(2f));
 		wapato = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WAPATO).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.FLOWER}).setIsWaterPlant().setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(2.0F));
 		
 		// mushrooms
