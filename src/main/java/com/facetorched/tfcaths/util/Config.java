@@ -2447,7 +2447,7 @@ public class Config {
 				/*size*/4, /*dispersion*/3, /*rarity*/6684, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-8000, /*maxLatitude*/32000, /*minTemp*/13f, /*maxTemp*/28f, /*minRain*/620f, /*maxRain*/2600f, /*minEVT*/0.5f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.EVENING_PRIMROSE, new int[] {0}, new String[] {"ore:blockSoil"},AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/8, /*dispersion*/4, /*rarity*/6284, /*minAltitude*/0, /*maxAltitude*/220, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/5f, /*maxTemp*/33f, /*minRain*/420f, /*maxRain*/1130f, /*minEVT*/0f, /*maxEVT*/4f);
-		athsPlantHelper(AthsGlobal.SAN_PEDRO_CACTUS, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","ore:blockGravel"},new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills","High Plains"}, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.SAN_PEDRO_CACTUS, new int[] {0,1,2}, new String[] {"ore:blockSoil","ore:blockSand","ore:blockGravel"},new String[]{"Mountains","Mountains Edge","Mountain Range","Mountain Range Edge","Foothills","High Plains"}, new String[]{"Americas"},
 				/*size*/10, /*dispersion*/14, /*rarity*/656, /*minAltitude*/175, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/15f, /*maxTemp*/33f, /*minRain*/75f, /*maxRain*/340f, /*minEVT*/0f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.PEYOTE, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","ore:blockGravel"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/6, /*dispersion*/5, /*rarity*/2500, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-12000, /*maxLatitude*/-7500, /*minTemp*/14f, /*maxTemp*/22f, /*minRain*/70f, /*maxRain*/240f, /*minEVT*/0f, /*maxEVT*/4f);
