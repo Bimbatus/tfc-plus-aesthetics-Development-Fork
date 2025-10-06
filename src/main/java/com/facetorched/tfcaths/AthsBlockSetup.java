@@ -949,6 +949,7 @@ public class AthsBlockSetup {
 	public static Block stranglerFig;
 	public static Block laplandAzalea;
 	public static Block moonseed;
+	public static Block poisonIvyEpiphyte;
 	
 
 	public static int plantCrossRenderID;
@@ -1075,8 +1076,8 @@ public class AthsBlockSetup {
 		sundew = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.SUNDEW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(0.5f));
 		venusFlytrap = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.VENUS_FLYTRAP).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE));
 		waterPlantain = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WATER_PLANTAIN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2.0F));
-		nettle = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.NETTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setPoisonDuration(2));
-		poisonIvy = plantRegistryHelper(new BlockPlantLow().setName(AthsGlobal.POISON_IVY).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setHasNoDrops().setPoisonDuration(8));
+		nettle = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.NETTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setPart("Stem").setVaryPart(new EnumVary[]{EnumVary.DEFAULT, EnumVary.AUTUMN}, "Leaf").setPoisonDuration(2));
+		poisonIvy = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.POISON_IVY).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setHasNoDrops().setPoisonDuration(8));
 		redGoyo = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RED_GOYO).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JULY));
 		spiderPlant = plantRegistryHelper(new BlockPlantFlower().setExtraNames(AthsGlobal.SPIDER_PLANT, "Variegated").setScale(2.0f));
 		zzPlant = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.ZZ_PLANT));
@@ -1887,6 +1888,7 @@ public class AthsBlockSetup {
 		kudzu = plantRegistryHelper(new BlockPlantEpiphyte3d().setExtraNames(AthsGlobal.KUDZU, "Tropical").setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER}, "Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.AUGUST, TFC_Time.SEPTEMBER).setScale(1.7f));
 		kudzuTerrestrial = plantRegistryHelper(new BlockPlant3d().setExtraNames(AthsGlobal.KUDZU_TERRESTRIAL, "Tropical").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.WINTER}).setNamedPart("Leaf").setNamedPart("Stem").setScale(1.5f));
 		moonseed = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.MOONSEED).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT, EnumVary.AUTUMN, EnumVary.WINTER}).setVaryPart(new EnumVary[] {EnumVary.DEFAULT, EnumVary.FLOWER},"Leaf").setNamedVaryPart(EnumVary.AUTUMN, "Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, EnumVary.FRUIT, "Flower").setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(1.5f));
+		poisonIvyEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.POISON_IVY_EPIPHYTE).setOverrideModelName("Creeper").addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER}).setNamedPart("Leaf").setNamedPart("Stem").setPoisonDuration(2).setScale(1f));
 		
 	}
 	
