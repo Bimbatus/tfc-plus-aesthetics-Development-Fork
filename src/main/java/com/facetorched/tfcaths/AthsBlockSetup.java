@@ -1076,7 +1076,7 @@ public class AthsBlockSetup {
 		sundew = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.SUNDEW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JULY, TFC_Time.AUGUST).setScale(0.5f));
 		venusFlytrap = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.VENUS_FLYTRAP).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JUNE));
 		waterPlantain = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.WATER_PLANTAIN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsWaterPlant().setScale(2.0F));
-		nettle = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.NETTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setPoisonDuration(2));
+		nettle = plantRegistryHelper(new BlockPlant().setName(AthsGlobal.NETTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW}).setIsDamaging().setPoisonDuration(2));
 		poisonIvy = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.POISON_IVY).addVarys(new EnumVary[] {EnumVary.AUTUMN, EnumVary.WINTER, EnumVary.SNOW}).setNamedPart("Stem").setNamedPart("Leaf").setNamedPart("Leaf_Asymmetrical").setNamedPart("Leaf_Jagged").setPoisonDuration(8));
 		redGoyo = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.RED_GOYO).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.SNOW}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.JULY));
 		spiderPlant = plantRegistryHelper(new BlockPlantFlower().setExtraNames(AthsGlobal.SPIDER_PLANT, "Variegated").setScale(2.0f));
