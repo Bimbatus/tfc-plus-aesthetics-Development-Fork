@@ -950,6 +950,7 @@ public class AthsBlockSetup {
 	public static Block laplandAzalea;
 	public static Block moonseed;
 	public static Block poisonIvyEpiphyte;
+	public static Block sandalwood;
 	
 
 	public static int plantCrossRenderID;
@@ -1578,6 +1579,7 @@ public class AthsBlockSetup {
 		catsPaw = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.CATS_PAW).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MAY, TFC_Time.JULY).setScale(1f));
 		amborella = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AMBORELLA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.MARCH, TFC_Time.APRIL).setScale(4f));
 		ixora = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.IXORA).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setScale(2f));
+		sandalwood = plantRegistryHelper(new BlockPlantTreeFlower().setName(AthsGlobal.SANDALWOOD).addVarys(new EnumVary[] {EnumVary.FLOWER, EnumVary.FRUIT}).setFlowerMonthRange(TFC_Time.APRIL, TFC_Time.MARCH).setMonthVaryRange(TFC_Time.SEPTEMBER, TFC_Time.OCTOBER, EnumVary.FRUIT).setScale(6f));
 		
 		//moss carpet
 		mossCarpetGreen = plantRegistryHelper(new BlockPlantAlgae().setColorRange(.65f, 78, .5f, 128, 0f, 0).setExtraNames(AthsGlobal.MOSS_CARPET_GREEN).addVary(EnumVary.SNOW));
