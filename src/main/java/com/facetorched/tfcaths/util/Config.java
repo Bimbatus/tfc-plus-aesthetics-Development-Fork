@@ -2553,9 +2553,9 @@ public class Config {
 		athsPlantHelper(AthsGlobal.MOONSEED, new int[] {0}, new String[] {"alltrees","terrafirmacraftplus:leaves","terrafirmacraftplus:leaves2","terrafirmacraftplus:leaves3", "ore:stone"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/10, /*dispersion*/2, /*rarity*/4500, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/18f, /*minRain*/600f, /*maxRain*/2200f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.SANDALWOOD, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
-				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-5500, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/40f, /*minRain*/300f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-5500, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/38f, /*minRain*/500f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.SANDALWOOD + "_Oceania" AthsGlobal.SANDALWOOD, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
-				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/40f, /*minRain*/300f, /*maxRain*/750f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/38f, /*minRain*/500f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
