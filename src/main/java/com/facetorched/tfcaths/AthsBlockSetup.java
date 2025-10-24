@@ -1634,7 +1634,7 @@ public class AthsBlockSetup {
 		youngSpruce = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.SPRUCE).setName(AthsGlobal.YOUNG_SPRUCE).addVary(EnumVary.SNOW));
 		
 		// trees
-		youngAcacia = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.UTACACIA).setNames(AthsGlobal.YOUNG_ACACIA, new String[] {"Utacacia", "Koa"}));
+		youngAcacia = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.UTACACIA).setNames(AthsGlobal.YOUNG_ACACIA, new String[] {"Utacacia", "Koa", "Wattle"}));
 		youngBaobab = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.BAOBAB).setName(AthsGlobal.YOUNG_BAOBAB));
 		youngEbony = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.EBONY).setName(AthsGlobal.YOUNG_EBONY));
 		youngFever = plantRegistryHelper(new BlockPlantTree().setSapling(EnumTree.FEVERTREE).setName(AthsGlobal.YOUNG_FEVER));
