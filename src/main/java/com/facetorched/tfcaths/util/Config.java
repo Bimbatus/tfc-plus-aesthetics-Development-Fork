@@ -1308,10 +1308,12 @@ public class Config {
 				/*size*/12, /*dispersion*/4, /*rarity*/7296, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-3000, /*maxLatitude*/32000, /*minTemp*/22f, /*maxTemp*/40f, /*minRain*/370f, /*maxRain*/910f, /*minEVT*/0f, /*maxEVT*/6f,/*forestGen*/1.0f);
 		athsTreeHelper(AthsGlobal.DWARF_BAMBOO, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.BAMBOO);
-		athsTreeHelper(AthsGlobal.YOUNG_ACACIA + "_Koa", AthsGlobal.YOUNG_ACACIA, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+		athsTreeHelper(AthsGlobal.YOUNG_ACACIA + "_Koa", AthsGlobal.YOUNG_ACACIA, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.KOA);
 		athsTreeHelper(AthsGlobal.YOUNG_ACACIA /*Utacacia*/, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.UTACACIA);
+		athsTreeHelper(AthsGlobal.YOUNG_ACACIA + "_Wattle", AthsGlobal.YOUNG_ACACIA, new int[] {2}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
+				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, EnumTree.UTACACIA);
 		athsTreeHelper(AthsGlobal.YOUNG_ASH, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia","Europe","Africa"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.ASH);
 		athsTreeHelper(AthsGlobal.YOUNG_ASPEN, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia","Europe"},
