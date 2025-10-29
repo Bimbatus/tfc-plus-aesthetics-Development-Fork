@@ -1375,7 +1375,7 @@ public class AthsBlockSetup {
 		coralFragment = plantRegistryHelper(new BlockPlant3d().setNames(AthsGlobal.CORAL_FRAGMENT, new String[]{"Brain","Fan","Staghorn","Table","Tube"}).setPart(null).setScale(0.6f).addVary(EnumVary.SNOW));
 		mussels = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.MUSSELS).setPart(null).setIsStony().setScale(1.0f));
 		squirrelNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.SQUIRREL_NEST).setPart(null).setScale(1.0f));
-		waspNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.WASP_NEST).setPart(null).setScale(1.0f));
+		waspNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.WASP_NEST).setPart(null).setScale(0.6f));
 		birdNestEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BIRD_NEST_EPIPHYTE).addVary(EnumVary.FLOWER).setPart("Nest").setVaryPart(EnumVary.FLOWER, "Egg").setFlowerMonth(TFC_Time.APRIL).setScale(1.0f));
 		birdNest = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BIRD_NEST).addVary(EnumVary.FLOWER).setPart("Nest").setVaryPart(EnumVary.FLOWER, "Egg").setFlowerMonth(TFC_Time.APRIL).setScale(1.0f));
 		mudBirdNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.MUD_BIRD_NEST).setPart(null).setIsStony().setScale(1.0f));
