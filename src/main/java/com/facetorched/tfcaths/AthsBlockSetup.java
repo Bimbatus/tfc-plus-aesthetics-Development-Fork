@@ -951,6 +951,14 @@ public class AthsBlockSetup {
 	public static Block moonseed;
 	public static Block poisonIvyEpiphyte;
 	public static Block sandalwood;
+	public static Block seashell;
+	public static Block marineArthropodShell;
+	public static Block coralFragment;
+	public static Block mussels;
+	public static Block waspNest;
+	public static Block birdNest;
+	public static Block mudBirdNest;
+	public static Block birdNestEpiphyte;
 	
 
 	public static int plantCrossRenderID;
@@ -1356,12 +1364,21 @@ public class AthsBlockSetup {
 		//non-plant decorators
 		termiteMound = plantRegistryHelper(new BlockPlant(Material.ground).setExtraNames(AthsGlobal.TERMITE_MOUND).setHasNoDrops().setScale(3.0F).setIsStony());
 		barnacles = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BARNACLES).setPart("Base").setPart("Overlay").setIsStony().setScale(1.0f));
-		barnaclesEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BARNACLES_EPIPHYTE).addVary(EnumVary.SNOW).setPart("Base").setIsStony().setPart("Overlay").setScale(1.0f));
+		barnaclesEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BARNACLES_EPIPHYTE).setPart("Base").setIsStony().setPart("Overlay").setScale(1.0f));
 		anthill = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.ANTHILL).setPart("Base").addVary(EnumVary.SNOW).setPart("Overlay").setScale(1.0f));
 		sharkEggs = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.SHARK_EGGS).setScale(1.0f).addVary(EnumVary.SNOW));
 		kelpDebris = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.KELP_DEBRIS).setScale(1.0f).addVary(EnumVary.SNOW));
 		seaweedDebris = plantRegistryHelper(new BlockPlantLayer().setName(AthsGlobal.SEAWEED_DEBRIS).setScale(1.0f).addVary(EnumVary.SNOW));
 		deadFish = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.DEAD_FISH).setPart(null).setScale(1.0f).addVary(EnumVary.SNOW));
+		seashell = plantRegistryHelper(new BlockPlant3d().setNames(AthsGlobal.SEASHELL, new String[]{"Clam","Colorful_Clam","Cone_Snail","Nautilus","Oyster","Razor_Clam","Sand_Dollar","Snail","Turitella"}).setPart(null).setScale(0.6f).addVary(EnumVary.SNOW));
+		marineAthropodShell = plantRegistryHelper(new BlockPlant3d().setNames(AthsGlobal.MARINE_ARTHROPOD_SHELL, new String[]{"Crab","Horseshoe_Crab","Lobster"}).setPart(null).setScale(0.8f).addVary(EnumVary.SNOW));
+		coralFragment = plantRegistryHelper(new BlockPlant3d().setNames(AthsGlobal.CORAL_FRAGMENT, new String[]{"Brain","Fan","Staghorn","Table","Tube"}).setPart(null).setScale(0.6f).addVary(EnumVary.SNOW));
+		mussels = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.MUSSELS).setPart(null).setIsStony().setScale(1.0f));
+		squirrelNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.SQUIRREL_NEST).setPart(null).setScale(1.0f));
+		waspNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.WASP_NEST).setPart(null).setScale(1.0f));
+		birdNestEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BIRD_NEST_EPIPHYTE).addVary(EnumVary.FLOWER).setPart("Nest").setVaryPart(EnumVary.FLOWER, "Egg").setFlowerMonth(TFC_Time.APRIL).setScale(1.0f));
+		birdNest = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.BIRD_NEST).addVary(EnumVary.FLOWER).setPart("Nest").setVaryPart(EnumVary.FLOWER, "Egg").setFlowerMonth(TFC_Time.APRIL).setScale(1.0f));
+		mudBirdNest = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.MUD_BIRD_NEST).setPart(null).setIsStony().setScale(1.0f));
 		
 		//flowers									
 		africanMilkBarrel = plantRegistryHelper(new BlockPlantFlower().setName(AthsGlobal.AFRICAN_MILK_BARREL).addVary(EnumVary.FLOWER).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST).setIsDamaging().setPoisonDuration(2).setScale(2.0f));
