@@ -899,6 +899,14 @@ public class AthsGlobal {
 	public static final String MOONSEED = "Moonseed";
 	public static final String POISON_IVY_EPIPHYTE = "Poison_Ivy_Epiphyte";
 	public static final String SANDALWOOD = "Sandalwood";
+	public static final String MUSSELS = "Mussels";
+	public static final String WASP_NEST = "Wasp_Nest";
+	public static final String BIRD_NEST = "Bird_Nest";
+	public static final String BIRD_NEST_EPIPHYTE = "Bird_Nest_Epiphyte";
+	public static final String SQUIRREL_NEST = "Squirrel_Nest";
+	public static final String SEASHELL = "Seashell";
+	public static final String MARINE_ARTHROPOD_SHELL = "Marine_Arthropod_Shell";
+	public static final String CORAL_FRAGMENT = "Coral_Fragment";
 
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore","!Atoll"};
