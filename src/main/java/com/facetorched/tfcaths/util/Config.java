@@ -2642,6 +2642,10 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/3584, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-2f, /*maxTemp*/15f, /*minRain*/800f, /*maxRain*/1800f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.PRICKLY_ASH, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia","Europe","Africa"},
 				/*size*/40, /*dispersion*/1, /*rarity*/5784, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/0f, /*maxTemp*/40f, /*minRain*/750f, /*maxRain*/16000f, /*minEVT*/0.5f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.BEACH_CABBAGE, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel","ore:BlockSoil"}, new String[]{"Beach","Gravel Beach","Shore","Estuary","Salt Swamp"}, new String[]{"Africa","Asia"},
+				/*size*/45, /*dispersion*/1, /*rarity*/3456, /*minAltitude*/145, /*maxAltitude*/147, /*minLatitude*/-5000, /*maxLatitude*/32000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/300f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/5f);
+		athsPlantHelper(AthsGlobal.BEACH_CABBAGE + "_Oceania", AthsGlobal.BEACH_CABBAGE, new int[] {0}, new String[] {"ore:blockSand","ore:blockGravel","ore:BlockSoil"}, new String[]{"Beach","Gravel Beach","Shore","Estuary","Salt Swamp"}, new String[]{"Europe"},
+				/*size*/45, /*dispersion*/1, /*rarity*/3456, /*minAltitude*/145, /*maxAltitude*/147, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/20f, /*maxTemp*/40f, /*minRain*/300f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/5f);
 		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
