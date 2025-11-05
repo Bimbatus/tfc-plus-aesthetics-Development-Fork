@@ -2606,6 +2606,12 @@ public class Config {
 				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-5500, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/38f, /*minRain*/500f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.SANDALWOOD + "_Oceania" AthsGlobal.SANDALWOOD, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/10, /*dispersion*/20, /*rarity*/4984, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/17f, /*maxTemp*/38f, /*minRain*/500f, /*maxRain*/3000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.RHODODENDRON_DECIDUOUS /*Alpenrose*/, new int[] {0}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountain Range","Mountain Range Edge","Foothills","Mountains Edge"}, new String[]{"Europe"},
+				/*size*/35, /*dispersion*/2, /*rarity*/4480, /*minAltitude*/90, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/4f, /*maxTemp*/11f, /*minRain*/450f, /*maxRain*/900f, /*minEVT*/1f, /*maxEVT*/5f,/*forestGen*/0f);
+		athsPlantHelper(AthsGlobal.RHODODENDRON_DECIDUOUS + "_White_Flowered", AthsGlobal.RHODODENDRON_DECIDUOUS, new int[] {1}, new String[] {"ore:blockSoil"}, new String[]{"Mountains","Mountain Range","Mountain Range Edge","Foothills","Mountains Edge"}, new String[]{"Europe"},
+				/*size*/35, /*dispersion*/2, /*rarity*/4480, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-4f, /*maxTemp*/5f, /*minRain*/750f, /*maxRain*/5000f, /*minEVT*/1f, /*maxEVT*/5f,/*forestGen*/1.0f);
+		athsPlantHelper(AthsGlobal.RHODODENDRON_DECIDUOUS + "_Great", AthsGlobal.RHODODENDRON_DECIDUOUS, new int[] {2}, new String[] {"ore:blockSoil"}, new String[]{"High Hills","High Hills Edge","Rolling Hills","Riverbank","Mountains","Mountain Range","Mountain Range Edge","Foothills","Mountains Edge"}, new String[]{"Europe"},
+				/*size*/35, /*dispersion*/2, /*rarity*/4480, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/4f, /*maxTemp*/15f, /*minRain*/900f, /*maxRain*/16000f, /*minEVT*/1f, /*maxEVT*/5f,/*forestGen*/1.0f);
 		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
