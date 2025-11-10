@@ -6133,3 +6133,7 @@ gui.Rhododendron_Deciduous.Rhododendron_Deciduous_Great_Flower.sciname=Rhododend
 gui.Rhododendron_Deciduous.Rhododendron_Deciduous_Great_Autumn.sciname=Rhododendron maximum
 gui.Rhododendron_Deciduous.Rhododendron_Deciduous_Great_Winter.sciname=Rhododendron maximum
 gui.Rhododendron_Deciduous.Rhododendron_Deciduous_Great_Snow.sciname=Rhododendron maximum
+tile.Soutbossie.Soutbossie.name=Soutbossie
+tile.Soutbossie.Soutbossie_Flower.name=Soutbossie
+gui.Soutbossie.Soutbossie.sciname=Chenolea diffusa
+gui.Soutbossie.Soutbossie_Flower.sciname=Chenolea diffusa
