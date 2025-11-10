@@ -2289,9 +2289,9 @@ public class Config {
 				/*size*/8, /*dispersion*/5, /*rarity*/9208, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.COLUMBINE + "_Dark", AthsGlobal.COLUMBINE, new int[] {3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
 				/*size*/8, /*dispersion*/5, /*rarity*/7208, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
-		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Americas", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Americas", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
 				/*size*/8, /*dispersion*/5, /*rarity*/5208, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
-		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Eurasia", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
+		athsPlantHelper(AthsGlobal.COLUMBINE + "_Yellow_Eurasia", AthsGlobal.COLUMBINE, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia"},
 				/*size*/8, /*dispersion*/5, /*rarity*/8208, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
 		athsPlantHelper(AthsGlobal.COLUMBINE + "_Red", AthsGlobal.COLUMBINE, new int[] {2}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Americas","Asia"},
 				/*size*/8, /*dispersion*/5, /*rarity*/6208, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/14f, /*minRain*/650f, /*maxRain*/980, /*minEVT*/0f, /*maxEVT*/10f);
