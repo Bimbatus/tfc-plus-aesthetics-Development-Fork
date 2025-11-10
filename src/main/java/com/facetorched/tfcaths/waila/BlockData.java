@@ -78,7 +78,7 @@ public class BlockData implements IWailaDataProvider
 	@Override
     public List<String> getWailaTail(ItemStack itemStack, List<String> tooltip, IWailaDataAccessor accessor, IWailaConfigHandler config) {
         // Modify the tooltip tail (default shows mod name)
-        tooltip.set(1,"§9§o" + AthsMod.NAME);
+        tooltip.set(1,"\u00A79\u00A7o" + AthsMod.NAME); // dark blue and italic
         return tooltip;
     }
 }
