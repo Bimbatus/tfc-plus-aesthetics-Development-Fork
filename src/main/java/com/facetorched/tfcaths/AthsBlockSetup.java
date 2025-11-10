@@ -1841,7 +1841,7 @@ public class AthsBlockSetup {
 		marshFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.MARSH_FERN).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN}).setNamedPart("Frond").setScale(1.8f));
 		ladysMantle = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.LADYS_MANTLE).addVarys(new EnumVary[] {EnumVary.WINTER, EnumVary.SNOW, EnumVary.AUTUMN, EnumVary.FLOWER}).setNamedPart("Side").setNamedVaryParts(new EnumVary [] {EnumVary.DEFAULT, EnumVary.AUTUMN, EnumVary.FLOWER}, new String[] {"Top","Middle","Bottom"}).setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.JULY).setScale(1.2f));
 		giantLeafCoccoloba = plantRegistryHelper(new BlockPlantTree3d().setName(AthsGlobal.GIANT_LEAF_COCCOLOBA).setPart("Leaf").setPart("Trunk").setIsAxisAligned().setScale(3f));
-		yareta = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.YARETA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setPart("Cushion").setScale(1f));
+		yareta = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.YARETA).addVarys(new EnumVary[] {EnumVary.SNOW, EnumVary.FLOWER}).setFlowerMonthRange(TFC.Time_JULY, TFC.Time_AUGUST).setPart("Cushion").setScale(1f));
 		costillaDeVaca = plantRegistryHelper(new BlockPlant3d().setName(AthsGlobal.COSTILLA_DE_VACA).addVary(EnumVary.SNOW).setPart("Frond").setPart("Base").setScale(1.0f));
 		cloudForestBlechnum = plantRegistryHelper(new BlockPlantTree3d().setSapling(new ItemStack(ItemSetup.straw)).setName(AthsGlobal.CLOUD_FOREST_BLECHNUM).setPart("Frond").setPart("Trunk").setIsAxisAligned().setScale(2f));
 		jamesoniaFern = plantRegistryHelper(new BlockPlantStraw3d().setName(AthsGlobal.JAMESONIA_FERN).setPart("Frond").setScale(1.0f));
