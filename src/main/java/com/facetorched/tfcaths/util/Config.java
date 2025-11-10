@@ -1815,7 +1815,7 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.MAPLE);
 		athsTreeHelper(AthsGlobal.FALLEN_BRANCH_OAK, new int[] {0,1,2,3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia" ,"Africa", "Europe"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.OAK);
-		athsTreeHelper(AthsGlobal.FALLEN_BRANCH_PALM, new int[] {0,1,2,3}, new String[] {"ore:blockSoil","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe", "Asia","Africa","Americas"},
+		athsTreeHelper(AthsGlobal.FALLEN_BRANCH_PALM, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe", "Asia","Africa","Americas"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.PALM);
 		athsTreeHelper(AthsGlobal.FALLEN_BRANCH_PINE, new int[] {0,1,2,3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia", "Africa", "Europe"},
 				/*size*/1, /*dispersion*/1, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, EnumTree.PINE);
