@@ -1282,6 +1282,7 @@ public class AthsBlockSetup {
 		pinkmottleWoodwax = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.PINKMOTTLE_WOODWAX).setBrownMushroom(8f).setScale(0.7f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		shaggyParasol = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHAGGY_PARASOL).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.AUGUST));
 		deadMansFingers = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DEAD_MANS_FINGERS).setScale(0.3f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
+		yellowStainingAgaricus = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.YELLOW_STAINING_AGARICUS).setRedMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
 		
 		//3d mushroom
 		chiNguluNgulu = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.CHI_NGULU_NGULU).setPart("Sporocarp").setScale(1.0f).setBrownMushroom(160f).setHasCollision().setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.MARCH));
