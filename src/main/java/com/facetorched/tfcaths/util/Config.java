@@ -1189,7 +1189,7 @@ public class Config {
 		athsPlantHelper(AthsGlobal.TASSEL_FERN, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Asia"},
 				/*size*/9, /*dispersion*/4, /*rarity*/6969, /*minAltitude*/144, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/5f, /*maxTemp*/16f, /*minRain*/750f, /*maxRain*/5000f, /*minEVT*/0f, /*maxEVT*/6f,/*forestGen*/1f);
 		athsPlantHelper(AthsGlobal.TEDDY_BEAR_CACTUS, new int[] {0,1}, new String[] {"ore:blockSand","ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
-				/*size*/28, /*dispersion*/6, /*rarity*/5024, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-13000, /*maxLatitude*/-7000), /*minTemp*/16f, /*maxTemp*/24f, /*minRain*/70f, /*maxRain*/245f, /*minEVT*/0f, /*maxEVT*/3f);
+				/*size*/28, /*dispersion*/6, /*rarity*/5024, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-13000, /*maxLatitude*/-7000, /*minTemp*/16f, /*maxTemp*/24f, /*minRain*/70f, /*maxRain*/245f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.THALE_CRESS, new int[] {0}, new String[] {"ore:blockSoil","ore:blockGravel","ore:blockSand","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe","Asia","Africa"},
 				/*size*/35, /*dispersion*/4, /*rarity*/4556, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-8f, /*maxTemp*/23f, /*minRain*/350f, /*maxRain*/860f, /*minEVT*/0.5f, /*maxEVT*/4f);
 		athsPlantHelper(AthsGlobal.THISTLE, new int[] {0,1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas", "Asia"},
