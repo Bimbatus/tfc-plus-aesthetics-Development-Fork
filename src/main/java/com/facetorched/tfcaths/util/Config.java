@@ -601,7 +601,7 @@ public class Config {
 		athsPlantHelper(AthsGlobal.GLADIOLUS + "_Yellowstone", AthsGlobal.GLADIOLUS, new int[] {3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa"},
 				/*size*/6, /*dispersion*/5, /*rarity*/5084, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.GLADIOLUS /*Blue_Moon*/, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Africa"},
-				/*size*/6, /*dispersion*/5, /*rarity*/5384, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
+				/*size*/6, /*dispersion*/5, /*rarity*/5384, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.GLADIOLUS + "_Elvira_Europe", AthsGlobal.GLADIOLUS, new int[] {1}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/6, /*dispersion*/5, /*rarity*/5374, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.GLADIOLUS + "_Nathalie_Europe", AthsGlobal.GLADIOLUS, new int[] {2}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
@@ -609,7 +609,7 @@ public class Config {
 		athsPlantHelper(AthsGlobal.GLADIOLUS + "_Yellowstone_Europe", AthsGlobal.GLADIOLUS, new int[] {3}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
 				/*size*/6, /*dispersion*/5, /*rarity*/5084, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.GLADIOLUS + "_Blue_Moon_Europe", AthsGlobal.GLADIOLUS, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
-				/*size*/6, /*dispersion*/5, /*rarity*/5384, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
+				/*size*/6, /*dispersion*/5, /*rarity*/5384, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/9f, /*maxTemp*/21f, /*minRain*/500f, /*maxRain*/920f, /*minEVT*/0f, /*maxEVT*/3f);
 		athsPlantHelper(AthsGlobal.GOLDEN_LEATHER_FERN, new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass","ore:block:Gravel"}, new String[]{"Salt_Swamp","Estuary","Riverbank"}, new String[]{"Asia","Americas","Europe","Africa"},
 				/*size*/20, /*dispersion*/2, /*rarity*/1288, /*minAltitude*/0, /*maxAltitude*/153, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/21f, /*maxTemp*/40f, /*minRain*/800f, /*maxRain*/16000f, /*minEVT*/0f, /*maxEVT*/8f);
 		athsPlantHelper(AthsGlobal.GOLDEN_MILK_CAP, new int[] {0}, new String[] {"ore:blockSoil","terrafirmacraftplus:Peat","terrafirmacraftplus:PeatGrass"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas"},
