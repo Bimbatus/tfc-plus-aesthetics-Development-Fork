@@ -6219,3 +6219,5 @@ gui.Green_Alder.Green_Alder_Large.sciname=Alnus alnobetula
 gui.Green_Alder.Green_Alder_Large_Autumn.sciname=Alnus alnobetula
 gui.Green_Alder.Green_Alder_Large_Winter.sciname=Alnus alnobetula
 gui.Green_Alder.Green_Alder_Large_Snow.sciname=Alnus alnobetula
+tile.Fire_Croton.Fire_Croton.name=Fire Croton
+gui.Fire_Croton.Fire_Croton.sciname=Cordaieum varegiatum
