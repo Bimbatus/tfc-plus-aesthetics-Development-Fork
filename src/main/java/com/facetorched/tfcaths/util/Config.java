@@ -1527,7 +1527,7 @@ public class Config {
 				/*size*/1, /*dispersion*/1, /*rarity*/2000, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-15f, /*maxTemp*/18f, /*minRain*/500f, /*maxRain*/5000f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.MAITAKE, new int[] {0}, new String[] {"oak","maple"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Asia"},
 				/*size*/1, /*dispersion*/1, /*rarity*/1900, /*minAltitude*/0, /*maxAltitude*/255, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-2f, /*maxTemp*/13f, /*minRain*/750f, /*maxRain*/1500f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
-		athsPlantHelper(AthsGlobal.NORTHERN_TOOTH_FUNGUS, new int[] {0}, new String[] {"alltrees"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe"},
+		athsPlantHelper(AthsGlobal.NORTHERN_TOOTH_FUNGUS, new int[] {0}, new String[] {"maple"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe"},
 				/*size*/1, /*dispersion*/1, /*rarity*/3200, /*minAltitude*/0, /*maxAltitude*/185, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-6f, /*maxTemp*/13f, /*minRain*/750f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
 		athsPlantHelper(AthsGlobal.RESINOUS_POLYPORE, new int[] {0}, new String[] {"oak","willow","maple","aspen","ash","sycamore","hickory","birch","whiteelm","chestnut"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Europe","Africa","Asia"},
 				/*size*/1, /*dispersion*/1, /*rarity*/3600, /*minAltitude*/0, /*maxAltitude*/185, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/-3f, /*maxTemp*/15f, /*minRain*/750f, /*maxRain*/1300f, /*minEVT*/0f, /*maxEVT*/10f,/*forestGen*/1.0f);
