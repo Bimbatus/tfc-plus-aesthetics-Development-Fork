@@ -922,6 +922,8 @@ public class AthsGlobal {
 	public static final String GREEN_ALDER = "Green_Alder";
 	public static final String BUSH_CHINQUAPIN = "Bush_Chinquapin";
 	public static final String SCRUB_OAK = "Scrub_Oak";
+	public static final String GAULTHERIA = "Gaultheria";
+	public static final String MADRONE = "Madrone";
 
 	public static final String[] SHALLOW_WATER_BIOMES = new String[]{"River","Beach","Gravel Beach","Swamp","Lake","Shore","Salt Swamp","Lakeshore","Riverbank","Estuary"};
 	public static final String[] LAND_BIOMES = new String[] {"All","!Ocean","!Hell","!Deep Ocean","!Beach","!Gravel Beach","!Shore","!Atoll"};
