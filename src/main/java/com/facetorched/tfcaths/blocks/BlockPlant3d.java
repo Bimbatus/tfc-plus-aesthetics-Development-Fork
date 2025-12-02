@@ -47,7 +47,7 @@ public class BlockPlant3d extends BlockPlant{
 				modelObjs[i] = (WavefrontObject)AdvancedModelLoader.loadModel(new ResourceLocation(AthsMod.MODID + ":models/blocks/plants/" + overrideModelName + ".obj"));
 			}
 		}
-		
+		try {
 		for(int i = 0; i < plantNames.length; i++) {
 			if (this.hasMeta(i)) {
 				for(ObjPart objPart : modelParts.get(i)) {
@@ -55,6 +55,9 @@ public class BlockPlant3d extends BlockPlant{
 				}
 			}
 		}
+		}
+		catch (Exception e) {
+		      System.out.println(plantNames);}
 	}
 	
 	@Override
