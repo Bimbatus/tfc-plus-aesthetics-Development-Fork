@@ -2687,11 +2687,11 @@ public class Config {
 		athsPlantHelper(AthsGlobal.MADRONE + "_Arid_and_Mediterranean", AthsGlobal.MADRONE, new int[] {0}, new String[] {"ore:blockSoil"}, new String[] {"Mountains","Mountains Edge", "Mountain Range", "Mountain Range Edge", "Foothills"}, new String[]{"Europe","Americas","Africa"},
 				/*size*/10, /*dispersion*/30, /*rarity*/6584, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/-32000, /*maxLatitude*/0, /*minTemp*/15f, /*maxTemp*/21f, /*minRain*/250f, /*maxRain*/500f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/0.35f);
 		athsPlantHelper(AthsGlobal.GAULTHERIA, new int[] {0}, new String[] {"ore:blockSoil","ore:stone"}, new String[] {"Mountains","Mountains Edge", "Mountain Range", "Mountain Range Edge", "Foothills"}, new String[]{"Americas"},
-				/*size*/50, /*dispersion*/0, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/0f, /*maxTemp*/16f, /*minRain*/1100f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
+				/*size*/50, /*dispersion*/1, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/0f, /*maxTemp*/16f, /*minRain*/1100f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
 		athsPlantHelper(AthsGlobal.GAULTHERIA + "_Tropical", AthsGlobal.GAULTHERIA, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Americas","Asia"},
-				/*size*/50, /*dispersion*/0, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/25f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
+				/*size*/50, /*dispersion*/1, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/-32000, /*maxLatitude*/32000, /*minTemp*/25f, /*maxTemp*/40f, /*minRain*/1200f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
 		athsPlantHelper(AthsGlobal.GAULTHERIA + "_Oceania", AthsGlobal.GAULTHERIA, new int[] {0}, new String[] {"ore:blockSoil"}, AthsGlobal.LAND_BIOMES, new String[]{"Europe"},
-				/*size*/50, /*dispersion*/0, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/15f, /*maxTemp*/40f, /*minRain*/1050f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
+				/*size*/50, /*dispersion*/1, /*rarity*/7384, /*minAltitude*/0, /*maxAltitude*/225, /*minLatitude*/0, /*maxLatitude*/32000, /*minTemp*/15f, /*maxTemp*/40f, /*minRain*/1050f, /*maxRain*/16000f, /*minEVT*/0.25f, /*maxEVT*/10f,/*forestGen*/1f);
 		
 		
 		AthsWorldGenPlants.plantList.put("shrub", getPlantData("shrub", Reference.MOD_ID+":"+TFCBlocks.shrub.getUnlocalizedName().substring(5), new int[] {0}, new String[] {"ore:blockSoil","ore:blockSand"}, new String[]{"Riverbank"}, new String[]{"Americas","Europe","Africa","Asia"},
