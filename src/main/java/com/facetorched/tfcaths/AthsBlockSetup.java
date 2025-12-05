@@ -1343,7 +1343,7 @@ public class AthsBlockSetup {
 		
 		//lichen
 		reindeerLichen = plantRegistryHelper(new BlockPlant3dFungus().setName(AthsGlobal.REINDEER_LICHEN).setPart("Tuft").addVary(EnumVary.SNOW).setScale(1.5f));
-		oldMansBeardLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.OLD_MANS_BEARD_LICHEN).setPart("Sporocarp").setScale(0.5f));
+		oldMansBeardLichen = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.OLD_MANS_BEARD_LICHEN, new String[] {"Normal","Split","Stringy","Long","Large","Patchy","Medium"}).setPart("Sporocarp").setScale(0.5f));
 		bootstrapLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN, "Patchy").setPart("Tuft").setScale(0.75f));
 		bootstrapLichenEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.BOOTSTRAP_LICHEN_EPIPHYTE, "Patchy").setPart("Tuft").setScale(0.75f));
 		orangeSeaLichen = plantRegistryHelper(new BlockPlant3dFungus().setExtraNames(AthsGlobal.ORANGE_SEA_LICHEN, "Patchy").setOverrideModelName("Rock_Lichen").setNamedPart("Base").setNamedPart("Overlay").addVary(EnumVary.SNOW).setIsConstantSize());
@@ -1914,7 +1914,7 @@ public class AthsBlockSetup {
 		tillandsiaBromeliad = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.TILLANDSIA_BROMELIAD).addVary(EnumVary.FLOWER).setPart("Leaf").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.AUGUST));
 		splitLeafMonsteraEpiphyte = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.SPLIT_LEAF_MONSTERA_EPIPHYTE).setPart("Stem").setPart("Leaf").setScale(1.0f));
 		walkingFern = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.WALKING_FERN, new String[] {"American", "Asian"}).setPart("Underlay").setPart("Leaf").setIsConstantSize().setScale(1.0f));
-		spanishMoss = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.SPANISH_MOSS).setPart("Leaves").setScale(0.5f));
+		spanishMoss = plantRegistryHelper(new BlockPlantEpiphyte3d().setNames(AthsGlobal.SPANISH_MOSS, new String[] {"Normal","Split","Stringy","Long","Large","Patchy","Medium"}).setPart("Leaves").setScale(0.5f));
 		canaryCreeper = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.CANARY_CREEPER).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.JUNE, TFC_Time.MARCH).setScale(1.5f));
 		bridalCreeper = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BRIDAL_CREEPER).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.JANUARY, TFC_Time.MARCH).setScale(1.5f));
 		blackEyedSusanVine = plantRegistryHelper(new BlockPlantEpiphyte3d().setName(AthsGlobal.BLACK_EYED_SUSAN_VINE).setOverrideModelName("Flowering_Creeper").addVarys(new EnumVary[] {EnumVary.FLOWER}).setPart("Leaf").setPart("Stem").setVaryPart(EnumVary.FLOWER, "Flower").setFlowerMonthRange(TFC_Time.JULY, TFC_Time.MARCH).setScale(1.5f));
