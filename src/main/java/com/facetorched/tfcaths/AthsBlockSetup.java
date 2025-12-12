@@ -1178,7 +1178,6 @@ public class AthsBlockSetup {
 		viscidVioletCort = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.VISCID_VIOLET_CORT).setScale(1f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		laccariaMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.LACCARIA_MUSHROOM).setScale(0.8f).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		mulchFieldcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.MULCH_FIELDCAP).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.JUNE));
-		autumnSkullcap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.AUTUMN_SKULLCAP).setScale(0.8f).setRedMushroom(10f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.DECEMBER));
 		studdedPuffball = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.STUDDED_PUFFBALL).setScale(0.8f).setBrownMushroom(20f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
 		cordyceps = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.CORDYCEPS).setScale(0.7f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.JUNE));
 		scalySawgill = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SCALY_SAWGILL).setScale(0.8f).setBrownMushroom(5f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));baconMarasmius = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BACON_MARASMIUS).setScale(0.6f).setSeasonalFungus(TFC_Time.MARCH, TFC_Time.SEPTEMBER));
@@ -1317,8 +1316,9 @@ public class AthsBlockSetup {
 		chaga = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.CHAGA).setPart(null));
 		dryadsSaddle = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.DRYADS_SADDLE).setPart(null).setBrownMushroom(15f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.OCTOBER));
 		enoki = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.ENOKI, new String[] {"Enokitake", "Velvet_Shank"}).setOverrideModelName("Enoki").setPart("Sporocarp").setBrownMushroom(30f).setScale(0.3f).setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.JANUARY));
+		autumnSkullcap = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.AUTUMN_SKULLCAP).setScale(0.3f).setRedMushroom(10f).setPart("Sporocarp").setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.DECEMBER));
 		jellyFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.JELLY_FUNGUS, new String[] {"Black_Jelly_Roll","Apricot_Jelly","Orange_Jelly","Witchs_Butter","Snow_Fungus"}).setOverrideModelName().setNamedPart("Base").setNamedPart("Overlay").setBrownMushroom(1.5f));
-		lionsMane = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.LIONS_MANE).setPart(null).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
+		lionsMane = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.LIONS_MANE, New String[] {"Lions_Mane","Bears_Head_Tooth","Coral_Tooth","Pekepeke_Kiore"}).setOverrideModelName().setPart(null).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
 		reishi = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.REISHI).setPart(null).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
 		shaggyBracket = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SHAGGY_BRACKET).setPart(null).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF,"White_Pored").setOverrideModelName().setNamedPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
