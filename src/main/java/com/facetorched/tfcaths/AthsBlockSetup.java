@@ -1324,7 +1324,7 @@ public class AthsBlockSetup {
 		sulphurShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setExtraNames(AthsGlobal.SULPHUR_SHELF,"White_Pored").setOverrideModelName().setNamedPart(null).setBrownMushroom(160f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		woodEar = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.WOOD_EAR).setPart("Sporocarp").setBrownMushroom(80f).setScale(0.6f));
 		turkeyTail = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.TURKEY_TAIL).setPart(null));
-		oysterMushroom = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.OYSTER_MUSHROOM, new String[] {"Common","Golden","Aspen","Summer","Pink","King_Trumpet","Lynx_Paw"}).setOverrideModelName().setNamedPart("Sporocarp").setBrownMushroom(50f));
+		oysterMushroom = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.OYSTER_MUSHROOM, new String[] {"Common","Golden","Aspen","Summer","Pink","King_Trumpet","Lynx_Paw","Brown"}).setOverrideModelName().setNamedPart("Sporocarp").setBrownMushroom(50f));
 		hemlockVarnishShelf = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.HEMLOCK_VARNISH_SHELF).setPart(null).setSeasonalFungus(TFC_Time.MAY, TFC_Time.AUGUST));
 		orangeMycena = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.ORANGE_MYCENA).setPart("Sporocarp").setScale(0.4f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
 		honeycombFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.HONEYCOMB_FUNGUS).setPart("Sporocarp"));
