@@ -1279,7 +1279,6 @@ public class AthsBlockSetup {
 		grayKnight = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.GRAY_KNIGHT).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.DECEMBER));
 		matsutake = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.MATSUTAKE).setBrownMushroom(12f).setScale(0.8f).setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.JANUARY));
 		friedChickenMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.FRIED_CHICKEN_MUSHROOM).setBrownMushroom(18f).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
-		sheathedWoodtuft = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHEATHED_WOODTUFT).setBrownMushroom(12f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
 		wrinkledPsathyrella = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.WRINKLED_PSATHYRELLA).setBrownMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.SEPTEMBER));
 		wrinkledPeach = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.WRINKLED_PEACH).setPart("Sporocarp").setScale(0.4f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.OCTOBER));
 		jellyBabyMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.JELLY_BABY_MUSHROOM).setScale(0.3f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.JULY));
@@ -1317,6 +1316,7 @@ public class AthsBlockSetup {
 		dryadsSaddle = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.DRYADS_SADDLE).setPart(null).setBrownMushroom(15f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.OCTOBER));
 		enoki = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.ENOKI, new String[] {"Enokitake", "Velvet_Shank"}).setOverrideModelName("Enoki").setPart("Sporocarp").setBrownMushroom(30f).setScale(0.3f).setSeasonalFungus(TFC_Time.OCTOBER, TFC_Time.JANUARY));
 		autumnSkullcap = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.AUTUMN_SKULLCAP).setScale(0.3f).setRedMushroom(10f).setPart("Sporocarp").setSeasonalFungus(TFC_Time.SEPTEMBER, TFC_Time.DECEMBER));
+		sheathedWoodtuft = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.SHEATHED_WOODTUFT).setBrownMushroom(12f).setScale(0.3f)setPart("Sporocarp").setSeasonalFungus(TFC_Time.APRIL, TFC_Time.DECEMBER));
 		jellyFungus = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.JELLY_FUNGUS, new String[] {"Black_Jelly_Roll","Apricot_Jelly","Orange_Jelly","Witchs_Butter","Snow_Fungus"}).setOverrideModelName().setNamedPart("Base").setNamedPart("Overlay").setBrownMushroom(1.5f));
 		lionsMane = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setNames(AthsGlobal.LIONS_MANE, New String[] {"Lions_Mane","Bears_Head_Tooth","Coral_Tooth","Pekepeke_Kiore"}).setOverrideModelName().setPart(null).setBrownMushroom(16f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
 		reishi = plantRegistryHelper(new BlockPlantEpiphyte3dFungus().setName(AthsGlobal.REISHI).setPart(null).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.OCTOBER));
