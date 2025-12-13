@@ -1142,7 +1142,7 @@ public class AthsBlockSetup {
 		deathCap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.DEATH_CAP).setRedMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.NOVEMBER));
 		destroyingAngel = plantRegistryHelper(new BlockPlantFungus().setNames(AthsGlobal.DESTROYING_ANGEL, new String[] {"American", "European"}).setRedMushroom(6f).setSeasonalFungus(TFC_Time.JUNE, TFC_Time.NOVEMBER));
 		indigoMilkCap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.INDIGO_MILK_CAP).setBrownMushroom(16f));
-		morel = plantRegistryHelper(new BlockPlantFungus().setNames(AthsGlobal.MOREL,new String[] {"Black","Yellow"}).setBrownMushroom(16f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.JUNE));
+		morel = plantRegistryHelper(new BlockPlantFungus().setNames(AthsGlobal.MOREL,new String[] {"Black","Yellow","Half_Free"}).setBrownMushroom(16f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.JUNE));
 		bridalVeilStinkhorn = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.BRIDAL_VEIL_STINKHORN).setRedMushroom(4f).setScale(0.8f).setSeasonalFungus(TFC_Time.APRIL, TFC_Time.JULY));
 		entoloma = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.ENTOLOMA).setRedMushroom(6f).setScale(0.8f) .setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		shitake = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.SHITAKE).setBrownMushroom(10f).setScale(0.8f).setSeasonalFungus(TFC_Time.NOVEMBER, TFC_Time.APRIL));
