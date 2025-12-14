@@ -1151,7 +1151,7 @@ public class AthsBlockSetup {
 		goldenSpindles = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.GOLDEN_SPINDLES).setSeasonalFungus(TFC_Time.JULY, TFC_Time.NOVEMBER));
 		goldenMilkCap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.GOLDEN_MILK_CAP).setScale(0.7f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.OCTOBER));
 		inkCap = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.INK_CAP).setScale(0.8f).setSeasonalFungus(TFC_Time.MAY, TFC_Time.DECEMBER));
-		jackOLanternMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.JACK_O_LANTERN_MUSHROOM).setRedMushroom(32f).setLightLevel(0.27f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
+		jackOLanternMushroom = plantRegistryHelper(new BlockPlantFungus().setExtraNames(AthsGlobal.JACK_O_LANTERN_MUSHROOM, "Ghost_Fungus").setRedMushroom(32f).setLightLevel(0.27f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
 		luridBolete = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.LURID_BOLETE).setRedMushroom(15f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.OCTOBER));
 		oldManOfTheWoods = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.OLD_MAN_OF_THE_WOODS).setBrownMushroom(15f).setScale(0.8f).setSeasonalFungus(TFC_Time.JULY, TFC_Time.SEPTEMBER));
 		pantherMushroom = plantRegistryHelper(new BlockPlantFungus().setName(AthsGlobal.PANTHER_MUSHROOM).setRedMushroom(8f).setScale(0.8f).setSeasonalFungus(TFC_Time.AUGUST, TFC_Time.NOVEMBER));
